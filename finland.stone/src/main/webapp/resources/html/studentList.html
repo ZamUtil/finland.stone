@@ -1,0 +1,33 @@
+
+
+<h1>Кафедра : {{currentCath}}</h1>
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span2">
+            <!--Sidebar content-->
+
+            Поиск: <input ng-model="query">
+         	 Сортировать по:
+            <select ng-model="orderProp">
+                <option value="fio">Алфавиту</option>
+                <option value="average">По кол-ву среднему балу</option>
+            </select>
+
+        </div>
+        <div class="span10">
+            <!--Body content-->
+
+            <ul class="students">
+                <li ng-repeat="student in students | filter:query | orderBy:orderProp" class="thumbnail">
+                    ФИО : {{student.fio}}
+
+                    <p>Дата раждения : {{student.birthDate}}</p>
+                    <p>Средний бал : {{student.average}}</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>

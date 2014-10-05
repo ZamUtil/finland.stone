@@ -15,7 +15,7 @@ public class CathedraDao extends EntityDao<Cathedra>{
 	protected Logger getLogger() {
 		return logger;
 	}
-
+//max
 	@Override
 	protected Class<Cathedra> getEntityClass() {
 		return Cathedra.class;

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd 
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx 
+                    http://www.springframework.org/schema/tx/spring-tx.xsd ">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<!-- Включаем опцию использования конфигурационных аннотаций (@Annotation-based 
+		configuration) -->
+	<context:annotation-config />
+
+	<tx:annotation-driven />
+
+	<!-- Определяем папки, в которых будем автоматически искать бины-компоненты 
+		(@Component, @Service) -->
+	<context:component-scan base-package="com.zam.finland.stone" />
+
+	<bean id="mailAsyncTaskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor">
+		<property name="concurrencyLimit" value="3" />
+	</bean>
+
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
+		depends-on="dbConfig">
+		<property name="packagesToScan" value="com.zam.finland.stone" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="showSql" value="true" />
+				<property name="generateDdl" value="true" />
+				<property name="databasePlatform" value="${db.dialect}" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- Файл с настройками ресурсов для работы с данными (Data Access Resources) -->
+	<import resource="data.xml" />
+	<import resource="mail.xml" />
+
+
+</beans>

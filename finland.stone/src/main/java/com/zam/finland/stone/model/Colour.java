@@ -6,36 +6,31 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
-
 @Entity
 @Table(name = "Colour")
 public class Colour extends BaseEntity {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 2591834272369505154L;
-	
+
 	@Id
 	@GeneratedValue
 	@Column(name = "id")
 	private Long id;
-	
+
 	@Column(name = "prise")
-	private int prise;
-	
+	private Float prise;
+
 	@Column(name = "picture")
-	private String picture; 
+	private String picture;
 
 	public Colour() {
 	}
-	
-	public int getPrise() {
+
+	public Float getPrise() {
 		return prise;
 	}
 
-	public void setPrise(int prise) {
+	public void setPrise(Float prise) {
 		this.prise = prise;
 	}
 
@@ -49,15 +44,13 @@ public class Colour extends BaseEntity {
 
 	@Override
 	public Long getId() {
-		// TODO Auto-generated method stub
 		return id;
 	}
 
 	@Override
 	public void setId(Long id) {
-		this.id=id;
-		
-	}
+		this.id = id;
 
+	}
 
 }

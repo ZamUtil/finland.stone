@@ -8,28 +8,25 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Size")
-public class Size extends BaseEntity{
+public class Size extends BaseEntity {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 2591834272369505154L;
 
 	@Id
 	@GeneratedValue
 	@Column(name = "id")
 	private Long id;
-	
+
 	@Column(name = "prise")
 	private int prise;
-	
+
 	@Column(name = "size")
-	private int size; 
+	private String size;
 
 	public Size() {
 	}
-	
-public int getPrise() {
+
+	public int getPrise() {
 		return prise;
 	}
 
@@ -37,23 +34,13 @@ public int getPrise() {
 		this.prise = prise;
 	}
 
-	public int getSize() {
-		return size;
+	@Override
+	public Long getId() {
+		return id;
 	}
 
-	public void setSize(int size) {
-		this.size = size;
-	}
-
-@Override
-public Long getId() {
-	// TODO Auto-generated method stub
-	return null;
-}
-
-@Override
-public void setId(Long id) {
-	// TODO Auto-generated method stub
-	
+	@Override
+	public void setId(Long id) {
+		this.id = id;
 	}
 }

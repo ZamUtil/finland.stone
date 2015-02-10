@@ -1,4 +1,4 @@
-package com.zam.finland.stone.manager.impl;
+package com.zam.finland.stone.service.impl;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.zam.finland.stone.dao.SizeDao;
-import com.zam.finland.stone.manager.SizeManager;
 import com.zam.finland.stone.model.Size;
+import com.zam.finland.stone.service.SizeManager;
 
 @Service
 public class SizeManagerImpl implements SizeManager {

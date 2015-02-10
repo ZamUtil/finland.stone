@@ -7,13 +7,10 @@ import javax.persistence.TypedQuery;
 import org.slf4j.Logger;
 import com.zam.finland.stone.model.BaseEntity;
 
-
-
 /**
  * Abstract entity DAO.
- *
- * @author kostic
- *
+ * 
+ * 
  * @param <T>
  */
 public abstract class EntityDao<T extends BaseEntity> {
@@ -27,7 +24,7 @@ public abstract class EntityDao<T extends BaseEntity> {
 
 	/**
 	 * Find entity by id.
-	 *
+	 * 
 	 * @param id
 	 * @return
 	 */
@@ -37,46 +34,42 @@ public abstract class EntityDao<T extends BaseEntity> {
 
 	/**
 	 * Save the entity.
-	 *
+	 * 
 	 * @param entity
 	 * @return
 	 */
 	public T save(T entity) {
-		//getLogger().debug("saving " + getEntityClass() + " [" + entity.getId() + "]");
 		entity = entityManager.merge(entity);
 		return entity;
 	}
 
 	/**
 	 * Return all entities.
-	 *
+	 * 
 	 * @return
 	 */
 	public List<T> list() {
-		TypedQuery<T> query = getEntityManager().createQuery(
-				String.format("SELECT e FROM %s e", getEntityClass().getName()), getEntityClass());
+		TypedQuery<T> query = getEntityManager().createQuery(String.format("SELECT e FROM %s e",
+				getEntityClass() .getName()), getEntityClass());
 		return query.getResultList();
 	}
 
 	/**
 	 * Delete the entity.
-	 *
+	 * 
 	 * @param entity
 	 */
 	public void delete(T entity) {
-		//getLogger().debug("deleting " + getEntityClass() + " [" + entity.getId() + "]");
 		entity = entityManager.find(getEntityClass(), entity.getId());
 		entityManager.remove(entity);
 	}
 
 	/**
 	 * Delete the entity.
-	 *
-	 * @param entity
-	 *            id
+	 * 
+	 * @param entity id
 	 */
 	public void delete(final Long entityId) {
-		//getLogger().debug("deleting " + getEntityClass() + " [" + entityId + "]");
 		T entity = entityManager.find(getEntityClass(), entityId);
 		entityManager.remove(entity);
 	}

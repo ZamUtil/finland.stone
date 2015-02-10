@@ -1,4 +1,4 @@
-package com.zam.finland.stone.manager;
+package com.zam.finland.stone.service;
 
 import java.util.List;
 

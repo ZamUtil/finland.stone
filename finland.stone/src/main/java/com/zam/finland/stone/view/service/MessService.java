@@ -1,16 +1,15 @@
-package com.zam.finland.stone.service.web;
+package com.zam.finland.stone.view.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.zam.finland.stone.service.mail.MailService;
+import com.zam.finland.stone.view.mail.MailService;
 
 @Controller
 @RequestMapping("/mess")
 public class MessService {
-
 
 	@Autowired
 	private MailService mailService;
@@ -23,7 +22,4 @@ public class MessService {
 		// Send a pre-configured mail
 		mailService.sendPreConfiguredMail("Exception occurred everywhere.. where are you ????");
 	}
-
-	
-
 }

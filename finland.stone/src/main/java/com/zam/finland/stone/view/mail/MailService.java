@@ -1,4 +1,4 @@
-package com.zam.finland.stone.service.mail;
+package com.zam.finland.stone.view.mail;
 
 import javax.annotation.PostConstruct;
 
@@ -15,10 +15,12 @@ public class MailService {
 
 	@Autowired
 	private SimpleMailMessage preConfiguredMessage;
+
 	@PostConstruct
 	private void init() {
 		System.out.println("---------");
 	}
+
 	/**
 	 * This method will send compose and send the message
 	 * */
@@ -36,7 +38,8 @@ public class MailService {
 	 * */
 	@Async("mailAsyncTaskExecutor")
 	public void sendPreConfiguredMail(String message) {
-		SimpleMailMessage mailMessage = new SimpleMailMessage(preConfiguredMessage);
+		SimpleMailMessage mailMessage = new SimpleMailMessage(
+				preConfiguredMessage);
 		mailMessage.setText(message);
 		mailSender.send(mailMessage);
 	}

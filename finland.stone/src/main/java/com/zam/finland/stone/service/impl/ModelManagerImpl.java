@@ -1,4 +1,4 @@
-package com.zam.finland.stone.manager.impl;
+package com.zam.finland.stone.service.impl;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.zam.finland.stone.dao.ModelDao;
-import com.zam.finland.stone.manager.ModelManager;
 import com.zam.finland.stone.model.Model;
+import com.zam.finland.stone.service.ModelManager;
 
 @Service
 public class ModelManagerImpl implements ModelManager {

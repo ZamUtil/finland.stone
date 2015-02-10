@@ -1,4 +1,4 @@
-package com.zam.finland.stone.service.web;
+package com.zam.finland.stone.view.service;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.zam.finland.stone.manager.SizeManager;
 import com.zam.finland.stone.model.Size;
+import com.zam.finland.stone.service.SizeManager;
 
 @Controller
 @RequestMapping("/sizeService")

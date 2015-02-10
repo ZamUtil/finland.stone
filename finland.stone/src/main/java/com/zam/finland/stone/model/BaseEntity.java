@@ -10,21 +10,11 @@ import org.codehaus.jackson.annotate.JsonIgnore;
  */
 public abstract class BaseEntity implements Serializable {
 
-	/**
-	 *
-	 */
 	private static final long serialVersionUID = -4628084842186203072L;
 
 	public abstract Long getId();
 
 	public abstract void setId(Long id);
-
-	/**
-	 * Return unique string identifier for entity.
-	 * It can be email or combination of first and last name for user as example.
-	 * @return
-	 */
-	//public abstract String getUniqueIdentifier();
 
 	/**
 	 * Return class name for current class. Example: DAO layer use this to create queries for database.

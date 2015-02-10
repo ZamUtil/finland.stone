@@ -18,7 +18,7 @@ public class Size extends BaseEntity {
 	private Long id;
 
 	@Column(name = "prise")
-	private int prise;
+	private Float prise;
 
 	@Column(name = "size")
 	private String size;
@@ -26,12 +26,20 @@ public class Size extends BaseEntity {
 	public Size() {
 	}
 
-	public int getPrise() {
+	public Float getPrise() {
 		return prise;
 	}
 
-	public void setPrise(int prise) {
+	public void setPrise(Float prise) {
 		this.prise = prise;
+	}
+
+	public String getSize() {
+		return size;
+	}
+
+	public void setSize(String size) {
+		this.size = size;
 	}
 
 	@Override

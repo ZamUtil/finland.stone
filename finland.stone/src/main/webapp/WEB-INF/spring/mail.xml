@@ -9,7 +9,7 @@
 <!-- SET default mail properties -->
     <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
         <property name="host" value="smtp.gmail.com" />
-        <property name="port" value="25" />
+        <property name="port" value="587" />
         <property name="username" value="liubech@gmail.com" />
         <property name="password" value="rjynhjkm" />
         <property name="defaultEncoding" value="UTF-8" />
@@ -20,6 +20,9 @@
                 <prop key="mail.smtp.starttls.enable">true</prop>
                 <prop key="mail.debug">true</prop>
                 <prop key="mail.smtp.from">info@finland.stone.com</prop>
+                <prop key="mail.smtp.starttls.enable">true</prop>
+                    <prop key="mail.smtps.ssl.checkserveridentity">true</prop>
+                    <prop key="mail.smtps.ssl.trust">*</prop>
             </props>
         </property>
     </bean>

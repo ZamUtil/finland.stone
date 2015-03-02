@@ -55,5 +55,5 @@
 	</interceptors>
 
 	<!-- Controllers -->
-	<context:component-scan base-package="com.zam.finland.stone.controller, com.zam.finland.stone.service.web" />
+	<context:component-scan base-package="com.zam.finland.stone.controller, com.zam.finland.stone.view.service" />
 </beans:beans>

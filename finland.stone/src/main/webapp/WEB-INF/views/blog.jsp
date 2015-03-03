@@ -1,3 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 
@@ -45,18 +50,26 @@
 								</div>
 							</div>
                             <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
-                                        <li><a href="index.html">Home</a></li>                                        
-                                        <li><a href="about.html">About</a></li>                                        
-                                        <li><a href="portfolio.html">Portfolio</a></li>                                        
-                                        <li class="current"><a class="active" href="blog.html">Blog</a></li>                                        
-                                        <li class="last"><a href="contact.html">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>                            							
+					<div id="nav">
+						<ul id="menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li class="current"><a class="active" href="blog.html">Blog</a></li>
+							<li class="last"><a href="contact.html">Contact</a></li>
+
+						</ul>
+					</div>
+					<div>
+						<span style="float: right"> <a href="?lang=en">en</a> | <a
+							href="?lang=ru">ru</a>
+						</span>
+					</div>
+				</div>                            							
 						</div>                        
-					<!-- END OF HEADER -->           
+					<!-- END OF HEADER -->     
+					
+					    
                                                                        
                      <!-- BEGIN CONTENT -->
                      <div id="content">                     	                   	
@@ -65,7 +78,10 @@
                            		<div id="head-title-inner">
                                 	<h2>Blog</h2><!-- Page title here -->
                             	</div>                            	
-                        	</div>                              
+                        	</div>  
+                        	<% //комент смотри сюда %>
+                        	 <spring:message code="pages.blog.blog-posts.header.title" /> 
+                        	                            
                             <div class="maincontent">                            
                                 <div class="blog-post">
                                     <img src="${pageContext.request.contextPath}/resources/images/blog-pic1.jpg" alt="" class="imgleft-box" />

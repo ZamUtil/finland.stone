@@ -14,8 +14,6 @@
 </head>
 <body ng-controller="colourController">
 
-
-
 	<script type="text/javascript">
 		var contextPath = '${pageContext.request.contextPath}';
 	</script>

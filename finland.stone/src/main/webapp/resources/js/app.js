@@ -24,13 +24,6 @@ angular.module('stone', ['ngRoute','ngResource','ngRoute']).
 
         $scope.colourData = $scope.getColours({});
         
-        
-        $timeout(function() {
-        	for(var i in $scope.colourData){
-        		$scope.result[i] = $scope.colourData[i].prise*100;
-            };
-        }, 500);
-        
     	$scope.test = 'maks';
 
     })

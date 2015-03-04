@@ -11,9 +11,9 @@ public class IndexController {
 		return "redirect:/index";
 	}
 
-	@RequestMapping("/about")
-	public String about() {
-		return "about";
+	@RequestMapping("/Hautakivet")
+	public String Hautakivet() {
+		return "Hautakivet";
 	}
 
 	@RequestMapping("/index")
@@ -24,16 +24,16 @@ public class IndexController {
 	public String index1() {
 		return "index1";
 	}
-	@RequestMapping("/blog")
-	public String blog() {
-		return "blog";
+	@RequestMapping("/Tarjouspyynto")
+	public String Tarjouspyynto() {
+		return "Tarjouspyynto";
 	}
-	@RequestMapping("/contact")
-	public String contact() {
-		return "contact";
+	@RequestMapping("/Yhteystiedot")
+	public String Yhteystiedot() {
+		return "Yhteystiedot";
 	}
-	@RequestMapping("/portfolio")
-	public String portfolio() {
-		return "portfolio";
+	@RequestMapping("/Graniitti")
+	public String Graniitti() {
+		return "Graniitti";
 	}
 }

@@ -6,7 +6,7 @@
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
-<title>Hautakiviliike KiiskenKivi Oy | Web Design &amp; Development Agency</title>
+<title>Hautakiviliike KiiskenKivi Oy</title>
 
 <!-- ////////////////////////////////// -->
 <!-- //      Start Stylesheets       // -->
@@ -58,21 +58,17 @@
                                 <div id="nav">
                                     <ul id="menu">
                                         <li class="current"><a class="active" href="index.html">Etusivu</a></li>                                        
-                                        <li><a href="about.html">Hautakivet</a></li>                                        
-                                        <li><a href="portfolio.html">Kivilajit</a></li>                                        
-                                        <li><a href="blog.html">Tee Tarjouspyyntö</a></li>                                        
-                                        <li class="last"><a href="contact.html">Yhteystiedot</a></li>
+                                        <li><a href="Hautakivet.html">Hautakivet</a></li>                                        
+                                        <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
+                                        <li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
+                                        <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
                                     </ul>
                                 </div>
                             </div>                            							
 						</div>
                         <div id="head-top">
                             <div id="head-title">
-                                <h2>Welcome to our site</h2><!-- Page title here -->
-                            </div>
-                            <div id="rss">
-                                <div class="rss-text"><a href="#">subscribe newsletter</a></div>
-                                <div class="rss-img"><a href="#"><img src="${pageContext.request.contextPath}/resources/images/rss.gif" alt="" /></a></div>
+                                <h2>Graniittien erikoismyymala</h2><!-- Page title here -->
                        		</div>                            	
                         </div>
                         
@@ -88,58 +84,61 @@
                                 </div>
                             </div>
                         	<div id="slides-text">
-                                <h1>Hello there.</h1>
-                                <h3>We are creative web design &amp;<br /> 
-								development agency with a passion<br />
-                                for web standards.</h3>
-                                <p> 
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                </p>
-                                <span class="more-button"><a href="about.html"><img src="${pageContext.request.contextPath}/resources/images/get-to-know.gif" alt="" /></a></span>							
+							<p> 
+                                <h1>Meista</h1>
+								<p> 
+                                <h3> Kiiskenkivi on yksityisomistuksessa oleva tuotanto ja myyntiyritys, joka on erikoistunut hautakivien tuotantoon ja myymiseen.<br /> 
+								</h3>			
 							</div>                            
                          </div>
 					<!-- END OF SLIDES_CONTAINER -->
                                                     
                      <!-- BEGIN CONTENT -->
-                     <div id="content">
+<div id="content">
                      	<div id="content1">
                             <div class="maincontent">
-                            <h3>Company</h3>
-                          	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                            <h3>Yritys</h3>
+                          	<p>
+Kiiskikiven tehdas Petroskoissa Venajalla. Varasto on Salossa.
+Meilla on monivuotinen kokemus hautakivien valmistuksesta ja olemme myyneet tuotteistamme Suomeen.
+Olemme myyneet hautakivien, kivitasot, nupukivet ja graniittilaatat Helsingista Rovaniemelle asti.
+Myymme, valmistamme ja toimintamme graniitti tuotteita paaasiallisesti koko Suomen aluella.
+Paaasiallisesti kayttamiamme hautakivimateriaaleja ovat musta graniitti.Haluan tarjota sinulle tuotteita mustaa graniittia louhitaan Karjalassa. Gabro diabaasi Karjalan pidetaan yhtena maailman parhaista. 
+Palveluhimme kuuluvat;
+Uusien hautakivien valmistus, myynti ja toimitus.
+Kivitasot valmistus, myynti ja toimitus.
+Nupukivet ja laatat valmistus, myynti ja toimitus.
+Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytetaan meidan kivia eri profiileissa.
                             </p>
-                            <p>
-                            Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus nisi ut aliquid ex ea commodi consequatur.<br/>
-                            </p>
+                           
                             </div>
                         </div>
                         <div id="content2">
                         	<div class="maincontent">
-                            <h3>Our Services</h3>
+                            <h3>Palvelumme</h3>
                           	<p><img src="${pageContext.request.contextPath}/resources/images/services-icon1.jpg" alt="" class="imgleft" />
-                            <strong>Printing</strong><br />
-							Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.<br/><br/>
+                            <strong>Valitse malli hautakivet</strong><br />
+							Erikois, lyhty, muoto, lohko-kivet.<br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon2.jpg" alt="" class="imgleft" />
-                            <strong>Web Design</strong><br />
-							Corrupti quos dolores et quas molestias excepturi sint occaecati eligendi optio.<br/><br/>
+                            <strong>Valinta graniitti tuotteet</strong><br />
+							Nupukivet, hautakivet, laatat, tasot.<br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon3.jpg" alt="" class="imgleft" />
-                            <strong>Marketing</strong><br />
-							Similique sunt in culpa qui officia deserunt mollitia animi idest laborumet.<br/><br/>
+                            <strong>Toimitus</strong><br />
+							Edulliset toimitukset koko Suomen.<br/><br/>
                             </p>
                             </div>
                         </div>
                         <div id="content3">
                         	<div class="maincontent">
-                            <h3>Testimonials</h3>
-                            <blockquote>
-                          	<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.
-                            </p> 
-                            </blockquote>
-                            <strong>John Doe - IT Manager</strong>                                                                            
+                            <h3>Fyysiset ja mekaaniset ominaisuudet gabro-diabaasia Karjala</h3>
+							<p>
+                          	<p>tiheys - 3080 kg/m3</p> 
+							<p>vadenimukyky  - 0.07 p-% </p> 
+							<p>puristuslujuus - 311MPa</p> 
+							<p>taivutusvetolujuss 42.0 MPa</p> 
+							<p>kovuus - 5.8 Mohs</p>                        
                             </div>
-                            <div class="maincontent">
-                                <div class="brochure">
-                            		<a href="#"><img src="${pageContext.request.contextPath}/resources/images/brochure.gif" alt="" /></a>
-                           		</div>                                         
+                            <div class="maincontent">                               
                             </div>                            
                         </div>
                      </div>
@@ -155,13 +154,11 @@
 			<div id="footer">
 				<div id="foot">
 						<div class="left-foot">
-                        14th Place, M1234 Heavenway, HW 5468, USA.<br />
-						Phone: +62 4872 2894, Fax: +62 4872 2895, Email: info@devster.com<br />
-						Copyright &copy;2009 Devster. All Rights Reserved.
+							Mikko Kiiski- Johtaja<br />
+							Phone: +358445725215<br />
+							Email:  kiiskenkivi@gmail.com<br />
                         </div>
-                        <div class="right-foot">
-                        	<div class="twitter-code">Quis autem vel eum iure reprehenderit qui in ea voluptate commodo - 9 hours ago</div>
-                        </div>
+                       
 				</div>
 			</div>
 		</div>
@@ -169,3 +166,4 @@
         
 </body>
 </html>
+

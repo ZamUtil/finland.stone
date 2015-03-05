@@ -16,6 +16,7 @@ angular.module('stone', ['ngRoute','ngResource','ngRoute']).
 
         $scope.getColours = function (param) {
             return colourService.get(param, function (data) {
+            	console.log("get data")
                 return data;
             });
         };

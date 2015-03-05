@@ -36,4 +36,12 @@ public class IndexController {
 	public String Graniitti() {
 		return "Graniitti";
 	}
+	@RequestMapping("/Keittiotasot")
+	public String Keittiotasot() {
+		return "Keittiotasot";
+	}
+	@RequestMapping("/HautakivetMallisto")
+	public String HautakivetMallisto() {
+		return "HautakivetMallisto";
+	}
 }

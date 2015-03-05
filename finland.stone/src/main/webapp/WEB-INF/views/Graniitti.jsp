@@ -93,7 +93,7 @@
 						
 								<li>
 									<div class="portfolio-item-thumb">	
-										<strong><h2>Keittiötasot</h2></strong><br />
+										<strong><h2>Keittiötasot<a href="Keittiotasot.html" >väliosa</a></h2></strong><br />
 									<a class="zoom" title="KeittiÃ¶tasot" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_1.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg" alt="" /></a>
                                     
                                     Nunc interdum lectus sit amet odio rhoncus et lobortis sem sodales aliquid ex ea commodi consequatur.

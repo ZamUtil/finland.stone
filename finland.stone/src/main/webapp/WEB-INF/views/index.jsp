@@ -11,16 +11,18 @@
 <!-- ////////////////////////////////// -->
 <!-- //      Start Stylesheets       // -->
 <!-- ////////////////////////////////// -->
+
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css" />
 <!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/unitpngfix.js"></script>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
+
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/swfobject/swfobject.js"></script>
 <script type="text/javascript">
 		var flashvars = {};
@@ -68,7 +70,7 @@
 						</div>
                         <div id="head-top">
                             <div id="head-title">
-                                <h2>Graniittien erikoismyymala</h2><!-- Page title here -->
+                                <h2> Musta graniittien erikoismyymälä</h2><!-- Page title here -->
                        		</div>                            	
                         </div>
                         
@@ -110,21 +112,20 @@ Kivitasot valmistus, myynti ja toimitus.
 Nupukivet ja laatat valmistus, myynti ja toimitus.
 Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytetaan meidan kivia eri profiileissa.
                             </p>
-                           
                             </div>
                         </div>
                         <div id="content2">
                         	<div class="maincontent">
                             <h3>Palvelumme</h3>
                           	<p><img src="${pageContext.request.contextPath}/resources/images/services-icon1.jpg" alt="" class="imgleft" />
-                            <strong>Valitse malli hautakivet</strong><br />
-							Erikois, lyhty, muoto, lohko-kivet.<br/><br/>
+                            <p>
+                            <strong> Valitse malli hautakivet </strong><br />Erikois, lyhty, muoto, lohko-kivet <br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon2.jpg" alt="" class="imgleft" />
-                            <strong>Valinta graniitti tuotteet</strong><br />
-							Nupukivet, hautakivet, laatat, tasot.<br/><br/>
+                            <p>
+                            <strong>Valinta graniitti tuotteet</strong><br /> Nupukivet, hautakivet, laatat, tasot.<br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon3.jpg" alt="" class="imgleft" />
-                            <strong>Toimitus</strong><br />
-							Edulliset toimitukset koko Suomen.<br/><br/>
+                            <p>
+                            <strong>Toimitus</strong><br />	Edulliset toimitukset koko Suomen.<br/><br/>
                             </p>
                             </div>
                         </div>
@@ -163,7 +164,6 @@ Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytet
 			</div>
 		</div>
 		<!-- END OF FOOTER -->
-        
 </body>
 </html>
 

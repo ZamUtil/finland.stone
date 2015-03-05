@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
@@ -17,11 +17,21 @@
     <script type="text/javascript" src="js/unitpngfix.js"></script>
 	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
+<style type='text/css' media='screen,projection'>
+<!--
+fieldset { border:0;margin:0;padding:0; }
+label {  padding-right:15px; float:left; width:70px;}
+input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
+-->
+</style>
 
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/xmlHttp.js"></script>  
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
@@ -48,25 +58,22 @@
                                 <div id="nav">
                                     <ul id="menu">
                                         <li><a href="index.html">Etusivu</a></li>                                        
-                                        <li class="current"><a class="active" href="Hautakivet.html">Hautakivet</a></li>                                        
+                                        <li><a href="Hautakivet.html">Hautakivet</a></li>                                        
                                         <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
                                         <li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
                                         <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
                                     </ul>
                                 </div>
                             </div>                            							
-						</div>      
-						<div id="head-top">
+						</div>         
+ 						<div id="head-top">
                             <div id="head-title">
-                               <h2> <a href="HautakivetMallisto.html" >väliosa</a></h2><!-- Page title here -->
+                               <h2>Keittotasot </h2><!-- Page title here -->
                             </div>                                                     	
-                        </div>		                  
+                        </div>						
 					<!-- END OF HEADER -->           
                                                                        
-                     <!-- BEGIN CONTENT -->
-                    
-                 	
-                	 <!-- END OF CONTENT -->
+                     
                      
                 </div>
                 <!-- END OF FRAME -->

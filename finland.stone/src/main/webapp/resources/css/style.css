@@ -83,7 +83,7 @@ code {
 
 /* Container
 ------------------------------------------------------*/
-#main_container{background-image:url(../images/bg-top-container.jpg); background-repeat:repeat-x; min-height:90%; }
+#main_container{background-image:url(../images/bg-top-container.jpg); background-repeat:repeat-x; min-height:20%; }
 #bottom_container{background-image:url(../images/bg-bottom-container.gif); background-repeat:repeat-x; height:84px; margin:0px auto 0px auto; clear:left;}
 
 

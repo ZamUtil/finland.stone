@@ -124,6 +124,7 @@ input.text {
 				</div>
 			
 			</div>
+			
 	<!-- BEGIN FOOTER -->
 	<div id="bottom_container">
 		<div id="footer">

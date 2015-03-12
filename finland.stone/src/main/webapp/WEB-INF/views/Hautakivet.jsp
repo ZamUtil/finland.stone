@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
+
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
@@ -8,36 +9,39 @@
   <meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
+<link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="${pageContext.request.contextPath}/resources/css/jcarousel.css" rel="stylesheet" type="text/css" />
+<script src="${pageContext.request.contextPath}/resources/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/resources/js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" ></script>
+<script type="text/javascript">
+		jQuery(document).ready(function() {
+		    jQuery('#portfolio-list').jcarousel({
+		        vertical: true,
+		        scroll: 2,
+		        easing: 'easeInOutBack',
+        		animation: 800
+		    });
+			$("a.zoom").fancybox({
+				'zoomSpeedIn'		:	500,
+				'zoomSpeedOut'		:	500
+			});
+		});
+	</script>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
-</script>   
+</script> 
     
 </head>
 <body>
-
-	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
-        
-        	<!-- FRAME -->
 				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
 						<div id="top">
                         	<div id="logo">
 								<div id="pad_logo">
@@ -47,25 +51,48 @@
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                                        <li><a href="index.html">Etusivu</a></li>                                        
-                                        <li class="current"><a class="active" href="Hautakivet.html">Hautakivet</a></li>                                        
-                                        <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
-                                        <li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
+                                        <li><a href="index.html">Etusivu</a></li>                                                             
+                                        <li class="current"><a class="active" href="Hautakivet.html">Hautakivet</a></li>    
+										<li><a href="Graniitti.html">Graniitti tuotteet</a></li> 
+										<li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
                                         <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
                                     </ul>
                                 </div>
                             </div>                            							
-						</div>      
-						<div id="head-top">
+						</div>
+                       <div id="head-top">
                             <div id="head-title">
-                               <h2> <a href="HautakivetMallisto.html" >väliosa</a></h2><!-- Page title here -->
-                            </div>                                                     	
-                        </div>		                  
-					<!-- END OF HEADER -->           
-                                                                       
+						     <h2>Hautakiviet</h2>
+							 </div>                                                     	
+                        </div>
+					<!-- END OF HEADER -->                      
+                                                                      
                      <!-- BEGIN CONTENT -->
-                    
-                 	
+                     <div id="content">
+                     	<ul id="portfolio-list" class="jcarousel-skin-portfolio clearfix">
+						
+								<li>
+									<div class="portfolio-item-thumb">	
+										<strong><h2>HautakivetMalisto<a href="HautakivetMallisto.html" >väliosa</a></h2></strong><br />
+									<a class="zoom" title="KeittiÃ¶tasot" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_1.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg" alt="" /></a>
+                                  	<H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin löytymistä.
+									</H3>
+									</div>					
+									<div class="portfolio-item-thumb">	
+									<strong><h2>Suunnittele hautakivi</h2></strong><br />									
+									<a class="zoom" title="Nupu ja noppa-kivet" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_2.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg" alt="" /></a>
+                                    
+                                   <H3>Suunnittele hautakivi oman kodin rauhassa.
+                                    </H3>
+                                    </div>			
+									
+								</li><!-- end portfolio-items-row -->						                         
+                            
+												
+						
+					</ul>
+                        
+                     </div>
                 	 <!-- END OF CONTENT -->
                      
                 </div>
@@ -73,14 +100,16 @@
         </div>
         <!-- END OF MAIN_CONTAINER -->
         
-        <!-- BEGIN FOOTER -->
+         <!-- BEGIN FOOTER -->
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
 						<div class="left-foot">
-                        Mikko Kiiski- Johtaja<br />
-						Phone: +358445725215, Email:  kiiskenkivi@gmail.com<br />
+							Mikko Kiiski- Johtaja<br />
+							Phone: +358445725215<br />
+							Email:  kiiskenkivi@gmail.com<br />
                         </div>
+                        
 				</div>
 			</div>
 		</div>
@@ -88,3 +117,4 @@
         
 </body>
 </html>
+

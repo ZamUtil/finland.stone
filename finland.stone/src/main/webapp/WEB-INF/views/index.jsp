@@ -7,22 +7,8 @@
   <meta name="title" content="" />
   <meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
-
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
-
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-<script type="text/javascript" src="js/unitpngfix.js"></script>
-<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
-
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/swfobject/swfobject.js"></script>
 <script type="text/javascript">
 		var flashvars = {};
@@ -37,19 +23,13 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
-            Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
+Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
 </script>   
-    
+  
 </head>
 <body>
-
-	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
-        
-        	<!-- FRAME -->
 				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
 						<div id="top">
                         	<div id="logo">
 								<div id="pad_logo">
@@ -70,13 +50,9 @@
 						</div>
                         <div id="head-top">
                             <div id="head-title">
-                                <h2> Musta graniittien erikoismyymälä</h2><!-- Page title here -->
+                                <h2> Musta graniittien erikoismyymälä</h2>
                        		</div>                            	
                         </div>
-                        
-					<!-- END OF HEADER -->
-                    
-                    <!-- SLIDES_CONTAINER -->
 						<div id="slides_container">
                         	<div id="slides-cu3er">
                                 <div id="threed-slider">
@@ -93,10 +69,7 @@
 								</h3>			
 							</div>                            
                          </div>
-					<!-- END OF SLIDES_CONTAINER -->
-                                                    
-                     <!-- BEGIN CONTENT -->
-<div id="content">
+							<div id="content">
                      	<div id="content1">
                             <div class="maincontent">
                             <h3>Yritys</h3>
@@ -143,14 +116,8 @@ Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytet
                             </div>                            
                         </div>
                      </div>
-                	 <!-- END OF CONTENT -->
-                     
-                </div>
-                <!-- END OF FRAME -->
-        </div>
-        <!-- END OF MAIN_CONTAINER -->
-        
-        <!-- BEGIN FOOTER -->
+               </div>
+         </div>
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
@@ -159,11 +126,9 @@ Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytet
 							Phone: +358445725215<br />
 							Email:  kiiskenkivi@gmail.com<br />
                         </div>
-                       
-				</div>
+                      </div>
 			</div>
 		</div>
-		<!-- END OF FOOTER -->
 </body>
 </html>
 

@@ -5,7 +5,7 @@
 
 /* Global
 ------------------------------------------------------*/
-html,body{height:100%}
+html,body{height:10%}
 body {
 	font-family:Tahoma, Arial, Verdana;
 	font-size:12px;
@@ -83,7 +83,7 @@ code {
 
 /* Container
 ------------------------------------------------------*/
-#main_container{background-image:url(../images/bg-top-container.jpg); background-repeat:repeat-x; min-height:20%; }
+#main_container{background-image:url(../images/bg-top-container.jpg); background-repeat:repeat-x; min-height:90%; }
 #bottom_container{background-image:url(../images/bg-bottom-container.gif); background-repeat:repeat-x; height:84px; margin:0px auto 0px auto; clear:left;}
 
 
@@ -176,3 +176,10 @@ code {
 .left-foot{width:504px; float:left;}
 .right-foot{ background-image:url(../images/twitter-bg.jpg); background-repeat:no-repeat; width:456px; height:34px; margin-top:10px; float:left;}
 .twitter-code{width:400px; margin-top:7px; margin-left:8px; text-align:center; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+#bottom_c{background-image:url(../images/bg-top-container1.jpg);}
+}	
+/*<style type="text/css">
+.popup {width: 150px; cursor:pointer;}
+.popup:focus {width:auto;}
+</style>*/
+*/

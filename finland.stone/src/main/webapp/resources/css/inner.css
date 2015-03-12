@@ -54,11 +54,11 @@ ul.list li {background-image:url(../images/green-arrow.png); background-position
 #portfolio-list li img {border:solid 1px #cfd4c3; padding:6px; margin:0px; background-color:#f9fbf4; }
 #portfolio-list li.last {margin-right: 0;}
 .portfolio-item-thumb {width:300px; float:left; margin:0px 29px 20px 0px; color:#676767; line-height:18px; position: relative; height: 250px;}
-.portfolio-item-thumb-last {margin-right:0px;}
+.portfolio-item-thumb-last {width:300px; float:left; margin-right:0px 29px 20px 0px; color:#676767; line-height:18px; position: relative; height: 250px;}
 
 .jcarousel-skin-portfolio .jcarousel-container-vertical {width: 960px; height: 500px; margin:0px;}
 .jcarousel-skin-portfolio .jcarousel-clip-vertical {width:  960px; height: 500px;}
-.jcarousel-skin-portfolio .jcarousel-item {width: 960px; height: 250px; margin:0px;}
+.jcarousel-skin-portfolio .jcarousel-item {width: 960px; height: 950px; margin:0px;}
 
 .jcarousel-skin-portfolio .jcarousel-next-vertical {position: absolute; right: 0px; top: -40px; width: 23px; height: 23px; cursor: pointer; background: url("../images/nav_carousel.gif") no-repeat 100% 0%;}
 .jcarousel-skin-portfolio .jcarousel-next-vertical:hover {background-position: 100% 50%;}

@@ -48,10 +48,12 @@ input.text {
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
-	<script	src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
-	<script	src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
-	<script	src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
+
+	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -60,7 +62,8 @@ input.text {
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 	<script type="text/javascript">	Cufon.replace('h1')('h2')('h3')('h4')('#nav li')('#nav li a');</script>
 </head>
-<body ng-controller="colourController">
+<body ng-controller="headstoneController">
+<div id="bottom_c">
 	<div>
 		<span style="float: right"> <a href="?lang=en">en</a> | <a
 			href="?lang=ru">ru</a>
@@ -94,27 +97,33 @@ input.text {
 						</div>   
 					    
  						<div id="head-title">
- 						<h2>dasfsdasdasd</h2>
+ 						<center><h2>  Hautakivimallisto</h2></center>
  						</div>	
  						
 					<!-- END OF HEADER -->   
 			
-			
-           
-			
 		</div>
 		<!-- END OF FRAME -->
-	</div>
+	
 	<!-- END OF MAIN_CONTAINER -->
-	<div ng-repeat="item in colourData">
+	<div ng-repeat="item in headstonesData">
+	
+
+
+	
 				<div class="col-md-3">
 					<div>
-						<img src="${pageContext.request.contextPath}/resources/data-image/{{item.picture}}.jpg"
+						<img src="${pageContext.request.contextPath}/resources/headstone-data/{{item.picture}}.jpg"
 							width="300" height="200"></img>
+							
 					</div>
-					<span><h4>{{item.prise}}</h4></span>
+					<span><h4>{{item.name}}</h4></span>
+					<span><h4>{{item.size}}</h4></span>
+					<span><h4>{{item.prise}} €</h4></span>
+				
 				</div>
-			</div>	
+			
+			</div>
 	<!-- BEGIN FOOTER -->
 	<div id="bottom_container">
 		<div id="footer">
@@ -128,5 +137,6 @@ input.text {
 	</div>
 	<!-- END OF FOOTER -->
 
+</div>
 </body>
 </html>

@@ -10,7 +10,7 @@ import com.zam.finland.stone.model.Headstone;
 @Repository
 public class HeadstoneDao extends EntityDao<Headstone> {
 
-	private static Logger logger = LoggerFactory.getLogger(ColourDao.class);
+	private static Logger logger = LoggerFactory.getLogger(HeadstoneDao.class);
 
 	@PersistenceContext
 	private EntityManager entityManager;

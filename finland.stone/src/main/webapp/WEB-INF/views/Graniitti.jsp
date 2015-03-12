@@ -95,20 +95,23 @@
 									<div class="portfolio-item-thumb">	
 										<strong><h2>Keittiötasot<a href="Keittiotasot.html" >väliosa</a></h2></strong><br />
 									<a class="zoom" title="KeittiÃ¶tasot" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_1.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg" alt="" /></a>
-                                    
-                                    Nunc interdum lectus sit amet odio rhoncus et lobortis sem sodales aliquid ex ea commodi consequatur.
+                                  	<H3>Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.
+									</H3>
 									</div>					
 									<div class="portfolio-item-thumb">	
 									<strong><h2>Nupu ja noppa-kivet</h2></strong><br />									
 									<a class="zoom" title="Nupu ja noppa-kivet" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_2.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg" alt="" /></a>
                                     
-                                    Nunc interdum lectus sit amet odio rhoncus et lobortis sem sodales aliquid ex ea commodi consequatur.
-                                    </div>								
+                                   <H3>Noppakivi on yleisin aito pihakivi kodin pihoissa ja puutarhoissa. Lohkottu graniitti on kaunis ja ajaton vaihtoehto ajoväylille, reunuksiin ja parkkipaikoille missä kiven ominaisuuksilta vaaditaan paljon. 
+ Nupukivi sopii hyvin myös istutusalueiden kukkapenkkien sekä polkujen reunustamiseen. Kokonsa ansiosta nupukivellävoidaan tehdä helposti myös kaarevia muotoja
+                                    </H3>
+                                    </div>			
 									<div class="portfolio-item-thumb-last">		
 									<strong><h2>Laattaa</h2></strong><br />								
 									<a class="zoom" title="Laattaa" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_3.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg" alt="" /></a>
-                                    
-                                    Nunc interdum lectus sit amet odio rhoncus et lobortis sem sodales aliquid ex ea commodi consequatur.
+                                    <H3>
+                                   Aito graniitti on kestävä ja helppohoitoinen luonnonmateriaali. Kiilloitettu graniittilaatta on edullinen luonnonmukainen vaihtoehto kotisi eri pintojen päällystämiseen.
+                                    </H3>
                                     </div>
 								</li><!-- end portfolio-items-row -->						                         
                             

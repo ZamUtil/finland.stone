@@ -21,13 +21,13 @@ public class Headstone extends BaseEntity{
 	private Float prise;
 
 	@Column(name = "picture")
-	private String picture;
+	private Float picture;
 	
 	@Column(name = "size")
-	private Float size;
+	private String size;
 	
-	@Column(name = "name")
-	private Float name;
+	@Column(name = "names")
+	private String names;
 
 	public Float getPrise() {
 		return prise;
@@ -37,28 +37,28 @@ public class Headstone extends BaseEntity{
 		this.prise = prise;
 	}
 
-	public String getPicture() {
+	public Float getPicture() {
 		return picture;
 	}
 
-	public void setPicture(String picture) {
+	public void setPicture(Float picture) {
 		this.picture = picture;
 	}
 
-	public Float getSize() {
+	public String getSize() {
 		return size;
 	}
 
-	public void setSize(Float size) {
+	public void setSize(String size) {
 		this.size = size;
 	}
 
-	public Float getName() {
-		return name;
+	public String getName() {
+		return names;
 	}
 
-	public void setName(Float name) {
-		this.name = name;
+	public void setName(String name) {
+		this.names = name;
 	}
 
 	@Override

@@ -17,20 +17,7 @@
 <script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" ></script>
-<script type="text/javascript">
-		jQuery(document).ready(function() {
-		    jQuery('#portfolio-list').jcarousel({
-		        vertical: true,
-		        scroll: 2,
-		        easing: 'easeInOutBack',
-        		animation: 800
-		    });
-			$("a.zoom").fancybox({
-				'zoomSpeedIn'		:	500,
-				'zoomSpeedOut'		:	500
-			});
-		});
-	</script>
+
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
@@ -56,7 +43,27 @@
 										<li><a href="Graniitti.html">Graniitti tuotteet</a></li> 
 										<li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
                                         <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                        <span style="float: right"> 
+                        <a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=ru"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+						</span>
+						
+						
+						
+						
+						
+						
+						
                                     </ul>
+                                    <div>
+						
+					</div>
                                 </div>
                             </div>                            							
 						</div>
@@ -65,36 +72,34 @@
 						     <h2>Hautakiviet</h2>
 							 </div>                                                     	
                         </div>
-					<!-- END OF HEADER -->                      
-                                                                      
-                     <!-- BEGIN CONTENT -->
-                     <div id="content">
-                     	<ul id="portfolio-list" class="jcarousel-skin-portfolio clearfix">
-						
-								<li>
-									<div class="portfolio-item-thumb">	
-										<strong><h2>HautakivetMalisto<a href="HautakivetMallisto.html" >väliosa</a></h2></strong><br />
-									<a class="zoom" title="KeittiÃ¶tasot" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_1.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg" alt="" /></a>
-                                  	<H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin löytymistä.
-									</H3>
-									</div>					
-									<div class="portfolio-item-thumb">	
-									<strong><h2>Suunnittele hautakivi</h2></strong><br />									
-									<a class="zoom" title="Nupu ja noppa-kivet" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_2.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg" alt="" /></a>
-                                    
-                                   <H3>Suunnittele hautakivi oman kodin rauhassa.
-                                    </H3>
-                                    </div>			
-									
-								</li><!-- end portfolio-items-row -->						                         
-                            
-												
-						
+
+                    <div id="content">
+						<div class="base">
+						<ul class="base-row">
+						<li class="cell1"><div class="content1" >
+						<h2><a href="HautakivetMallisto.html" >HautakivetMallisto</h2><br />
+						<a href="HautakivetMallisto.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_4.jpg"></img></a>
+                        <p>
+                        <H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin löytymistä.</H3>		
+						</div></li>
+						<li class="cell1"><div class="content2">							
+                        <h2><a href="Keittiotasot.html" >???????????????</h2><br />
+						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_5.jpg"></img></a>
+                        <p>
+                        <H3>Kaikki täysin kiillotettu, eri muotoilu ja eri paksuinen(5-15cm) Hinnat valehtelee 500-2500 Euro.</H3>
+						</li>
+						<li class="cell1"><div class="content3">
+						<h2><a href="Keittiotasot.html" >Suunnittele hautakivi</h2><br />
+						<p>
+						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_6.jpg"></img></a>
+                        <H3>Suunnittele hautakivi oman kodin rauhassa.</H3>       
+						</div></li>
 					</ul>
-                        
+                       
                      </div>
-                	 <!-- END OF CONTENT -->
-                     
+                     <p>
+                      <hr><h2><a href="index.html" >Kotisivu</h2><br /></hr>
+                   </div>  
                 </div>
                 <!-- END OF FRAME -->
         </div>

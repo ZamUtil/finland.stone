@@ -28,47 +28,47 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
   
 </head>
 <body>
-		<div id="main_container">
-				<div id="frame">
-						<div id="top">
-                        	<div id="logo">
-								<div id="pad_logo">
-									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
-								</div>
-							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
-                                        <li class="current"><a class="active" href="index.html">Etusivu</a></li>                                        
-                                        <li><a href="Hautakivet.html">Hautakivet</a></li>                                        
-                                        <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
-                                        <li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
-                                        <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
-                                    </ul>
-                                </div>
-                            </div>                            							
-						</div>
-                        <div id="head-top">
-                            <div id="head-title">
-                                <h2> Musta graniittien erikoismyymälä</h2>
-                       		</div>                            	
+	<div id="main_container">
+		<div id="frame">
+			<div id="top">
+				<div id="logo">
+					<div id="pad_logo">
+						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
+					</div>
+				</div>
+                    <div id="topmenu">
+                        <div id="nav">
+                        	<ul id="menu">
+                            	<li class="current"><a class="active" href="index.html">Etusivu</a></li>                                        
+                                <li><a href="Hautakivet.html">Hautakivet</a></li>                                        
+                                <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
+                                <li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
+                                <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+                            </ul>
                         </div>
-						<div id="slides_container">
-                        	<div id="slides-cu3er">
-                                <div id="threed-slider">
-                                	<a href="http://www.adobe.com/go/getflashplayer">
-        								<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" class="flash-img" />
-    								</a>
-                                </div>
+                    </div>                            							
+			</div>
+            	<div id="head-top">
+                    <div id="head-title">
+                         <h2> Musta graniittien erikoismyymälä</h2>
+                    </div>                            	
+                </div>
+					<div id="slides_container">
+                        <div id="slides-cu3er">
+                            <div id="threed-slider">
+                                <a href="http://www.adobe.com/go/getflashplayer">
+        							<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" class="flash-img" />
+    							</a>
                             </div>
+                        </div>
                         	<div id="slides-text">
-							<p> 
-                                <h1>Meista</h1>
 								<p> 
-                                <h3> Kiiskenkivi on yksityisomistuksessa oleva tuotanto ja myyntiyritys, joka on erikoistunut hautakivien tuotantoon ja myymiseen.<br /> 
-								</h3>			
+                                	<h1>Meista</h1>
+								</p> 
+                                <h3> Kiiskenkivi on yksityisomistuksessa oleva tuotanto ja myyntiyritys, joka on erikoistunut hautakivien tuotantoon ja myymiseen.<br /> </h3>
+											
 							</div>                            
-                         </div>
+                     </div>
 							<div id="content">
                      	<div id="content1">
                             <div class="maincontent">

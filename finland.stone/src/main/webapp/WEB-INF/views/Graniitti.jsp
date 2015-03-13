@@ -8,42 +8,14 @@
   <meta name="title" content="" />
   <meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
-
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="${pageContext.request.contextPath}/resources/css/jcarousel.css" rel="stylesheet" type="text/css" />
-
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
 <script src="${pageContext.request.contextPath}/resources/js/jquery-1.3.2.min.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" ></script>
-<script type="text/javascript">
-		jQuery(document).ready(function() {
-		    jQuery('#portfolio-list').jcarousel({
-		        vertical: true,
-		        scroll: 2,
-		        easing: 'easeInOutBack',
-        		animation: 800
-		    });
-			$("a.zoom").fancybox({
-				'zoomSpeedIn'		:	500,
-				'zoomSpeedOut'		:	500
-			});
-		});
-	</script>
-
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
@@ -81,49 +53,37 @@
                        <div id="head-top">
                             <div id="head-title">
 						
-                            <h2>Graniitti tuotteet </h2><!-- Page title here -->
+                            <h2>Graniitti tuotteet </h2>
 							   
                             </div>                                                     	
                         </div>
-					<!-- END OF HEADER -->                      
-                                                                      
-                     <!-- BEGIN CONTENT -->
                      <div id="content">
-                     	<ul id="portfolio-list" class="jcarousel-skin-portfolio clearfix">
-						
-								<li>
-									<div class="portfolio-item-thumb">	
-										<strong><h2>Keittiötasot<a href="Keittiotasot.html" >väliosa</a></h2></strong><br />
-									<a class="zoom" title="KeittiÃ¶tasot" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_1.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg" alt="" /></a>
-                                  	<H3>Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.
-									</H3>
-									</div>					
-									<div class="portfolio-item-thumb">	
-									<strong><h2>Nupu ja noppa-kivet</h2></strong><br />									
-									<a class="zoom" title="Nupu ja noppa-kivet" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_2.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg" alt="" /></a>
-                                    
-                                   <H3>Noppakivi on yleisin aito pihakivi kodin pihoissa ja puutarhoissa. Lohkottu graniitti on kaunis ja ajaton vaihtoehto ajoväylille, reunuksiin ja parkkipaikoille missä kiven ominaisuuksilta vaaditaan paljon. 
- Nupukivi sopii hyvin myös istutusalueiden kukkapenkkien sekä polkujen reunustamiseen. Kokonsa ansiosta nupukivellävoidaan tehdä helposti myös kaarevia muotoja
-                                    </H3>
-                                    </div>			
-									<div class="portfolio-item-thumb-last">		
-									<strong><h2>Laattaa</h2></strong><br />								
-									<a class="zoom" title="Laattaa" href="${pageContext.request.contextPath}/resources/images/portfolio-big/portfolio_3.jpg"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg" alt="" /></a>
-                                    <H3>
-                                   Aito graniitti on kestävä ja helppohoitoinen luonnonmateriaali. Kiilloitettu graniittilaatta on edullinen luonnonmukainen vaihtoehto kotisi eri pintojen päällystämiseen.
-                                    </H3>
-                                    </div>
-								</li><!-- end portfolio-items-row -->						                         
-                            
-												
-						
+						<div class="base">
+						<ul class="base-row">
+						<li class="cell1"><div class="content1" >
+						<h2><a href="Keittiotasot.html" >Keittiötasot</h2><br />
+						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg"></img></a>
+                        <H3>Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.</H3>		
+						</div></li>
+						<li class="cell1"><div class="content2">							
+                        <h2><a href="Keittiotasot.html" >Nupu ja noppa-kivet</h2><br />
+						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg"></img></a>
+                        <H3>Noppakivi on yleisin aito pihakivi kodin pihoissa ja puutarhoissa. Lohkottu graniitti on kaunis ja ajaton vaihtoehto ajoväylille, reunuksiin ja parkkipaikoille missä kiven ominaisuuksilta vaaditaan paljon. 
+ 						Nupukivi sopii hyvin myös istutusalueiden kukkapenkkien sekä polkujen reunustamiseen. Kokonsa ansiosta nupukivellävoidaan tehdä helposti myös kaarevia muotoja.</H3>
+						</li>
+						<li class="cell1"><div class="content3">
+						<h2><a href="Keittiotasot.html" >Laattaa</h2><br />
+						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg"></img></a>
+                        <H3>Aito graniitti on kestävä ja helppohoitoinen luonnonmateriaali. Kiilloitettu graniittilaatta on edullinen luonnonmukainen vaihtoehto kotisi eri pintojen päällystämiseen. </H3>       
+						</div></li>
 					</ul>
                         
                      </div>
-                	 <!-- END OF CONTENT -->
-                     
+                 <p>
+                      <hr><h2><a href="index.html" >Kotisivu</h2><br /></hr>
+                    </div>
                 </div>
-                <!-- END OF FRAME -->
+             
         </div>
         <!-- END OF MAIN_CONTAINER -->
         

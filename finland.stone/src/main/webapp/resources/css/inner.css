@@ -48,28 +48,31 @@ ul.list li {background-image:url(../images/green-arrow.png); background-position
 
 /* Portfolio 
 ------------------------------------------------------*/
-#quote {background-image:url(../images/portfolio-shadow.jpg); background-repeat:no-repeat; background-position:top; width:960px; float:left;}
-.quote-button {padding-top:40px;}
-#portfolio-list li {list-style:none;}
-#portfolio-list li img {border:solid 1px #cfd4c3; padding:6px; margin:0px; background-color:#f9fbf4; }
-#portfolio-list li.last {margin-right: 0;}
-.portfolio-item-thumb {width:300px; float:left; margin:0px 29px 20px 0px; color:#676767; line-height:18px; position: relative; height: 250px;}
-.portfolio-item-thumb-last {width:300px; float:left; margin-right:0px 29px 20px 0px; color:#676767; line-height:18px; position: relative; height: 250px;}
-
-.jcarousel-skin-portfolio .jcarousel-container-vertical {width: 960px; height: 500px; margin:0px;}
-.jcarousel-skin-portfolio .jcarousel-clip-vertical {width:  960px; height: 500px;}
-.jcarousel-skin-portfolio .jcarousel-item {width: 960px; height: 950px; margin:0px;}
-
-.jcarousel-skin-portfolio .jcarousel-next-vertical {position: absolute; right: 0px; top: -40px; width: 23px; height: 23px; cursor: pointer; background: url("../images/nav_carousel.gif") no-repeat 100% 0%;}
-.jcarousel-skin-portfolio .jcarousel-next-vertical:hover {background-position: 100% 50%;}
-.jcarousel-skin-portfolio .jcarousel-next-disabled-vertical,
-.jcarousel-skin-portfolio .jcarousel-next-disabled-vertical:hover {background-position: 100% 100%;}
-
-.jcarousel-skin-portfolio .jcarousel-prev-vertical {position: absolute; right: 30px; top: -40px; width: 23px; height: 23px; cursor: pointer; background: url("../images/nav_carousel.gif") no-repeat 0% 0%;}
-.jcarousel-skin-portfolio .jcarousel-prev-vertical:hover {background-position: 0% 50%;}
-.jcarousel-skin-portfolio .jcarousel-prev-disabled-vertical,
-.jcarousel-skin-portfolio .jcarousel-prev-disabled-vertical:hover {background-position: 0% 100%;}
-
+.base {
+/*make it 100% width and a minimum of 1000px width*/
+width: auto;
+margin-left: 0px;
+margin-right: 0px;
+min-width: 1000px;
+padding: 0px;
+display:table;
+}
+.base-row {
+Display: table-row;
+}
+.base li {
+display: table-cell;
+width: 33%;
+}
+.cell1 {
+background-image:url(../images/bg-top-container1.jpg);
+}
+.cell2 {
+background-image:url(../images/bg-top-container1.jpg);
+}
+.cell3 {
+background-image:url(../images/bg-top-container1.jpg);
+}
 
 /* Clearing method
 ------------------------------------------------------*/

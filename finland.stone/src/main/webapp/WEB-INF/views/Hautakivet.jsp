@@ -1,3 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
 
@@ -38,29 +43,15 @@
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                                        <li><a href="index.html">Etusivu</a></li>                                                             
-                                        <li class="current"><a class="active" href="Hautakivet.html">Hautakivet</a></li>    
-										<li><a href="Graniitti.html">Graniitti tuotteet</a></li> 
-										<li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
-                                        <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                                        
-                        <span style="float: right"> 
-                        <a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=ru"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
+                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
+                                <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                                <span style="float: right"> 
+                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
 						</span>
-						
-						
-						
-						
-						
-						
-						
-                                    </ul>
+                            </ul>
                                     <div>
 						
 					</div>
@@ -80,13 +71,13 @@
 						<h2><a href="HautakivetMallisto.html" >HautakivetMallisto</h2><br />
 						<a href="HautakivetMallisto.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_4.jpg"></img></a>
                         <p>
-                        <H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin lˆytymist‰.</H3>		
+                        <H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin l√∂ytymist√§.</H3>		
 						</div></li>
 						<li class="cell1"><div class="content2">							
                         <h2><a href="Keittiotasot.html" >???????????????</h2><br />
 						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_5.jpg"></img></a>
                         <p>
-                        <H3>Kaikki t‰ysin kiillotettu, eri muotoilu ja eri paksuinen(5-15cm) Hinnat valehtelee 500-2500 Euro.</H3>
+                        <H3>Kaikki t√§ysin kiillotettu, eri muotoilu ja eri paksuinen(5-15cm) Hinnat valehtelee 500-2500 Euro.</H3>
 						</li>
 						<li class="cell1"><div class="content3">
 						<h2><a href="Keittiotasot.html" >Suunnittele hautakivi</h2><br />

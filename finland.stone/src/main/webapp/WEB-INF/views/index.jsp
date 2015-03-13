@@ -1,3 +1,8 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 
@@ -9,7 +14,7 @@
 <title>Hautakiviliike KiiskenKivi Oy</title>
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/swfobject/swfobject.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/swfobject/swfobject.js"/>
 <script type="text/javascript">
 		var flashvars = {};
 		flashvars.xml = "${pageContext.request.contextPath}/resources/config.xml";
@@ -39,18 +44,22 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
                     <div id="topmenu">
                         <div id="nav">
                         	<ul id="menu">
-                            	<li class="current"><a class="active" href="index.html">Etusivu</a></li>                                        
-                                <li><a href="Hautakivet.html">Hautakivet</a></li>                                        
-                                <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
-                                <li><a href="Tarjouspyynto.html">Tee Tarjouspyynto</a></li>                                        
-                                <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
+                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
+                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
+                                <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                                <span style="float: right"> 
+                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+						</span>
                             </ul>
                         </div>
                     </div>                            							
 			</div>
             	<div id="head-top">
                     <div id="head-title">
-                         <h2> Musta graniittien erikoismyymälä</h2>
+                         <h2><spring:message code="pages.index.title" /></h2>
+                         
                     </div>                            	
                 </div>
 					<div id="slides_container">

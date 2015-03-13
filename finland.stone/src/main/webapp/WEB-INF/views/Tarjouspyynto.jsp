@@ -52,18 +52,17 @@
                             <div id="topmenu">
 					<div id="nav">
 						<ul id="menu">
-							<li><a href="index.html">Etusivu</a></li>                                        
-                            <li><a href="Hautakivet.html">Hautakivet</a></li>                                        
-                            <li><a href="Graniitti.html">Graniitti tuotteet</a></li>                                        
-                            <li class="current"><a class="active" href="Tarjouspyynto.html">Tee Tarjouspyyntö</a></li>                                        
-                            <li class="last"><a href="Yhteystiedot.html">Yhteystiedot</a></li>
-						</ul>
-					</div>
-					<div>
-						<span style="float: right"> <a href="?lang=en">en</a> | <a
-							href="?lang=ru">ru</a>
+                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
+                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
+                                <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                                <span style="float: right"> 
+                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
 						</span>
+                            </ul>
 					</div>
+					
 				</div>                            							
 						</div>                        
 					<!-- END OF HEADER -->     

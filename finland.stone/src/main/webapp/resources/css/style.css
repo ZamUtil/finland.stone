@@ -192,3 +192,7 @@ code {
  -o-border-radius: 150px;
  border-radius: 150px;
  }
+ 
+ .selected-div{
+   background-color: #E3F4FF;
+  border-color: #B8D2E1;}

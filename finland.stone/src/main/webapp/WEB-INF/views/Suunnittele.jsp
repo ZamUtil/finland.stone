@@ -4,7 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
+<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi" ng-app="stone"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
@@ -18,6 +18,7 @@
 <!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"	rel="stylesheet" type="text/css" />
 <!--[if IE 6]>
     <script type="text/javascript" src="js/unitpngfix.js"></script>
 	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
@@ -33,6 +34,12 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
+
+	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -44,7 +51,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 </script>   
     
 </head>
-<body>
+<body ng-controller="suunnitteleController">
 		<div id="main_container">
 				<div id="frame">
 						<div id="top">
@@ -74,7 +81,58 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                             </div>                                                     	
                         </div>						
                 </div>
-        </div>
+                </div>
+
+		<div ng-show="currentState == 1">
+			<div class="state1">Описание</div>
+			<div ng-repeat="i in getNumber(14) track by $index" >
+				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState1 }"
+					style="border: 2px solid black; border-color: grey" ng-click="selectItemState1($index)">
+					<div>
+						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kivimalli/{{$index+1}}.png"
+							style="width: 20%"></img>
+							 <span>{{names[$index]}}</span>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div ng-show="currentState == 2">
+			<div class="state1">Описание1111</div>
+			<div ng-repeat="i in getNumber(4) track by $index" >
+				<div class="col-md-12" ng-class="{ 'selected-div': $index == selectedState2 }"
+					style="border: 2px solid black; border-color: grey" ng-click="selectItemState2($index)">
+					<div>
+						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/vaikutukset-hintaan/{{$index+1}}.png"
+							style="width: 20%"></img>
+							 <span>{{namesState2[$index]}}</span>
+					</div>
+					
+					<input type="text" ng-if="$index == 3" ng-model="state2width" ></input>
+					<input type="text" ng-if="$index == 3" ng-model="state2height" ></input>
+					
+					<span ng-if="$index == 3" ng-show ="errorState2 == true">Заполните все поля</span>
+					
+				</div>
+			</div>
+
+		</div>
+		
+		<div ng-show="currentState == 3">
+			<div class="state1">Описание11122221</div>
+			<div >
+				
+			</div>
+
+		</div>
+
+
+<button ng-click="nextState(currentState, )">Next</button>
+<button ng-click="backState()" ng-show="currentState > 1">Back</button>
+
+
+
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">

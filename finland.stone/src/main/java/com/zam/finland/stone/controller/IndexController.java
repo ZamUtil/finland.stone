@@ -48,4 +48,8 @@ public class IndexController {
 	public String Muotokivet() {
 		return "Muotokivet";
 	}
+	@RequestMapping("/Suunnittele")
+	public String Suunnittele() {
+		return "Suunnittele";
+	}
 }

@@ -43,8 +43,8 @@
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
+                            	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
                                 <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
@@ -80,9 +80,9 @@
                         <H3>Kaikki täysin kiillotettu, eri muotoilu ja eri paksuinen(5-15cm) Hinnat valehtelee 500-2500 Euro.</H3>
 						</li>
 						<li class="cell1"><div class="content3">
-						<h2><a href="Keittiotasot.html" >Suunnittele hautakivi</h2><br />
+						<h2><a href="Suunnittele.html" >Suunnittele hautakivi</h2><br />
 						<p>
-						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_6.jpg"></img></a>
+						<a href="Suunnittele.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_6.jpg"></img></a>
                         <H3>Suunnittele hautakivi oman kodin rauhassa.</H3>       
 						</div></li>
 					</ul>

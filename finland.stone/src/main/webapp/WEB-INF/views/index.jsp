@@ -4,7 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
@@ -72,54 +72,49 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
                         </div>
                         	<div id="slides-text">
 								<p> 
-                                	<h1>Meista</h1>
+                                	<h1><spring:message code="pages.home.about" /> </h1>
 								</p> 
-                                <h3> Kiiskenkivi on yksityisomistuksessa oleva tuotanto ja myyntiyritys, joka on erikoistunut hautakivien tuotantoon ja myymiseen.<br /> </h3>
+                                <h3><spring:message code="pages.home.about.text" /> <br /> </h3>
 											
 							</div>                            
                      </div>
 							<div id="content">
                      	<div id="content1">
                             <div class="maincontent">
-                            <h3>Yritys</h3>
+                            <h3><spring:message code="pages.home.company" /></h3>   
                           	<p>
-Kiiskikiven tehdas Petroskoissa Venajalla. Varasto on Salossa.
-Meilla on monivuotinen kokemus hautakivien valmistuksesta ja olemme myyneet tuotteistamme Suomeen.
-Olemme myyneet hautakivien, kivitasot, nupukivet ja graniittilaatat Helsingista Rovaniemelle asti.
-Myymme, valmistamme ja toimintamme graniitti tuotteita paaasiallisesti koko Suomen aluella.
-Paaasiallisesti kayttamiamme hautakivimateriaaleja ovat musta graniitti.Haluan tarjota sinulle tuotteita mustaa graniittia louhitaan Karjalassa. Gabro diabaasi Karjalan pidetaan yhtena maailman parhaista. 
-Palveluhimme kuuluvat;
-Uusien hautakivien valmistus, myynti ja toimitus.
-Kivitasot valmistus, myynti ja toimitus.
-Nupukivet ja laatat valmistus, myynti ja toimitus.
-Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytetaan meidan kivia eri profiileissa.
+                            <spring:message code="pages.home.company.text" />
                             </p>
                             </div>
                         </div>
                         <div id="content2">
                         	<div class="maincontent">
-                            <h3>Palvelumme</h3>
+                            <h3><spring:message code="pages.home.services" /></h3>
+                            <p>
                           	<p><img src="${pageContext.request.contextPath}/resources/images/services-icon1.jpg" alt="" class="imgleft" />
                             <p>
-                            <strong> Valitse malli hautakivet </strong><br />Erikois, lyhty, muoto, lohko-kivet <br/><br/>
+                           
+                            <strong><spring:message code="pages.home.services.1" /></strong><br /><spring:message code="pages.home.services.1.text" /><br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon2.jpg" alt="" class="imgleft" />
                             <p>
-                            <strong>Valinta graniitti tuotteet</strong><br /> Nupukivet, hautakivet, laatat, tasot.<br/><br/>
+                            <strong><spring:message code="pages.home.services.2" /></strong><br /> <spring:message code="pages.home.services.2.text" /><br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon3.jpg" alt="" class="imgleft" />
                             <p>
-                            <strong>Toimitus</strong><br />	Edulliset toimitukset koko Suomen.<br/><br/>
+                           	<strong><spring:message code="pages.home.services.3" /></strong><br /><spring:message code="pages.home.services.3.text" /><br/><br/>
                             </p>
                             </div>
                         </div>
                         <div id="content3">
                         	<div class="maincontent">
-                            <h3>Fyysiset ja mekaaniset ominaisuudet gabro-diabaasia Karjala</h3>
-							<p>
-                          	<p>tiheys - 3080 kg/m3</p> 
-							<p>vadenimukyky  - 0.07 p-% </p> 
-							<p>puristuslujuus - 311MPa</p> 
-							<p>taivutusvetolujuss 42.0 MPa</p> 
-							<p>kovuus - 5.8 Mohs</p>                        
+                            <h3><spring:message code="pages.home.properties" /></h3>
+                            <ul>
+							<li><spring:message code="pages.home.properties.1" /></li>
+							<li><spring:message code="pages.home.properties.2" /></li>
+							<li><spring:message code="pages.home.properties.3" /></li>
+							<li><spring:message code="pages.home.properties.4" /></li>
+							<li><spring:message code="pages.home.properties.5" />;</li>
+							</ul>
+                                     
                             </div>
                             <div class="maincontent">                               
                             </div>                            
@@ -131,9 +126,9 @@ Tuotteiden laatu on erittain korkeanlaatusta, lahes koko Venajan alueella kaytet
 			<div id="footer">
 				<div id="foot">
 						<div class="left-foot">
-							Mikko Kiiski- Johtaja<br />
-							Phone: +358445725215<br />
-							Email:  kiiskenkivi@gmail.com<br />
+							<spring:message code="pages.index.down1" /><br />
+							<spring:message code="pages.index.down2" /><br />
+							<spring:message code="pages.index.down3" /><br />
                         </div>
                       </div>
 			</div>

@@ -68,13 +68,13 @@
 						<div class="base">
 						<ul class="base-row">
 						<li class="cell1"><div class="content1" >
-						<h2><a href="HautakivetMallisto.html" >HautakivetMallisto</h2><br />
+						<h2><a href="HautakivetMallisto.html" >Hautakivet-Mallisto</h2><br />
 						<a href="HautakivetMallisto.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_4.jpg"></img></a>
                         <p>
                         <H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin löytymistä.</H3>		
 						</div></li>
 						<li class="cell1"><div class="content2">							
-                        <h2><a href="Keittiotasot.html" >???????????????</h2><br />
+                        <h2><a href="Muotokivet.html" >Muotokivet</h2><br />
 						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_5.jpg"></img></a>
                         <p>
                         <H3>Kaikki täysin kiillotettu, eri muotoilu ja eri paksuinen(5-15cm) Hinnat valehtelee 500-2500 Euro.</H3>

@@ -24,27 +24,7 @@
 	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->
 <style type='text/css' media='screen,projection'>
-<!--
-fieldset {
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
 
-label {
-	padding-right: 15px;
-	float: left;
-	width: 70px;
-}
-
-input.text {
-	width: 290px;
-	font: 12px/12px 'courier new', courier, monospace;
-	color: #333;
-	padding: 3px;
-	margin: 1px 0;
-}
--->
 </style>
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
@@ -108,13 +88,10 @@ input.text {
 	<!-- END OF MAIN_CONTAINER -->
 	<div ng-repeat="item in headstonesData">
 	
-
-
-	
-				<div class="col-md-3">
+				<div class="col-md-3" style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/headstone-data/{{item.picture}}.jpg"
-							width="300" height="200"></img>
+							style="width:100%"></img>
 							
 					</div>
 					<span><h4>{{item.name}}</h4></span>
@@ -130,9 +107,10 @@ input.text {
 		<div id="footer">
 			<div id="foot">
 				<div class="left-foot">
-					Mikko Kiiski- Johtaja<br /> Phone: +358445725215, Email:
-					kiiskenkivi@gmail.com<br />
-				</div>
+							<spring:message code="pages.index.down1" /><br />
+							<spring:message code="pages.index.down2" /><br />
+							<spring:message code="pages.index.down3" /><br />
+                        </div>
 			</div>
 		</div>
 	</div>

@@ -44,4 +44,8 @@ public class IndexController {
 	public String HautakivetMallisto() {
 		return "HautakivetMallisto";
 	}
+	@RequestMapping("/Muotokivet")
+	public String Muotokivet() {
+		return "Muotokivet";
+	}
 }

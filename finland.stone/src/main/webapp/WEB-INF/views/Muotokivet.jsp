@@ -4,48 +4,46 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
-
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="fi" lang="fi"
+	ng-app="stone">
+<head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="" />
-  <meta name="title" content="" />
-  <meta name="description" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="title" content="" />
+<meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
-
 <!-- ////////////////////////////////// -->
 <!-- //      Start Stylesheets       // -->
 <!-- ////////////////////////////////// -->
-<link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
-<link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-<style type='text/css' media='screen,projection'>
-<!--
-fieldset { border:0;margin:0;padding:0; }
-label {  padding-right:15px; float:left; width:70px;}
-input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
--->
-</style>
+<link href="${pageContext.request.contextPath}/resources/css/style.css"	rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/resources/css/inner.css"	rel="stylesheet" type="text/css" />
+<link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"	rel="stylesheet" type="text/css" />
 
+<style type='text/css' media='screen,projection'>
+
+</style>
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/xmlHttp.js"></script>  
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
-<script type="text/javascript">
-            Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
-</script>   
-    
-</head>
-<body>
 
+	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/xmlHttp.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
+	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
+	<script type="text/javascript">	Cufon.replace('h1')('h2')('h3')('h4')('#nav li')('#nav li a');</script>
+</head>
+<body ng-controller="blackHeadstoneController">
+<div id="bottom_c">
+	
+	
 	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
         
@@ -73,33 +71,46 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                             </ul>
                                 </div>
                             </div>                            							
-						</div>                        
-					<!-- END OF HEADER -->           
-                                                                       
-                     <!-- BEGIN CONTENT -->
-     
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7937.790239472389!2d24.9410248!3d60.17332395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2z0KXQtdC70YzRgdC40L3QutC4LCDQpNC40L3Qu9GP0L3QtNC40Y8!5e0!3m2!1sru!2sua!4v1426498202957" width="500" height="400" frameborder="0" style="border:0"></iframe>
-                	 <!-- END OF CONTENT -->
-                     
-                </div>
-                <!-- END OF FRAME -->
-        </div>
-        <!-- END OF MAIN_CONTAINER -->
-        
-        <!-- BEGIN FOOTER -->
-		<div id="bottom_container">
-			<div id="footer">
-				<div id="foot">
-						<div class="left-foot">
+						</div>   
+					    
+ 						<div id="head-title">
+ 						<center><h2>Muotokiviet</h2></center>
+ 						</div>	
+ 						
+					<!-- END OF HEADER -->   
+			
+		</div>
+		<!-- END OF FRAME -->
+	
+	<!-- END OF MAIN_CONTAINER -->
+	<div ng-repeat="item in blackHeadstonesData">
+	
+				<div class="col-md-3" style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
+					<div>
+						<img src="${pageContext.request.contextPath}/resources/headstone-data2/{{item.picture}}.jpg"
+							style="width:75%"></img>
+							
+					</div>
+					<span><h4>{{item.names}}</h4></span>
+				
+				</div>
+			
+			</div>
+			
+	<!-- BEGIN FOOTER -->
+	<div id="bottom_container">
+		<div id="footer">
+			<div id="foot">
+				<div class="left-foot">
 							Mikko Kiiski- Johtaja<br />
 							Phone: +358445725215<br />
 							Email:  kiiskenkivi@gmail.com<br />
                         </div>
-                        
-				</div>
 			</div>
 		</div>
-		<!-- END OF FOOTER -->
-        
+	</div>
+	<!-- END OF FOOTER -->
+
+</div>
 </body>
 </html>

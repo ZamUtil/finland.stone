@@ -71,7 +71,7 @@
                                                                        
                      <!-- BEGIN CONTENT -->
                   
-                        	                            
+                        	     <iframe frameborder="0" src="http://mega-photoshop.ru/fotoshop_onlajn.html" height="950px" width="100%" ></iframe><br/><a href="http://cifrografia.ru/photoshop-online/ " target=_blank></a>                       
                             
                 	 <!-- END OF CONTENT -->
                      

@@ -103,7 +103,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.currentState = 1;
 	
 	$scope.nextState = function(state) {
-		if(state == 2 && $scope.selectedState2 == SIZE_DIV_POSS){
+		if(state == 2 && $scope.selectedState2 == 3){
 			if($scope.state2width == "" && $scope.state2height == ""){
 				$scope.errorState2 = true;
 				return;
@@ -149,4 +149,40 @@ angular.module('stone', ['ngRoute','ngResource']).
 	};
 	
 	//state3
+	$scope.namesState3 = ["1","2","3","4","5","6",
+	                "7","8","9","10","11","12",
+	                "13","14","15","16","17"];
+
+	$scope.selectItemState3  = function(index){
+		$scope.selectedState3 = index;
+	};
+	//state4
+	$scope.namesState4 = ["Louhittu","Hiottu","sahattu"];
+
+	  	$scope.selectItemState4  = function(index){
+	  		$scope.selectedState4 = index;
+	  	};
+	//state
+	//state5
+	$scope.namesState5 = ["Ei koristetta","Kynttiläluukku","Risti"];
+
+	$scope.selectItemState5  = function(index){
+		$scope.selectedState5 = index;
+	};
+	//state6
+	//state7
+	//state8
+	//state9
+	$scope.namesState9 = ["without","2","3","4","5","6",
+	  	                "7","8","9","10","11","12",
+	  	                "13","14","15","16","17",
+	  	                "18","19","20","21","22",
+	  	                "23","24","25","26","27",
+	  	                "28","29","30","31","32",
+	  	                "33","34","35","36","37"];
+
+	  	$scope.selectItemState9  = function(index){
+	  		$scope.selectedState9 = index;
+	  	};
+	//state10
 	});

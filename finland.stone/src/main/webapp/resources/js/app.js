@@ -87,7 +87,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 
 
 .controller('suunnitteleController', function($scope,$rootScope,$timeout,$window) {
-	var SIZE_DIV_POSS = 3;
+	var SIZE_DIV_POSS = 5;
 	
 	$scope.selectedState1 = 0;
 	$scope.selectedState2 = 0;
@@ -103,7 +103,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.currentState = 1;
 	
 	$scope.nextState = function(state) {
-		if(state == 2 && $scope.selectedState2 == 3){
+		if(state == 2 && $scope.selectedState2 == 5){
 			if($scope.state2width == "" && $scope.state2height == ""){
 				$scope.errorState2 = true;
 				return;
@@ -137,7 +137,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	};
 	
 	//state2
-	$scope.namesState2 = ["60x90cm","80x60cm","120x70cm","Oma koko"];
+	$scope.namesState2 = ["40x80cm","50x100cm","70x140cm","120x70cm","130x80cm","Oma koko"];
 	
 	$scope.state2width="";
 	$scope.state2height="";

@@ -101,9 +101,9 @@
 			<div id="footer">
 				<div id="foot">
 						<div class="left-foot">
-							Mikko Kiiski- Johtaja<br />
-							Phone: +358445725215<br />
-							Email:  kiiskenkivi@gmail.com<br />
+							<spring:message code="pages.index.down1" /><br />
+							<spring:message code="pages.index.down2" /><br />
+							<spring:message code="pages.index.down3" /><br />
                         </div>
                         
 				</div>

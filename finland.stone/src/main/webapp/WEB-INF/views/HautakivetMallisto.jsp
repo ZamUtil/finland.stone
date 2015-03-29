@@ -63,8 +63,8 @@
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
+                            	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
                                 <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
@@ -72,8 +72,11 @@
                         		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
 						</span>
                             </ul>
+                                    <div>
+						
+					</div>
                                 </div>
-                            </div>                            							
+                            </div>                           							
 						</div>   
 					    
  						<div id="head-title">
@@ -81,28 +84,27 @@
  						</div>	
  						
 					<!-- END OF HEADER -->   
-			
-		</div>
-		<!-- END OF FRAME -->
-	
-	<!-- END OF MAIN_CONTAINER -->
-	<div ng-repeat="item in headstonesData">
+			<div ng-repeat="item in headstonesData">
 	
 				<div class="col-md-3"  style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
 					<div>
 					
 						<img src="${pageContext.request.contextPath}/resources/headstone-data/{{item.picture}}.jpg"
 							style="width:100%"></img>
-							
+					<!-- <span><h5>{{item.name}}</h5></span>
+					<span><h5>{{item.size}}</h5></span> -->
+					<span><h4>{{item.prise}} €</h4></span>
 					</div>
 					
-					<span><h4>{{item.name}}</h4></span>
-					<span><h4>{{item.size}}</h4></span>
-					<span><h4>{{item.prise}} €</h4></span>
+					
+				
 				
 				</div>
 			
 			</div>
+		</div>
+		
+	
 			
 	<!-- BEGIN FOOTER -->
 	<div id="bottom_container">

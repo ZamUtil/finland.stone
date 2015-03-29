@@ -64,8 +64,8 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
+                            	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
                                 <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
@@ -73,14 +73,13 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                         		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
 						</span>
                             </ul>
+                                    <div>
+						
+					</div>
                                 </div>
                             </div>                            							
 						</div>         
- 							<!-- <div id="head-title">
-						     <h2>Hautakiviet</h2>
-							 </div>  -->                                                    	
-                        </div>	
-                     <div ng-show="currentState == 1">
+						 <div ng-show="currentState == 1">
 			<div class="state1"><center><h3>Valitse kivimalli 1/1</h3><center/></div>
 			<div ng-repeat="i in getNumber(14) track by $index" >
 			
@@ -98,7 +97,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 		
 		<div ng-show="currentState == 2">
 			<div class="state1">Описание1111</div>
-			<div ng-repeat="i in getNumber(4) track by $index" >
+			<div ng-repeat="i in getNumber(6) track by $index" >
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState2 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState2($index)">
 					<div>
@@ -107,10 +106,10 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 							 <span>{{namesState2[$index]}}</span>
 					</div>
 					
-					<input type="text" ng-if="$index == 3" ng-model="state2width" ></input>
-					<input type="text" ng-if="$index == 3" ng-model="state2height" ></input>
+					<input type="text" ng-if="$index == 5" ng-model="state2width" ></input>
+					<input type="text" ng-if="$index == 5" ng-model="state2height" ></input>
 					
-					<span ng-if="$index == 3" ng-show ="errorState2 == true">Заполните все поля</span>
+					<span ng-if="$index == 5" ng-show ="errorState2 == true">Заполните все поля</span>
 					
 				</div>
 			</div>
@@ -135,7 +134,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 		<div ng-show="currentState == 4">
 			<div class="state1">Описание11122221</div>
 			<div ng-repeat="i in getNumber(3) track by $index" >
-				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState4 }"
+				<div class="col-md-4" ng-class="{ 'selected-div': $index == selectedState4 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState4($index)">
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/hintaan/{{$index+1}}.png"
@@ -177,16 +176,26 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 
 					</div>
 				</div>
+				
 			</div>
 
 		</div>
+	
+		</div><center>
+                
+                <button ng-click="backState()" ng-show="currentState > 1">Back</button>  
+                <button ng-click="nextState(currentState)">Next</button>
+                <center/>
+                </div>	
 </div>
 
- 					
-                </div>
-                <button ng-click="nextState(currentState)">Next</button>
-                <button ng-click="backState()" ng-show="currentState > 1">Back</button>  
-                </div>
+ 				
+                
+ 							<!-- <div id="head-title">
+						     <h2>Hautakiviet</h2>
+							 </div>  -->                                                    	
+                        </div>	
+                    
 
 		
 
@@ -196,9 +205,11 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 			<div id="footer">
 				<div id="foot">
 						<div class="left-foot">
-                        Mikko Kiiski- Johtaja<br />
-						Phone: +358445725215, Email:  kiiskenkivi@gmail.com<br />
+							<spring:message code="pages.index.down1" /><br />
+							<spring:message code="pages.index.down2" /><br />
+							<spring:message code="pages.index.down3" /><br />
                         </div>
+                        
 				</div>
 			</div>
 		</div>

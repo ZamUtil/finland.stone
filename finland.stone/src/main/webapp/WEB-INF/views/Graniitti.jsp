@@ -46,9 +46,9 @@
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                            	<li class="current"><a class="active" href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
-                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
+                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
+                                <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                                 <span style="float: right"> 
@@ -99,9 +99,9 @@
 			<div id="footer">
 				<div id="foot">
 						<div class="left-foot">
-							Mikko Kiiski- Johtaja<br />
-							Phone: +358445725215<br />
-							Email:  kiiskenkivi@gmail.com<br />
+							<spring:message code="pages.index.down1" /><br />
+							<spring:message code="pages.index.down2" /><br />
+							<spring:message code="pages.index.down3" /><br />
                         </div>
                         
 				</div>

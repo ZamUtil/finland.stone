@@ -88,12 +88,14 @@
 	<!-- END OF MAIN_CONTAINER -->
 	<div ng-repeat="item in headstonesData">
 	
-				<div class="col-md-3" style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
+				<div class="col-md-3"  style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
 					<div>
+					
 						<img src="${pageContext.request.contextPath}/resources/headstone-data/{{item.picture}}.jpg"
 							style="width:100%"></img>
 							
 					</div>
+					
 					<span><h4>{{item.name}}</h4></span>
 					<span><h4>{{item.size}}</h4></span>
 					<span><h4>{{item.prise}} €</h4></span>

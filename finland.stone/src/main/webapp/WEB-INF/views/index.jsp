@@ -66,7 +66,8 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
                         <div id="slides-cu3er">
                             <div id="threed-slider">
                                 <a href="http://www.adobe.com/go/getflashplayer">
-        							<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" class="flash-img" />
+        							<!-- <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" class="flash-img" /> -->
+        							<img src="${pageContext.request.contextPath}/resources/images/slide_2.jpg"> 
     							</a>
                             </div>
                         </div>
@@ -114,7 +115,7 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
 							<li><spring:message code="pages.home.properties.4" /></li>
 							<li><spring:message code="pages.home.properties.5" />;</li>
 							</ul>
-                                     
+                                 <img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_7.jpg">    
                             </div>
                             <div class="maincontent">                               
                             </div>                            

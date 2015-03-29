@@ -61,7 +61,7 @@
                        <div id="head-top">
                             <div id="head-title">
 						
-                            <h2>Graniitti tuotteet </h2>
+                            <h2><spring:message code="pages.graniitti" /></h2>
 							   
                             </div>                                                     	
                         </div>
@@ -69,26 +69,25 @@
 						<div class="base">
 						<ul class="base-row">
 						<li class="cell1"><div class="content1" >
-						<h2><a href="Keittiotasot.html" >Keittiötasot</h2><br />
+						<h2><a href="Keittiotasot.html" ><spring:message code="pages.graniitti.keittiötasot" /></h2><br />
 						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg"></img></a>
-                        <H3>Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.</H3>		
+                        <H3><spring:message code="pages.graniitti.keittiötasot.text" /></H3>		
 						</div></li>
 						<li class="cell1"><div class="content2">							
-                        <h2><a href="Keittiotasot.html" >Nupu ja noppa-kivet</h2><br />
+                        <h2><a href="Keittiotasot.html" ><spring:message code="pages.graniitti.nupu" /></h2><br />
 						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg"></img></a>
-                        <H3>Noppakivi on yleisin aito pihakivi kodin pihoissa ja puutarhoissa. Lohkottu graniitti on kaunis ja ajaton vaihtoehto ajoväylille, reunuksiin ja parkkipaikoille missä kiven ominaisuuksilta vaaditaan paljon. 
- 						Nupukivi sopii hyvin myös istutusalueiden kukkapenkkien sekä polkujen reunustamiseen. Kokonsa ansiosta nupukivellävoidaan tehdä helposti myös kaarevia muotoja.</H3>
+                        <H3><spring:message code="pages.graniitti.nupu.text" /></H3>
 						</li>
 						<li class="cell1"><div class="content3">
-						<h2><a href="Keittiotasot.html" >Laattaa</h2><br />
+						<h2><a href="Keittiotasot.html" ><spring:message code="pages.graniitti.laattaa" /></h2><br />
 						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg"></img></a>
-                        <H3>Aito graniitti on kestävä ja helppohoitoinen luonnonmateriaali. Kiilloitettu graniittilaatta on edullinen luonnonmukainen vaihtoehto kotisi eri pintojen päällystämiseen. </H3>       
+                        <H3><spring:message code="pages.graniitti.laattaa.text" /></H3>       
 						</div></li>
 					</ul>
                         
                      </div>
                  <p>
-                      <hr><h2><a href="index.html" >Kotisivu</h2><br /></hr>
+                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
                     </div>
                 </div>
              

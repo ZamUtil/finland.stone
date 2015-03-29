@@ -60,7 +60,7 @@
 						</div>
                        <div id="head-top">
                             <div id="head-title">
-						     <h2>Hautakiviet</h2>
+						     <h2><spring:message code="pages.hautakivet" /></h2>
 							 </div>                                                     	
                         </div>
 
@@ -68,28 +68,28 @@
 						<div class="base">
 						<ul class="base-row">
 						<li class="cell1"><div class="content1" >
-						<h2><a href="HautakivetMallisto.html" >Hautakivet-Mallisto</h2><br />
+						<h2><a href="HautakivetMallisto.html" ><spring:message code="pages.hautakivet.mallisto" /></h2><br />
 						<a href="HautakivetMallisto.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_4.jpg"></img></a>
                         <p>
-                        <H3>Mallisto on ryhmitelty erityyppisten hautakivimallien mukaan, helpottaaksemme sopivan hautakivimallin löytymistä.</H3>		
+                        <H3><spring:message code="pages.hautakivet.mallisto.text"/></H3>		
 						</div></li>
 						<li class="cell1"><div class="content2">							
-                        <h2><a href="Muotokivet.html" >Muotokivet</h2><br />
+                        <h2><a href="Muotokivet.html" ><spring:message code="pages.hautakivet.moutokivet"/></h2><br />
 						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_5.jpg"></img></a>
                         <p>
-                        <H3>Kaikki täysin kiillotettu, eri muotoilu ja eri paksuinen(5-15cm) Hinnat valehtelee 500-2500 Euro.</H3>
+                        <H3><spring:message code="pages.hautakivet.moutokivet.text"/></H3>
 						</li>
 						<li class="cell1"><div class="content3">
-						<h2><a href="Suunnittele.html" >Suunnittele hautakivi</h2><br />
+						<h2><a href="Suunnittele.html" ><spring:message code="pages.hautakivet.suunnittele"/></h2><br />
 						<p>
 						<a href="Suunnittele.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_6.jpg"></img></a>
-                        <H3>Suunnittele hautakivi oman kodin rauhassa.</H3>       
+                        <H3><spring:message code="pages.hautakivet.suunnittele.text"/></H3>       
 						</div></li>
 					</ul>
                        
                      </div>
                      <p>
-                      <hr><h2><a href="index.html" >Kotisivu</h2><br /></hr>
+                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
                    </div>  
                 </div>
                 <!-- END OF FRAME -->

@@ -48,7 +48,8 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
-</script>   
+</script>  
+ 
     
 </head>
 <body ng-controller="suunnitteleController">
@@ -75,16 +76,14 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                                 </div>
                             </div>                            							
 						</div>         
- 						<div id="head-top">
-                           <span><h2></h2></span>                                                     	
+ 							<!-- <div id="head-title">
+						     <h2>Hautakiviet</h2>
+							 </div>  -->                                                    	
                         </div>	
-                        <p>
-                         
                      <div ng-show="currentState == 1">
-			<div class="state1">Описание
-			
-			</div>
+			<div class="state1"><center><h3>Valitse kivimalli 1/1</h3><center/></div>
 			<div ng-repeat="i in getNumber(14) track by $index" >
+			
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState1 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState1($index)">
 					<div>
@@ -120,7 +119,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 		
 		<div ng-show="currentState == 3">
 			<div class="state1">Описание11122221</div>
-			<div ng-repeat="i in getNumber(17) track by $index" >
+			<div ng-repeat="i in getNumber(16) track by $index" >
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState3 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState3($index)">
 					<div>
@@ -183,9 +182,10 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 		</div>
 </div>
 
-<button ng-click="nextState(currentState)">Next</button>
-<button ng-click="backState()" ng-show="currentState > 1">Back</button>   					
+ 					
                 </div>
+                <button ng-click="nextState(currentState)">Next</button>
+                <button ng-click="backState()" ng-show="currentState > 1">Back</button>  
                 </div>
 
 		

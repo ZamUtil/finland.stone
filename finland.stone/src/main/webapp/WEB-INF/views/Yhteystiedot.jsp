@@ -80,8 +80,10 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
      
                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7937.790239472389!2d24.9410248!3d60.17332395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2z0KXQtdC70YzRgdC40L3QutC4LCDQpNC40L3Qu9GP0L3QtNC40Y8!5e0!3m2!1sru!2sua!4v1426498202957" width="500" height="400" frameborder="0" style="border:0"></iframe>
                 	 <!-- END OF CONTENT -->
-                     
+                     <p>
+                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
                 </div>
+                
                 <!-- END OF FRAME -->
         </div>
         <!-- END OF MAIN_CONTAINER -->

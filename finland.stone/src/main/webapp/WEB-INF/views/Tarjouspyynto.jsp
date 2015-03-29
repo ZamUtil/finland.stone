@@ -74,7 +74,8 @@
                         	     <iframe frameborder="0" src="http://mega-photoshop.ru/fotoshop_onlajn.html" height="950px" width="100%" ></iframe><br/><a href="http://cifrografia.ru/photoshop-online/ " target=_blank></a>                       
                             
                 	 <!-- END OF CONTENT -->
-                     
+                     <p>
+                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
                 </div>
                 <!-- END OF FRAME -->
         </div>

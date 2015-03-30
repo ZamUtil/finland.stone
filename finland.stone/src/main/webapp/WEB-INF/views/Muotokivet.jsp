@@ -23,6 +23,7 @@
 <style type='text/css' media='screen,projection'>
 
 </style>
+
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
@@ -77,9 +78,11 @@
 						</div>   
 					    
  						<div id="head-title">
- 						<center><h2>Muotokiviet</h2></center>
+ 						<p><h2><center>Muotokiviet</center></h2></p>
+ 						<p><H4><center><spring:message code="pages.hautakivet.moutokivet.text"/></center></H4></p>
  						</div>	
  						
+ 					
 					<!-- END OF HEADER -->   
 			<div ng-repeat="item in blackHeadstonesData">
 	
@@ -90,6 +93,7 @@
 							
 					</div>
 					<span><h4>{{item.names}}</h4></span>
+					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa</a>
 				
 				</div>
 			

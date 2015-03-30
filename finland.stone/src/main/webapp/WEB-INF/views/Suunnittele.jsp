@@ -85,10 +85,13 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 			
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState1 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState1($index)">
+					
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kivimalli/{{$index+1}}.png"
 							style="width: 20%"></img>
+							<a ng-click="selectItemState1($index)" href="" class="button30">+</a>
 							 <span>{{names[$index]}}</span>
+							 
 
 					</div>
 				</div>
@@ -103,6 +106,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/vaikutukset-hintaan/{{$index+1}}.png"
 							style="width: 20%"></img>
+							<a ng-click="selectItemState2($index)" href="#" class="button30">+</a>
 							 <span>{{namesState2[$index]}}</span>
 					</div>
 					
@@ -124,6 +128,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kukka-aihiot/{{$index+1}}.png"
 							style="width: 20%"></img>
+							<a ng-click="selectItemState3($index)" href="#" class="button30">+</a>
 							 <span>{{namesState3[$index]}}</span>
 
 					</div>
@@ -134,11 +139,13 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 		<div ng-show="currentState == 4">
 			<div class="state1">Описание11122221</div>
 			<div ng-repeat="i in getNumber(3) track by $index" >
-				<div class="col-md-4" ng-class="{ 'selected-div': $index == selectedState4 }"
+				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState4 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState4($index)">
+					
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/hintaan/{{$index+1}}.png"
 							style="width: 20%"></img>
+							<a ng-click="selectItemState4($index)" href="#" class="button30">+</a>
 							 <span>{{namesState4[$index]}}</span>
 
 					</div>
@@ -152,13 +159,44 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState5 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState5($index)">
 					<div>
-						
+						<a ng-click="selectItemState5($index)" href="#" class="button30">+</a>
 							 <span>{{namesState5[$index]}}</span>
 
 					</div>
 				</div>
 			</div>
-
+		</div>	
+		<div ng-show="currentState == 6">
+			<div class="state1">Описание11122221</div>
+			<div ng-repeat="i in getNumber(2) track by $index" >
+				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState6 }"
+					style="border: 2px solid black; border-color: grey" ng-click="selectItemState6($index)">
+					<div>
+					<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kynttiläluukku/{{$index+1}}.png"
+							style="width: 20%"></img>
+						<a ng-click="selectItemState6($index)" href="#" class="button30">+</a>
+							 <span>{{namesState6[$index]}}</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div ng-show="currentState == 7">
+			<div class="state1">Описание11122221</div>
+			<div ng-repeat="i in getNumber(9) track by $index" >
+				<div class="col-md-4" ng-class="{ 'selected-div': $index == selectedState7 }"
+					style="border: 2px solid black; border-color: grey" ng-click="selectItemState7($index)">
+					<div>
+					
+					<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/risti/{{$index+1}}.jpg"
+							style="width: 30%"></img>
+					
+						<a ng-click="selectItemState7($index)" href="#" class="button30">+</a>
+							 <span>{{namesState7[$index]}}</span>
+					
+				</div>
+			</div>
+		</div>
+		</div>
 		
 		
 		<!-- state 9 -->
@@ -173,20 +211,13 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 							style="width="50", height="200"></img>
 							
 							 <span>{{namesState9[$index]}}</span>
-
 					</div>
 				</div>
 				
 			</div>
-
 		</div>
 	
-		</div><center>
-                
-                <button ng-click="backState()" ng-show="currentState > 1">Back</button>  
-                <button ng-click="nextState(currentState)">Next</button>
-                <center/>
-                </div>	
+		
 </div>
 
  				
@@ -196,7 +227,13 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 							 </div>  -->                                                    	
                         </div>	
                     
-
+</div><center>
+                <a ng-click="backState()" ng-show="currentState > 1" href="#" class="button10">Back</a>
+                <a ng-click="nextState(currentState)" href="#" class="button10">Next</a>
+             <!--    <button ng-click="backState()" ng-show="currentState > 1">Back</button>  
+                <button ng-click="nextState(currentState)">Next</button> -->
+                <center/>
+                </div>	
 		
 
 

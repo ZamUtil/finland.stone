@@ -26,6 +26,7 @@
 <style type='text/css' media='screen,projection'>
 
 </style>
+
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
@@ -82,18 +83,26 @@
  						<div id="head-title">
  						<center><h2>  Hautakivimallisto</h2></center>
  						</div>	
- 						
+ 						<div>
+ 						<H3><center><spring:message code="pages.hautakivet.mallisto.text"/><center/></H3>
+ 						</div>
 					<!-- END OF HEADER -->   
 			<div ng-repeat="item in headstonesData">
 	
-				<div class="col-md-3"  style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
+				<div class="col-md-3"  style="border: 2px solid black;border-color:grey" ><!-- dsfdsfdsf -->
 					<div>
-					
+					<div style="border: 1px solid black;border-color:black">
 						<img src="${pageContext.request.contextPath}/resources/headstone-data/{{item.picture}}.jpg"
 							style="width:100%"></img>
-					<!-- <span><h5>{{item.name}}</h5></span>
-					<span><h5>{{item.size}}</h5></span> -->
+						</div>
+					<div style="height:70px">
+						<span><h5>{{item.name}}</h5></span>
+						<span><h5>{{item.size}}</h5></span>
+						
+					</div>
 					<span><h4>{{item.prise}} €</h4></span>
+					<!-- <p style="text-align: center"><button ng-click="selectDiv(item)"></button> -->
+					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa</a>
 					</div>
 					
 					

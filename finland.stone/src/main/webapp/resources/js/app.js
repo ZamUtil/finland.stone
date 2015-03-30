@@ -1,4 +1,3 @@
-
 angular.module('stone', ['ngRoute','ngResource']).
 // services
     factory('colourService', function($resource, $rootScope) {
@@ -162,7 +161,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	  	$scope.selectItemState4  = function(index){
 	  		$scope.selectedState4 = index;
 	  	};
-	//state
+	
 	//state5
 	$scope.namesState5 = ["Ei koristetta","Kynttiläluukku","Risti"];
 
@@ -170,7 +169,18 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$scope.selectedState5 = index;
 	};
 	//state6
+	$scope.namesState6 = ["Pyöreä holvi","Goottilainen holvi"];
+
+	$scope.selectItemState6  = function(index){
+		$scope.selectedState6 = index;
+	};
 	//state7
+	$scope.namesState7 = ["Risti","Risti","Kaksinkertainen ","Kolminkertainen ","Ruusuristi",
+	                      "Tähkäristi","Risti","Risti","Kieloristi","Pieni kieloristi"];
+
+	$scope.selectItemState7  = function(index){
+		$scope.selectedState7 = index;
+	};
 	//state8
 	//state9
 	$scope.namesState9 = ["without","2","3","4","5","6",

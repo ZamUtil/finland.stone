@@ -84,12 +84,12 @@ angular.module('stone', ['ngRoute','ngResource']).
 	}
 })
 
-
+////////////////////sunnittelle
 .controller('suunnitteleController', function($scope,$rootScope,$timeout,$window) {
 	var SIZE_DIV_POSS = 5;
 	
-	$scope.selectedState1 = 0;
-	$scope.selectedState2 = 0;
+	$scope.selectedState1;
+	$scope.selectedState2;
 	$scope.selectedState3;
 	$scope.selectedState4;
 	$scope.selectedState5;
@@ -98,10 +98,13 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.selectedState8;
 	$scope.selectedState9;
 	$scope.selectedState10;
+	$scope.selectedState11;
+	$scope.selectedState12;
 	
 	$scope.currentState = 1;
 	
 	$scope.nextState = function(state) {
+		console.log($scope);
 		if(state == 2 && $scope.selectedState2 == 5){
 			if($scope.state2width == "" && $scope.state2height == ""){
 				$scope.errorState2 = true;
@@ -115,12 +118,42 @@ angular.module('stone', ['ngRoute','ngResource']).
 				$scope.selectedState2.state2height = $scope.state2height;
 			}
 		}
+		if (state == 5 && $scope.selectedState5 == 0){
+			$scope.currentState=8;
+			return;
+		}
+		if (state == 5 && $scope.selectedState5 == 1){
+			$scope.currentState=6;
+			return;
+		}
+		if (state == 5 && $scope.selectedState5 == 2){
+			$scope.currentState=7;
+			return;
+		}
+		if (state == 6 ){
+			$scope.currentState=8;
+			return;
+		}
+		
 		$scope.currentState++;
 	}
 	
-	$scope.backState = function() {
+	$scope.backState =  function(state) {
+		if (state == 6){
+			$scope.currentState=5;
+			return;
+		}
+		if (state == 7 ){
+			$scope.currentState=5;
+			return;
+		}
+		if (state == 8 ){
+			$scope.currentState=5;
+			return;
+		}
 		$scope.currentState--;
 	}
+	
 	
 	$scope.getNumber = function(num) {
 	    return new Array(num);   
@@ -182,17 +215,39 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$scope.selectedState7 = index;
 	};
 	//state8
-	//state9
-	$scope.namesState9 = ["without","2","3","4","5","6",
-	  	                "7","8","9","10","11","12",
-	  	                "13","14","15","16","17",
-	  	                "18","19","20","21","22",
-	  	                "23","24","25","26","27",
-	  	                "28","29","30","31","32",
-	  	                "33","34","35","36","37"];
+	$scope.namesState8 = ["Antikva","Groteski","Mundial"];
 
-	  	$scope.selectItemState9  = function(index){
-	  		$scope.selectedState9 = index;
-	  	};
+	$scope.selectItemState8  = function(index){
+		$scope.selectedState8 = index;
+	};
+	//state9
+	$scope.namesState9 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+
+	$scope.selectItemState9  = function(index){
+		$scope.selectedState9 = index;
+	};
 	//state10
+	$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+
+	$scope.selectItemState10  = function(index){
+		$scope.selectedState10 = index;
+	};
+	//state11
+	$scope.namesState11 = ["Ei koristetta","Enkeli 1","Enkeli 2","Enkeli 4","Enkeli 6","Pitsienkeli",
+	  	                "Enkeli 12","Suojelusenkeli","Rukoileva enkeli","Joutsen ","Laulujoutsen, koiras","Laulujoutsen, naaras",
+	  	                "Leppälintu","Lintupari oksalla","Pääsky","Varpunen 7A ","Varpunen 7B ",
+	  	                "Kielo","Kelo","Lyhde","Muratti","Päivänkakkara",
+	  	                "Petäjä","Rauhanlehvä","Ruusu","Ruusunoksa","Ankkuri",
+	  	                "Kaipaus ","Kaipaus","Lohi","Nuottiavain","Orava",
+	  	                "Perhonen","Purjevene","Sinisiipi","Sydän","Vene ja airot"];
+
+	  	$scope.selectItemState11  = function(index){
+	  		$scope.selectedState11 = index;
+	  	};
+	  //state12
+		$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+
+		$scope.selectItemState10  = function(index){
+			$scope.selectedState10 = index;
+		};
 	});

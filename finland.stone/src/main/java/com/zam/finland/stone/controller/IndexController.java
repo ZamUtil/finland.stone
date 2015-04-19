@@ -52,4 +52,16 @@ public class IndexController {
 	public String Suunnittele() {
 		return "Suunnittele";
 	}
+	@RequestMapping("/Portaat")
+	public String Portaat() {
+		return "Portaat";
+	}
+	@RequestMapping("/NuppuNoppa")
+	public String NuppuNoppa() {
+		return "NuppuNoppa";
+	}
+	@RequestMapping("/Laattaa")
+	public String Laattaa() {
+		return "Laattaa";
+	}
 }

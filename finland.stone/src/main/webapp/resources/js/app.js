@@ -215,13 +215,13 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$scope.selectedState7 = index;
 	};
 	//state8
-	$scope.namesState8 = ["Antikva","Groteski","Mundial"];
+	$scope.namesState8 = ["Groteski","Korkea Groteski","Antikva","Leveä Antikva","Kapea Antikva"];
 
 	$scope.selectItemState8  = function(index){
 		$scope.selectedState8 = index;
 	};
 	//state9
-	$scope.namesState9 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+	$scope.namesState9 = ["Tumma patina","Kirkas pintai","Taidepatina","Taonta","Kromaus","Kultaus","Kestolakkaus"];
 
 	$scope.selectItemState9  = function(index){
 		$scope.selectedState9 = index;
@@ -241,13 +241,17 @@ angular.module('stone', ['ngRoute','ngResource']).
 	  	                "Kaipaus ","Kaipaus","Lohi","Nuottiavain","Orava",
 	  	                "Perhonen","Purjevene","Sinisiipi","Sydän","Vene ja airot"];
 
-	  	$scope.selectItemState11  = function(index){
+	 $scope.selectItemState11  = function(index){
 	  		$scope.selectedState11 = index;
 	  	};
-	  //state12
-		$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+	//state12
+	$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
 
-		$scope.selectItemState10  = function(index){
-			$scope.selectedState10 = index;
+	$scope.selectItemState10  = function(index){
+		$scope.selectedState10 = index;
 		};
 	});
+
+
+
+

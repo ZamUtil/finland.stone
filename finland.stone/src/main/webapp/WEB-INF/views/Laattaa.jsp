@@ -6,26 +6,42 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
 
-
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Start Stylesheets       // -->
+<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
-<link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="${pageContext.request.contextPath}/resources/css/jcarousel.css" rel="stylesheet" type="text/css" />
-<script src="${pageContext.request.contextPath}/resources/js/jquery-1.3.2.min.js" type="text/javascript"></script>
-<script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
-<script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
-<script src="${pageContext.request.contextPath}/resources/js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" ></script>
+<!--[if IE 6]>
+    <script type="text/javascript" src="js/unitpngfix.js"></script>
+	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style type='text/css' media='screen,projection'>
+<!--
+fieldset { border:0;margin:0;padding:0; }
+label {  padding-right:15px; float:left; width:70px;}
+input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
+-->
+</style>
+
+<!-- ////////////////////////////////// -->
+<!-- //      Javascript Files        // -->
+<!-- ////////////////////////////////// -->
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/xmlHttp.js"></script>  
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
-</script> 
+</script>   
     
 </head>
 <body>
@@ -56,65 +72,41 @@
 						</span>
                             </ul>
                                 </div>
-                            </div>                            							
-						</div>
-                       <div id="head-top">
+                            </div>                      							
+						</div>         
+ 						<div id="head-top">
                             <div id="head-title">
-						
-                            <h2><spring:message code="pages.graniitti" /></h2>
-							   
-                            </div>                                                     	
-                        </div>
-                     <div id="content">
-						<div class="base">
-						<ul class="base-row">
-						<li class="cell1"><div class="content1" >
-						<h2><a href="Keittiotasot.html" ><spring:message code="pages.graniitti.keittiötasot" /></h2><br />
-						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.keittiötasot.text" /></H3>		
-						</div></li>
-						<li class="cell1"><div class="content2">							
-                        <h2><a href="NuppuNoppa.html" ><spring:message code="pages.graniitti.nupu" /></h2><br />
-						<a href="NuppuNoppa.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.nupu.text" /></H3>
-						</li>
-						<li class="cell1"><div class="content3">
-						<h2><a href="Laattaa.html" ><spring:message code="pages.graniitti.laattaa" /></h2><br />
-						<a href="Laattaa.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.laattaa.text" /></H3>       
-						</div></li>
-					</ul>
-                        
-                     </div>
-                     <hr></hr>
-                     </div>
-                     <hr></hr>
-                     <div id="content">
-						<div class="base">
-						<ul class="base-row">
-						<li class="cell1"><div class="content1" >
-						<h2><a href="Portaat.html" ><spring:message code="pages.graniitti.portaat" /></h2><br />
-						<a href="Portaat.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_8.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.portaat.text" /></H3>		
-						</div></li>
-						<li class="cell1"><div class="content2">							
-                        
-						</li>
-						<li class="cell1"><div class="content3">
-						       
-						</div></li>
-					</ul>
-                        
-                     </div>
-                 <p>
-                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
-                    </div>
+                               <h2>Laattaa </h2><!-- Page title here -->
+                            </div> 
+                                                                              	
+                        </div>						
+					<!-- END OF HEADER -->           
+                            <div id="slides-text">
+								<p> 
+                                	<h1>LAATAT </h1>
+								</p> 
+                                <h3>Saatavilla on poltetulla pinnalla olevia graniittilaattoja, joissa sahatut sivut ja pohja.
+Projekteihin tarjoamme tietenkin määriteltyä kokoa ja väriä.
+
+61x30,5x2 cm. Värit harmaa, tummanharmaa, musta
+60x30x3 cm. Värit harmaa ja punainen
+60x40x3 cm. Värit harmaa ja punainen
+Lisäksi saatavilla on askelkiviksi sopivia ristipäähakatulla pinnalla, lohkotuilla sivuilla ja sahatulla pohjalla olevia kiviä. Kivet ovat malliltaan lähes pyöreitä.
+
+halkaisija 40-60 x 5 cm. Väri harmaa ja punainen <br /> </h3>
+											
+							</div>                                                                       
+                     
+                     
                 </div>
-             
-        </div>
+                <!-- END OF FRAME -->
+               
+        		</div>
+         
+        		
         <!-- END OF MAIN_CONTAINER -->
         
-         <!-- BEGIN FOOTER -->
+        <!-- BEGIN FOOTER -->
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
@@ -123,7 +115,6 @@
 							<spring:message code="pages.index.down2" /><br />
 							<spring:message code="pages.index.down3" /><br />
                         </div>
-                        
 				</div>
 			</div>
 		</div>
@@ -131,4 +122,3 @@
         
 </body>
 </html>
-

@@ -93,11 +93,11 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
                             <h3><spring:message code="pages.home.services" /></h3>
                             <p>
                           	<p><img src="${pageContext.request.contextPath}/resources/images/services-icon1.jpg" alt="" class="imgleft" />
-                            <p>
-                           
+                            <p/>
+                           <p>
                             <strong><spring:message code="pages.home.services.1" /></strong><br /><spring:message code="pages.home.services.1.text" /><br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon2.jpg" alt="" class="imgleft" />
-                            <p>
+                            <p/>
                             <strong><spring:message code="pages.home.services.2" /></strong><br /> <spring:message code="pages.home.services.2.text" /><br/><br/>
 							<img src="${pageContext.request.contextPath}/resources/images/services-icon3.jpg" alt="" class="imgleft" />
                             <p>

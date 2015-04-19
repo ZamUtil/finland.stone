@@ -136,7 +136,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 				<div class="col-md-8" ng-class="{ 'selected-div': $index == selectedState4 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState4($index)">
 					<div>
-						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/hintaan/{{$index+1}}.png"
+						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/hintaan/{{$index+1}}.jpg"
 							style="width: 20%"></img>
 							<a ng-click="selectItemState4($index)" href="#" class="button30">+</a>
 							 <span>{{namesState4[$index]}}</span>
@@ -190,12 +190,12 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <!-- 8	 -->	
 		<div ng-show="currentState == 8">
 			<div class="state1"><center><h3>Kirjasinten tyyli 1/6</h3><center/></div>
-			<div ng-repeat="i in getNumber(3) track by $index" >
+			<div ng-repeat="i in getNumber(5) track by $index" >
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState8 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState8($index)">
 					<div>
-						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kirjasinten/{{$index+1}}.png"
-							style="width: 60%"></img>
+						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kirjasinten/{{$index+1}}.jpg"
+							style="width: 50%"></img>
 							<a ng-click="selectItemState3($index)" href="#" class="button30">+</a>
 							 <span>{{namesState8[$index]}}</span>
 					</div>
@@ -205,12 +205,12 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <!-- 9 -->
 		<div ng-show="currentState == 9">
 			<div class="state1"><center><h3>Sukunimi - Kirjasinten valinta 1/7</h3><center/></div>
-			<div ng-repeat="i in getNumber(6) track by $index" >
+			<div ng-repeat="i in getNumber(7) track by $index" >
 				<div class="col-md-6" ng-class="{ 'selected-div': $index == selectedState9 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState9($index)">
 					<div>
-						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/sukunimi/{{$index+1}}.png"
-							style="width: 60%"></img>
+						<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/sukunimi/{{$index+1}}.jpg"
+							style="width: 30%"></img>
 							<a ng-click="selectItemState3($index)" href="#" class="button30">+</a>
 							 <span>{{namesState9[$index]}}</span>
 					</div>

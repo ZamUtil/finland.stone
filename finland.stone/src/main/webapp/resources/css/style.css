@@ -388,3 +388,14 @@ width:500px;
  box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
   
  }
+ div.wrapper2 {
+width:1000px;
+}
+div.left_block2 {
+float:left;
+width:1000px;
+}
+div.right_block2 {
+float:right;
+width:500px;
+}

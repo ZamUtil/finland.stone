@@ -94,6 +94,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
 	}
 })
+
 .controller('blackHeadstoneController', function($scope,$rootScope, blackHeadstoneService,$timeout,$window) {
     $scope.getBlackHeadstones = function (param) {
         return blackHeadstoneService.get(param, function (data) {
@@ -107,6 +108,7 @@ angular.module('stone', ['ngRoute','ngResource']).
     	$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
 	}
 })
+
 
 ////////////////////sunnittelle
 .controller('suunnitteleController', function($scope,$rootScope,$timeout,$window) {

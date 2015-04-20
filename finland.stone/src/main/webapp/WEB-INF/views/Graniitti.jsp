@@ -93,12 +93,12 @@
 						<div class="base">
 						<ul class="base-row">
 						<li class="cell1"><div class="content1" >
-						<h2><a href="Portaat.html" ><spring:message code="pages.graniitti.portaat" /></h2><br />
+						</li>
+						<li class="cell1"><div class="content2">							
+                        <h2><a href="Portaat.html" ><spring:message code="pages.graniitti.portaat" /></h2><br />
 						<a href="Portaat.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_8.jpg"></img></a>
                         <H3><spring:message code="pages.graniitti.portaat.text" /></H3>		
-						</div></li>
-						<li class="cell1"><div class="content2">							
-                        
+						</div>
 						</li>
 						<li class="cell1"><div class="content3">
 						       
@@ -107,7 +107,8 @@
                         
                      </div>
                  <p>
-                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
+            
+               <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                     </div>
                 </div>
              

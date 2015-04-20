@@ -89,7 +89,7 @@
                        
                      </div>
                      <p>
-                      <hr><h2><a href="index.html" ><spring:message code="pages.kotisivu" /></h2><br /></hr>
+                     <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                    </div>  
                 </div>
                 <!-- END OF FRAME -->

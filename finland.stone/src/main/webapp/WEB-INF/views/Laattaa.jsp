@@ -4,7 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
+<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi" ng-app="stone"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
@@ -18,6 +18,9 @@
 <!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
+<link
+	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
+	rel="stylesheet" type="text/css" />
 <!--[if IE 6]>
     <script type="text/javascript" src="js/unitpngfix.js"></script>
 	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
@@ -33,6 +36,11 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
+	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -44,8 +52,8 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 </script>   
     
 </head>
-<body>
-
+<body ng-controller="lattaController">
+	
 	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
         
@@ -74,30 +82,30 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                                 </div>
                             </div>                      							
 						</div>         
- 						<div id="head-top">
-                            <div id="head-title">
-                               <h2>Laattaa </h2><!-- Page title here -->
-                            </div> 
-                                                                              	
-                        </div>						
+ 						<h2><left>Laattaa</left></h2>						
 					<!-- END OF HEADER -->           
-                            <div id="slides-text">
-								<p> 
-                                	<h1>LAATAT </h1>
-								</p> 
-                                <h3>Saatavilla on poltetulla pinnalla olevia graniittilaattoja, joissa sahatut sivut ja pohja.
-Projekteihin tarjoamme tietenkin määriteltyä kokoa ja väriä.
-
-61x30,5x2 cm. Värit harmaa, tummanharmaa, musta
-60x30x3 cm. Värit harmaa ja punainen
-60x40x3 cm. Värit harmaa ja punainen
-Lisäksi saatavilla on askelkiviksi sopivia ristipäähakatulla pinnalla, lohkotuilla sivuilla ja sahatulla pohjalla olevia kiviä. Kivet ovat malliltaan lähes pyöreitä.
-
-halkaisija 40-60 x 5 cm. Väri harmaa ja punainen <br /> </h3>
-											
-							</div>                                                                       
-                     
-                     
+                                                                       
+                     <div>
+								<div class="imgCenter">
+   									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/latta.jpg">
+  								 </div>   
+  								 	<p><h4> Saatavilla on poltetulla pinnalla olevia graniittilaattoja, joissa sahatut sivut ja pohja.
+Projekteihin tarjoamme tietenkin määriteltyä kokoa ja väriä.</h4></p>
+  								 		&nbsp;
+										<p><a href="#" ng-click = "selectDiv(1)" class="button11">61x30,5x2 cm.</a></p>
+										&nbsp;
+										<p><a href="#" ng-click = "selectDiv(2)" class="button11">60x30x3 cm. </a></p>
+										&nbsp;
+										<p><a href="#" ng-click = "selectDiv(3)" class="button11">60x40x3 cm.</a></p>
+           								&nbsp;
+           								<p><h4> Lisäksi saatavilla on askelkiviksi sopivia ristipäähakatulla pinnalla, lohkotuilla sivuilla ja sahatulla pohjalla olevia kiviä. Kivet ovat malliltaan lähes pyöreitä.</h4></p>
+           								&nbsp;
+           								<p><a href="#" ng-click = "selectDiv(3)" class="button11">halkaisija 40-60 x 5 cm.</a></p>
+           								&nbsp;
+           								
+           								
+								</div>
+                     <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                 </div>
                 <!-- END OF FRAME -->
                

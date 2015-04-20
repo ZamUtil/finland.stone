@@ -4,7 +4,7 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
+<html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi" ng-app="stone"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
@@ -18,6 +18,9 @@
 <!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
+<link
+	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
+	rel="stylesheet" type="text/css" />
 <!--[if IE 6]>
     <script type="text/javascript" src="js/unitpngfix.js"></script>
 	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
@@ -33,6 +36,11 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
+	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -44,8 +52,8 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 </script>   
     
 </head>
-<body>
-
+<body ng-controller="keittiController">
+	
 	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
         
@@ -74,28 +82,34 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                                 </div>
                             </div>                      							
 						</div>         
- 						<div id="head-top">
-                            <div id="head-title">
-                               <h2>Keittotasot </h2><!-- Page title here -->
-                            </div> 
-                              <span> Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. 
-                Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. 
-                Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.</span>                                                  	
-                        </div>						
+ 						<h2><left>Keittiötasot</left></h2>						
 					<!-- END OF HEADER -->           
                                                                        
-                     
-                     
+                     <div>
+								<div class="imgCenter">
+   									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/keitti.jpg">
+  								 </div>   
+  								 	<p><h4> Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.</h4></p>
+  								 		&nbsp;
+										<p><a href="#" ng-click = "selectDiv(111)" class="button11">610x2000-433,00 €/m </a></p>
+										&nbsp;
+										<p><a href="#" ng-click = "selectDiv(222)" class="button11">610x3000-384,00 €/m </a></p>
+										&nbsp;
+										<p><a href="#" ng-click = "selectDiv(333)" class="button11">610x4000-360,00 €/m </a></p>
+           								&nbsp;
+           								<p><a href="#" ng-click = "selectDiv(444)" class="button11">610x5000-345,00 €/m </a></p>
+           								&nbsp;
+           								<p><a href="#" ng-click = "selectDiv(555)" class="button11">610x8000-327,00 €/m </a></p>
+           								&nbsp;
+           								<h4> posle zakaza tovara mi vam perezvinim i yti4nim koli4estvo zakazannogo tovara!</h4> 
+								</div>
+                     <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                 </div>
                 <!-- END OF FRAME -->
                
         		</div>
          
-        		 <span> 610x2000-433,00 €/m 
-				610x3000-384,00 €/m 
-				610x4000-360,00 €/m 
-				610x5000-345,00 €/m 
-				610x8000-327,00 €/m</span>
+        		
         <!-- END OF MAIN_CONTAINER -->
         
         <!-- BEGIN FOOTER -->

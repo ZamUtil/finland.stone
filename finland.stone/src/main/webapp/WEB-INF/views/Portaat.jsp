@@ -53,7 +53,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
     
 </head>
 <body ng-controller="portaatController">
-
+	
 	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
         
@@ -82,22 +82,30 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                                 </div>
                             </div>                      							
 						</div>         
- 						<div id="head-top">
-                            <div id="head-title">
-                               <h2>Portaat </h2><!-- Page title here -->
-                            </div> 
-                                                                              	
-                        </div>						
-					<!-- END OF HEADER -->      
-					         
-                   <button ng-click = "selectDiv(1)">Первій</button>
-                   <button ng-click = "selectDiv(2)">втор</button>
-                   <button ng-click = "selectDiv(3)">трет</button>     
-
+ 						<h2><left>Portaat</left></h2>						
+					<!-- END OF HEADER -->           
+                                                                       
+                     <div>
+								<div class="imgCenter">
+   									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portaat.jpg">
+  								 </div>   
+  								 	<p><h4> Poltettu päälipinta, etupinta ja päädyt. Pohja ja tausta sahattu</h4></p>
+  								 		&nbsp;
+										<p><a href="#" ng-click = "selectDiv(1)" class="button11">90x37x15cm.</a></p>
+										&nbsp;
+										<p><a href="#" ng-click = "selectDiv(2)" class="button11">120x37x15 cm.</a></p>
+										&nbsp;
+										<p><a href="#" ng-click = "selectDiv(3)" class="button11">150x37x15 cm.</a></p>
+           								&nbsp;
+           								<h4> posle zakaza tovara mi vam perezvinim i yti4nim koli4estvo zakazannogo tovara!</h4> 
+								</div>
+                     <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+                </div>
                 <!-- END OF FRAME -->
                
         		</div>
          
+        		
         <!-- END OF MAIN_CONTAINER -->
         
         <!-- BEGIN FOOTER -->

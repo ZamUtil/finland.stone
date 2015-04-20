@@ -70,8 +70,26 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
 	}
 })
-
+///////PORTAAT
 .controller('portaatController', function($scope,$rootScope,$timeout,$window) {
+	$scope.selectDiv = function(item) {
+		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+	}
+})
+////////LAATTAA
+.controller('lattaController', function($scope,$rootScope,$timeout,$window) {
+	$scope.selectDiv = function(item) {
+		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+	}
+})
+///NUPUNOOPA
+.controller('nupunopaController', function($scope,$rootScope,$timeout,$window) {
+	$scope.selectDiv = function(item) {
+		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+	}
+})
+///KETIASART
+.controller('keittiController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
 		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
 	}

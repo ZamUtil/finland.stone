@@ -100,7 +100,7 @@ Projekteihin tarjoamme tietenkin määriteltyä kokoa ja väriä.</h4></p>
            								&nbsp;
            								<p><h4> Lisäksi saatavilla on askelkiviksi sopivia ristipäähakatulla pinnalla, lohkotuilla sivuilla ja sahatulla pohjalla olevia kiviä. Kivet ovat malliltaan lähes pyöreitä.</h4></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(3)" class="button11">halkaisija 40-60 x 5 cm.</a></p>
+           								<p><a href="#" ng-click = "selectDiv(4)" class="button11">halkaisija 40-60 x 5 cm.</a></p>
            								&nbsp;
            								
            								

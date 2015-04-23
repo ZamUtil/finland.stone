@@ -56,6 +56,7 @@ background-position:700px 100px;
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+	
 
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
@@ -68,7 +69,7 @@ background-position:700px 100px;
 </script>   
     
 </head>
-<body ng-controller="lattaController">
+<body>
 	
 	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
@@ -103,63 +104,64 @@ background-position:700px 100px;
 					     <div>
                                       
                
-                                    
-                                      <form class="form-horizontal" role="form">
-      <div class="form-group">
-        <label for="inputName3" class="col-sm-2 control-label">Nimi</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputName3" placeholder="Nimi">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputEmail3" class="col-sm-2 control-label">Katuosoite</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputEmail3" placeholder="Katuosoite">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Postinumero</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputPassword3" placeholder="Postinumero">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputName3" class="col-sm-2 control-label">Puhelinnumero</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputName3" placeholder="Puhelinnumero">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputEmail3" class="col-sm-2 control-label">Hautakiven toimituspaikkakunta</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputEmail3" placeholder="Hautakiven toimituspaikkakunta">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Sähköpostiosoite</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputPassword3" placeholder="Sähköpostiosoite">
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputPassword3" class="col-sm-2 control-label">Viesti</label>
-        <div class="col-sm-4">
-          <input class="form-control" id="inputPassword3" placeholder="Viesti">
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-success">Vahvista tilaus</button>
-        </div>
-      </div>
-    </form>
-                          
-                                                                       
+         <form class="form-horizontal" role="form" ng-controller="MyCtrl1">         
+                                      
+      
+  <div class="form-group">
+    <label for="inputName" class="col-sm-2 control-label"><spring:message code="pages.tarjous.1" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputName" placeholder="<spring:message code="pages.tarjous.1" />" ng-model="formInfo.Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAdress" class="col-sm-2 control-label"><spring:message code="pages.tarjous.2" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputAddress" placeholder="<spring:message code="pages.tarjous.2" />" ng-model="formInfo.Address">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPostcode" class="col-sm-2 control-label"><spring:message code="pages.tarjous.3" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputPostcode" placeholder="<spring:message code="pages.tarjous.3" />" ng-model="formInfo.Postcode">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPhone" class="col-sm-2 control-label"><spring:message code="pages.tarjous.4" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.Phone">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputDelivery" class="col-sm-2 control-label"><spring:message code="pages.tarjous.5" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputDelivery" placeholder="<spring:message code="pages.tarjous.5" />" ng-model="formInfo.Delivery">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail" class="col-sm-2 control-label"><spring:message code="pages.tarjous.6" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.Email">
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="inputMessage" class="col-sm-2 control-label"><spring:message code="pages.tarjous.7" /></label>
+    <div class="col-sm-4">
+      <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.Message">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /></button>
+    </div>
+  </div>
+  <span>{{formInfo}}</span>
+</form>
+                                                                 
                      
-                     <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+<hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                      
                      
-<%-- <img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/zakazat.jpg"> --%>
+
                      
                     
               

@@ -95,22 +95,22 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
   								 <div class="wrapper"> 
   								 	<div class="left_block"><p><h4> NOPPAKIVET</h4>Noppakivet ovat lohkomalla valmistettuja tasasivuisia kivikuutioita.</p>
   								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv(1111)" class="button11">10x10x10 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv(1)" class="button11">10x10x10 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(22222)" class="button11">10x10x5 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv(2)" class="button11">10x10x5 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(33333)" class="button11">5x5x5 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv(3)" class="button11">5x5x5 cm.</a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(33333)" class="button11">14x14x14 cm. </a></p>
+           								<p><a href="#" ng-click = "selectDiv(4)" class="button11">14x14x14 cm. </a></p>
            								&nbsp;
            								<hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>	
            							</div>
            							<div class="right_block">
            								<p><h4> NUPUKIVET</h4>Nupukivet ovat lohkottuja suorakaiteen mallisia kivituotteita</p>
   								 		&nbsp;
-  								 		<p><a href="#" ng-click = "selectDiv(33333)" class="button11">20x14x14 cm. </a></p>
+  								 		<p><a href="#" ng-click = "selectDiv(5)" class="button11">20x14x14 cm. </a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(33333)" class="button11">20x14x8 cm.  </a></p>
+           								<p><a href="#" ng-click = "selectDiv(6)" class="button11">20x14x8 cm.  </a></p>
            								
            							</div> 
            							</div>

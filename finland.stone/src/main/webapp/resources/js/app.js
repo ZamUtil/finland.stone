@@ -32,6 +32,17 @@ angular.module('stone', ['ngRoute','ngResource']).
         });
         return headstoneService;
     })
+     .factory('emailService', function($resource, $rootScope) {
+        var emailService = $resource("sendEmail/:action", {}, {
+            'post': {
+                method:  'POST',
+                params: {
+                    action: 'post'
+                }, isArray :true
+            }
+        });
+        return emailService;
+    })
  .controller('headstoneController', function($scope,$rootScope, headstoneService,$timeout,$window) {
         $scope.getHeadstones = function (param) {
             return headstoneService.get(param, function (data) {
@@ -70,7 +81,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
 	}
 })
-///////PORTAAT
+///////PORTAAT    поменять имя параметров portaat='+item;
 .controller('portaatController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
 		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
@@ -79,19 +90,19 @@ angular.module('stone', ['ngRoute','ngResource']).
 ////////LAATTAA
 .controller('lattaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto?laattaa='+item;
 	}
 })
 ///NUPUNOOPA
 .controller('nupunopaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto?nupuNoppa='+item;
 	}
 })
 ///KETIASART
 .controller('keittiController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto?keittiötasot='+item;
 	}
 })
 
@@ -108,6 +119,58 @@ angular.module('stone', ['ngRoute','ngResource']).
     	$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
 	}
 })
+.controller('MyCtrl1', function($scope, emailService, $location,$timeout) {
+    $scope.formInfo = {};
+    
+    
+    	 console.log($location.absUrl())
+   
+    
+    
+    $scope.saveData = function() {
+      $scope.nameRequired = '';
+      $scope.addressRequired = '';
+      $scope.postcodeRequired = '';
+      $scope.phoneRequired = '';
+      $scope.deliveryRequired = '';
+      $scope.emailRequired = '';
+      $scope.messageRequired = '';
+ 
+      if (!$scope.formInfo.Name) {
+        $scope.nameRequired = 'Name Required';
+      }
+ 
+      if (!$scope.formInfo.Address) {
+        $scope.addressRequired = 'Address Required';
+      }
+ 
+      if (!$scope.formInfo.Postcode) {
+        $scope.postcodeRequired = 'Postcode Required';
+      }
+      
+      if (!$scope.formInfo.Phone) {
+          $scope.phoneRequired = 'Phone Required';
+      }
+   
+      if (!$scope.formInfo.Delivery) {
+          $scope.deliveryRequired = 'Delivery Required';
+      }
+   
+      if (!$scope.formInfo.Email) {
+          $scope.emailRequired = 'Email Required';
+      }
+      
+      if (!$scope.formInfo.Message) {
+          $scope.messageRequired = 'Message Required';
+      }
+      
+      emailService.post($scope.formInfo);
+    };
+  })
+ 
+
+
+
 
 
 ////////////////////sunnittelle

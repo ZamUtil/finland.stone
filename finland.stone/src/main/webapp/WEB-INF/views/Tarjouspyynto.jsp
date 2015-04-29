@@ -110,43 +110,43 @@ background-position:700px 100px;
   <div class="form-group">
     <label for="inputName" class="col-sm-2 control-label"><spring:message code="pages.tarjous.1" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputName" placeholder="<spring:message code="pages.tarjous.1" />" ng-model="formInfo.Name">
+      <input class="form-control" id="inputName" placeholder="<spring:message code="pages.tarjous.1" />" ng-model="formInfo.name">
     </div>
   </div>
   <div class="form-group">
     <label for="inputAdress" class="col-sm-2 control-label"><spring:message code="pages.tarjous.2" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputAddress" placeholder="<spring:message code="pages.tarjous.2" />" ng-model="formInfo.Address">
+      <input class="form-control" id="inputAddress" placeholder="<spring:message code="pages.tarjous.2" />" ng-model="formInfo.address">
     </div>
   </div>
   <div class="form-group">
     <label for="inputPostcode" class="col-sm-2 control-label"><spring:message code="pages.tarjous.3" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputPostcode" placeholder="<spring:message code="pages.tarjous.3" />" ng-model="formInfo.Postcode">
+      <input class="form-control" id="inputPostcode" placeholder="<spring:message code="pages.tarjous.3" />" ng-model="formInfo.postcode">
     </div>
   </div>
   <div class="form-group">
     <label for="inputPhone" class="col-sm-2 control-label"><spring:message code="pages.tarjous.4" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.Phone">
+      <input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.phone">
     </div>
   </div>
   <div class="form-group">
     <label for="inputDelivery" class="col-sm-2 control-label"><spring:message code="pages.tarjous.5" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputDelivery" placeholder="<spring:message code="pages.tarjous.5" />" ng-model="formInfo.Delivery">
+      <input class="form-control" id="inputDelivery" placeholder="<spring:message code="pages.tarjous.5" />" ng-model="formInfo.delivery">
     </div>
   </div>
   <div class="form-group">
     <label for="inputEmail" class="col-sm-2 control-label"><spring:message code="pages.tarjous.6" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.Email">
+      <input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.email">
     </div>
   </div>
    <div class="form-group">
     <label for="inputMessage" class="col-sm-2 control-label"><spring:message code="pages.tarjous.7" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.Message">
+      <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message">
     </div>
   </div>
   <div class="form-group">

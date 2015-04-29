@@ -84,25 +84,25 @@ angular.module('stone', ['ngRoute','ngResource']).
 ///////PORTAAT    
 .controller('portaatController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?portaat='+item;
 	}
 })
 ////////LAATTAA
 .controller('lattaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?laattaa='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?laattaa='+item;
 	}
 })
 ///NUPUNOOPA
 .controller('nupunopaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?nupuNoppa='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?nupuNoppa='+item;
 	}
 })
 ///KETIASART
 .controller('keittiController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto?keittiötasot='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?keittiötasot='+item;
 	}
 })
 
@@ -122,10 +122,8 @@ angular.module('stone', ['ngRoute','ngResource']).
 .controller('MyCtrl1', function($scope, emailService, $location,$timeout) {
     $scope.formInfo = {};
     
-    
-    	 console.log($location.absUrl())
-   
-    
+    //  var params = console.log($location.search())
+;
     
     $scope.saveData = function() {
       $scope.nameRequired = '';
@@ -136,34 +134,40 @@ angular.module('stone', ['ngRoute','ngResource']).
       $scope.emailRequired = '';
       $scope.messageRequired = '';
  
-      if (!$scope.formInfo.Name) {
+      if (!$scope.formInfo.name) {
         $scope.nameRequired = 'Name Required';
       }
  
-      if (!$scope.formInfo.Address) {
+      if (!$scope.formInfo.address) {
         $scope.addressRequired = 'Address Required';
       }
  
-      if (!$scope.formInfo.Postcode) {
+      if (!$scope.formInfo.postcode) {
         $scope.postcodeRequired = 'Postcode Required';
       }
       
-      if (!$scope.formInfo.Phone) {
+      if (!$scope.formInfo.phone) {
           $scope.phoneRequired = 'Phone Required';
       }
    
-      if (!$scope.formInfo.Delivery) {
+      if (!$scope.formInfo.delivery) {
           $scope.deliveryRequired = 'Delivery Required';
       }
    
-      if (!$scope.formInfo.Email) {
+      if (!$scope.formInfo.email) {
           $scope.emailRequired = 'Email Required';
       }
       
-      if (!$scope.formInfo.Message) {
+      if (!$scope.formInfo.message) {
           $scope.messageRequired = 'Message Required';
       }
       
+      var params = $location.search();
+      for(data in params){
+    	  $scope.formInfo.dataKey = data
+    	  $scope.formInfo.dataValue = params[data]
+    	  break;
+      }
       emailService.post($scope.formInfo);
     };
   })

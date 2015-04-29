@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.zam.finland.stone.view.mail.MailService;
+import com.zam.finland.stone.view.service.model.EmailModel;
 
 @Controller
 @RequestMapping("/sendEmail")
@@ -20,17 +21,18 @@ public class SendEmailBaseService {
 	/*public void sendMess(@ModelAttribute("Email")String email, 
 				@ModelAttribute("Name")String name,
 				@ModelAttribute("Password")String password, Model model) {*/
-	public @ResponseBody String sendMess(@RequestBody Object oo){
+	public @ResponseBody String sendMess(@RequestBody EmailModel model){
 		
+	StringBuilder builder = new  StringBuilder();
+	builder.append("траляля").append(model.getName());
 	
-	
-		System.out.println(oo);
 		/*		System.out.println(name);
 		System.out.println(password);*/
 		// Send a composed mail
-		/*mailService.sendMail("imaxb0yi@gmail.com", "Test Subject", "Testing body");
+		//mailService.sendMail("imaxb0yi@gmail.com", "Test Subject", "dssd" + model.getAddress() + "fdf" + model.getPhone());
+		
 		// Send a pre-configured mail
-		mailService.sendPreConfiguredMail("Exception occurred everywhere.. where are you ????");*/
+		mailService.sendPreConfiguredMail(builder.toString());
 		return null;
 	}
 }

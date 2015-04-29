@@ -91,15 +91,15 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
   								 </div>   
   								 	<p><h4><spring:message code="pages.graniitti.laattaa.text1" /></h4></p>
   								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv(1)" class="button11">61x30,5x2 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('61x30,5x2 cm')" class="button11">61x30,5x2 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(2)" class="button11">60x30x3 cm. </a></p>
+										<p><a href="#" ng-click = "selectDiv('60x30x3 cm')" class="button11">60x30x3 cm. </a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(3)" class="button11">60x40x3 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('60x40x3 cm')" class="button11">60x40x3 cm.</a></p>
            								&nbsp;
            								<p><h4> <spring:message code="pages.graniitti.laattaa.text2" /></h4></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(4)" class="button11">halkaisija 40-60 x 5 cm.</a></p>
+           								<p><a href="#" ng-click = "selectDiv('halkaisija 40-60 x 5 cm.')" class="button11">halkaisija 40-60 x 5 cm.</a></p>
            								&nbsp;
            								
            								

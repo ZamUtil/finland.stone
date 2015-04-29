@@ -53,7 +53,7 @@ angular.module('stone', ['ngRoute','ngResource']).
         $scope.headstonesData = $scope.getHeadstones({});
         
         $scope.selectDiv = function(item) {
-        	$window.location.href = '/finland.stone/index?headstone='+item.id;
+    		$window.location.href = '/finland.stone/Tarjouspyynto#?Headstone='+item.id;
 		}
     })
 ///// Blackheadstone

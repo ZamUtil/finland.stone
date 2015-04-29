@@ -96,13 +96,15 @@
 							style="width:100%"></img>
 						</div>
 					<div style="height:70px">
+					<!-- <span><h5>{{item.id}}</h5></span> -->
 						<span><h5>{{item.name}}</h5></span>
 						<span><h5>{{item.size}}</h5></span>
+						
 						
 					</div>
 					<span><h4>{{item.prise}} €</h4></span>
 					<!-- <p style="text-align: center"><button ng-click="selectDiv(item)"></button> -->
-					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa</a>
+					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa></a>
 					</div>
 					
 					

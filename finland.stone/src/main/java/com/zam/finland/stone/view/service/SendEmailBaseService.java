@@ -24,7 +24,15 @@ public class SendEmailBaseService {
 	public @ResponseBody String sendMess(@RequestBody EmailModel model){
 		
 	StringBuilder builder = new  StringBuilder();
-	builder.append("траляля").append(model.getName());
+	builder.append(" "+"Заказан товар от: " +" ").append(model.getName());
+	builder.append(" ,"+"Адрес:"+" ").append(model.getAddress());
+	builder.append(" ,"+"Индекс почтовый: " +" ").append(model.getPostcode());
+	builder.append(" ,"+"Телефон: "+" ").append(model.getPhone());
+	builder.append(" ,"+"Доставить в: "+" ").append(model.getDelivery());
+	builder.append(" ,"+"Емейл: "+" ").append(model.getEmail());
+	builder.append(" ,"+"Сообщение: "+" ").append(model.getMessage());
+	builder.append(" ,"+"Товар: "+" ").append(model.getDataKey());
+	builder.append(" ,"+"Размер товара:"+" ").append(model.getDataValue());
 	
 		/*		System.out.println(name);
 		System.out.println(password);*/

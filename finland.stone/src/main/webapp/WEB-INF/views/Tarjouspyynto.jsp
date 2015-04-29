@@ -99,7 +99,7 @@ background-position:700px 100px;
                                 </div>
                             </div>                      							
 						</div>         
- 						<h2><left>Tee Tarjouspyyntö</left></h2>						
+ 						<h2><left><spring:message code="pages.tarjous" /></left></h2>						
 					<!-- END OF HEADER -->      
 					     <div>
                                       

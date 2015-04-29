@@ -77,10 +77,14 @@
                             </div>                            							
 						</div>   
 					    
+ 						
  						<div id="head-title">
- 						<p><h2><center>Muotokiviet</center></h2></p>
- 						<p><H4><center><spring:message code="pages.hautakivet.moutokivet.text"/></center></H4></p>
+ 						<center><h2><spring:message code="pages.hautakivet.moutokivet"/></h2></center>
+ 						
  						</div>	
+ 						<div>
+ 						<H3><center><spring:message code="pages.hautakivet.moutokivet.text"/><center/></H3>
+ 						</div>
  						
  					
 					<!-- END OF HEADER -->   

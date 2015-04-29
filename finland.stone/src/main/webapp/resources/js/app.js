@@ -81,7 +81,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
 	}
 })
-///////PORTAAT    поменять имя параметров portaat='+item;
+///////PORTAAT    
 .controller('portaatController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
 		$window.location.href = '/finland.stone/Tarjouspyynto?portaat='+item;

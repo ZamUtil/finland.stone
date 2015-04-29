@@ -82,15 +82,14 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                                 </div>
                             </div>                      							
 						</div>         
- 						<h2><left>Laattaa</left></h2>						
+ 						<h2><left><spring:message code="pages.graniitti.laattaa" /></left></h2>						
 					<!-- END OF HEADER -->           
                                                                        
                      <div>
 								<div class="imgCenter">
    									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/latta.jpg">
   								 </div>   
-  								 	<p><h4> Saatavilla on poltetulla pinnalla olevia graniittilaattoja, joissa sahatut sivut ja pohja.
-Projekteihin tarjoamme tietenkin määriteltyä kokoa ja väriä.</h4></p>
+  								 	<p><h4><spring:message code="pages.graniitti.laattaa.text1" /></h4></p>
   								 		&nbsp;
 										<p><a href="#" ng-click = "selectDiv(1)" class="button11">61x30,5x2 cm.</a></p>
 										&nbsp;
@@ -98,7 +97,7 @@ Projekteihin tarjoamme tietenkin määriteltyä kokoa ja väriä.</h4></p>
 										&nbsp;
 										<p><a href="#" ng-click = "selectDiv(3)" class="button11">60x40x3 cm.</a></p>
            								&nbsp;
-           								<p><h4> Lisäksi saatavilla on askelkiviksi sopivia ristipäähakatulla pinnalla, lohkotuilla sivuilla ja sahatulla pohjalla olevia kiviä. Kivet ovat malliltaan lähes pyöreitä.</h4></p>
+           								<p><h4> <spring:message code="pages.graniitti.laattaa.text2" /></h4></p>
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv(4)" class="button11">halkaisija 40-60 x 5 cm.</a></p>
            								&nbsp;

@@ -84,7 +84,7 @@
  						<center><h2>  Hautakivimallisto</h2></center>
  						</div>	
  						<div>
- 						<H3><center><spring:message code="pages.hautakivet.mallisto.text1"/><center/></H3>
+ 						<%-- <H3><center><spring:message code="pages.hautakivet.mallisto.text1"/><center/></H3> --%>
  						</div>
 					<!-- END OF HEADER -->   
 			<div ng-repeat="item in headstonesData">

@@ -22,4 +22,10 @@ public class HeadstoneManagerImpl implements HeadstoneManager {
 	public List<Headstone> findAll() {
 		return headstoneDao.list();
 	}
+	
+	@Transactional
+	@Override
+	public Headstone findOne(Long id) {
+		return headstoneDao.findById(id);
+	}
 }

@@ -6,13 +6,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
 
-
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <meta name="robots" content="index, follow" />
-  <meta name="keywords" content="" />
-  <meta name="title" content="" />
-  <meta name="description" content="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="robots" content="index, follow" />
+ 	<meta name="keywords" content="" />
+    <meta name="title" content="" />
+ 	<meta name="description" content="" />
+ 	
 <title>Hautakiviliike KiiskenKivi Oy</title>
+
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
@@ -29,14 +30,8 @@
     
 </head>
 <body>
-
-	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
-        
-        	<!-- FRAME -->
 				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
 						<div id="top">
                         	<div id="logo">
 								<div id="pad_logo">
@@ -46,90 +41,84 @@
                             <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
-                                <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
-                                <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
-                                <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                <span style="float: right"> 
-                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-						</span>
-                            </ul>
+                               			<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
+                               			<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
+                                		<li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
+                               			<li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
+                               			<li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                                		<span style="float: right"> 
+                        				<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+										</span>
+                           			 </ul>
                                 </div>
                             </div>                            							
 						</div>
-                       <div id="head-top">
+                      	<div id="head-top">
                             <div id="head-title">
-						
                             <h2><spring:message code="pages.graniitti" /></h2>
-							   
                             </div>                                                     	
                         </div>
+                     	<div id="content">
+							<div class="base">
+								<ul class="base-row">
+									<li class="cell1">
+										<div class="content1" >
+										<h2><a href="Keittiotasot.html" ><spring:message code="pages.graniitti.keittiötasot" /></h2><br />
+										<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg"></img></a>
+                        				<h3><spring:message code="pages.graniitti.keittiötasot.text" /></h3>		
+										</div> 
+									</li>
+									<li class="cell1">
+										<div class="content2">							
+                       					<h2><a href="NuppuNoppa.html" ><spring:message code="pages.graniitti.nupu" /></h2><br />
+										<a href="NuppuNoppa.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg"></img></a>
+                       					<H3><spring:message code="pages.graniitti.nupu.text" /></H3>
+                       					</div>
+								   </li>
+										<div class="content3">
+										<h2><a href="Laattaa.html" ><spring:message code="pages.graniitti.laattaa" /></h2><br />
+										<a href="Laattaa.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg"></img></a>
+                       					<H3><spring:message code="pages.graniitti.laattaa.text" /></H3>       
+										</div>
+								   </li>
+								</ul>
+                     		</div>
+                     	<hr></hr>
+                     </div>
                      <div id="content">
 						<div class="base">
-						<ul class="base-row">
-						<li class="cell1"><div class="content1" >
-						<h2><a href="Keittiotasot.html" ><spring:message code="pages.graniitti.keittiötasot" /></h2><br />
-						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_1.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.keittiötasot.text" /></H3>		
-						</div></li>
-						<li class="cell1"><div class="content2">							
-                        <h2><a href="NuppuNoppa.html" ><spring:message code="pages.graniitti.nupu" /></h2><br />
-						<a href="NuppuNoppa.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_2.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.nupu.text" /></H3>
-						</li>
-						<li class="cell1"><div class="content3">
-						<h2><a href="Laattaa.html" ><spring:message code="pages.graniitti.laattaa" /></h2><br />
-						<a href="Laattaa.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_3.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.laattaa.text" /></H3>       
-						</div></li>
-					</ul>
-                        
-                     </div>
-                     <hr></hr>
-                     </div>
-                     <hr></hr>
-                     <div id="content">
-						<div class="base">
-						<ul class="base-row">
-						<li class="cell1"><div class="content1" >
-						</li>
-						<li class="cell1"><div class="content2">							
-                        <h2><a href="Portaat.html" ><spring:message code="pages.graniitti.portaat" /></h2><br />
-						<a href="Portaat.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_8.jpg"></img></a>
-                        <H3><spring:message code="pages.graniitti.portaat.text" /></H3>		
-						</div>
-						</li>
-						<li class="cell1"><div class="content3">
-						       
-						</div></li>
-					</ul>
-                        
-                     </div>
-                 <p>
-            
-               <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+							<ul class="base-row">
+								<li class="cell1">
+									<div class="content1" >
+								</li>
+								<li class="cell1">
+									<div class="content2">							
+                        				<h2><a href="Portaat.html" ><spring:message code="pages.graniitti.portaat" /></h2><br />
+										<a href="Portaat.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_8.jpg"></img></a>
+                       					<H3><spring:message code="pages.graniitti.portaat.text" /></H3>		
+									</div>
+								</li>
+								<li class="cell1">
+									<div class="content3">
+									</div></li>
+							</ul>
+                    	 </div>
+                 	 	<p>
+              		 	<hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                     </div>
-                </div>
-             
-        </div>
-        <!-- END OF MAIN_CONTAINER -->
-        
-         <!-- BEGIN FOOTER -->
-		<div id="bottom_container">
-			<div id="footer">
-				<div id="foot">
+                </div> 
+       		</div>
+			<div id="bottom_container">
+				<div id="footer">
+					<div id="foot">
 						<div class="left-foot">
 							<spring:message code="pages.index.down1" /><br />
 							<spring:message code="pages.index.down2" /><br />
 							<spring:message code="pages.index.down3" /><br />
                         </div>
-                        
+					</div>
 				</div>
 			</div>
-		</div>
-		<!-- END OF FOOTER -->
-        
 </body>
 </html>
 

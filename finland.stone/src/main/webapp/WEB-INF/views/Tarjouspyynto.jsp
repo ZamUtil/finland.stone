@@ -146,7 +146,7 @@ background-position:700px 100px;
    <div class="form-group">
     <label for="inputMessage" class="col-sm-2 control-label"><spring:message code="pages.tarjous.7" /></label>
     <div class="col-sm-4">
-      <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message">
+      <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message" >
     </div>
   </div>
   <div class="form-group">

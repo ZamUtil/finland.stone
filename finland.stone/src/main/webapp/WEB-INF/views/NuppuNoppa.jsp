@@ -13,34 +13,22 @@
   <meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link
 	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
 	rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
 <style type='text/css' media='screen,projection'>
 <!--
 fieldset { border:0;margin:0;padding:0; }
 label {  padding-right:15px; float:left; width:70px;}
 input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
--->
 </style>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
-
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -48,19 +36,13 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
-            Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
+       *     Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
 </script>   
     
 </head>
 <body ng-controller="nupunopaController">
-	
-	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
-        
-        	<!-- FRAME -->
 				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
 						<div id="top">
                         	<div id="logo">
 								<div id="pad_logo">
@@ -82,9 +64,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
                                 </div>
                             </div>                      							
 						</div>         
- 						<h2><left>Nupu ja noppa-kivet</left></h2>						
-					<!-- END OF HEADER -->           
-                                                                       
+ 						<h2><left>Nupu ja noppa-kivet</left></h2>						                                                   
                      <div>
 								<div class="imgCenter">
    									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/nupu.jpg">
@@ -95,22 +75,22 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
   								 <div class="wrapper"> 
   								 	<div class="left_block"><p><h4> NOPPAKIVET</h4>Noppakivet ovat lohkomalla valmistettuja tasasivuisia kivikuutioita.</p>
   								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv(1)" class="button11">10x10x10 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 10x10x10 cm')" class="button11">10x10x10 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(2)" class="button11">10x10x5 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 10x10x5 cm')" class="button11">10x10x5 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(3)" class="button11">5x5x5 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 5x5x5 cm')" class="button11">5x5x5 cm.</a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(4)" class="button11">14x14x14 cm. </a></p>
+           								<p><a href="#" ng-click = "selectDiv('NOPPA 14x14x14 cm')" class="button11">14x14x14 cm. </a></p>
            								&nbsp;
            								<hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>	
            							</div>
            							<div class="right_block">
            								<p><h4> NUPUKIVET</h4>Nupukivet ovat lohkottuja suorakaiteen mallisia kivituotteita</p>
   								 		&nbsp;
-  								 		<p><a href="#" ng-click = "selectDiv(5)" class="button11">20x14x14 cm. </a></p>
+  								 		<p><a href="#" ng-click = "selectDiv('NUPU 20x14x14 cm')" class="button11">20x14x14 cm. </a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(6)" class="button11">20x14x8 cm.  </a></p>
+           								<p><a href="#" ng-click = "selectDiv('NUPU 20x14x8 cm')" class="button11">20x14x8 cm.  </a></p>
            								
            							</div> 
            							</div>

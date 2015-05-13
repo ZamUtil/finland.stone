@@ -8,5 +8,6 @@ import com.zam.finland.stone.model.Headstone;
 @Service
 public interface HeadstoneManager {
 	List<Headstone> findAll();
+	public Headstone findOne(Long id);
 
 }

@@ -39,6 +39,12 @@ angular.module('stone', ['ngRoute','ngResource']).
                 params: {
                     action: 'post'
                 }, isArray :true
+            },
+            'postSunnitelle': {
+                method:  'POST',
+                params: {
+                    action: 'postSunnitelle'
+                }, isArray :true
             }
         });
         return emailService;
@@ -162,22 +168,41 @@ angular.module('stone', ['ngRoute','ngResource']).
           $scope.messageRequired = 'Message Required';
       }
       
-      var params = $location.search();
-      for(data in params){
-    	  $scope.formInfo.dataKey = data
-    	  $scope.formInfo.dataValue = params[data]
-    	  break;
-      }
-      emailService.post($scope.formInfo);
-    };
-  })
+
+		var params = $location.search();
+		console.log(params)
+		if (params['type']=== 'Sunnitelle') {
+			/* $scope.formInfo.dataKey1 = data */
+			// $scope.formInfo.dataKey1 = data
+			$scope.formInfo.st1 = params['selectedState1']
+			$scope.formInfo.st2 = params['selectedState2']
+			$scope.formInfo.st3 = params['selectedState3']
+			$scope.formInfo.st4 = params['selectedState4']
+			$scope.formInfo.st5 = params['selectedState5']
+			$scope.formInfo.st6 = params['selectedState6']
+			$scope.formInfo.st7 = params['selectedState7']
+			$scope.formInfo.st8 = params['selectedState8']
+			$scope.formInfo.st9 = params['selectedState9']
+			$scope.formInfo.st10 = params['selectedState10']
+			$scope.formInfo.st11 = params['selectedState11']
+			emailService.postSunnitelle($scope.formInfo);
+		} else {
+			for (data in params) {
+				$scope.formInfo.dataKey = data
+				$scope.formInfo.dataValue = params[data]
+				break;
+			}
+			emailService.post($scope.formInfo);
+		}
+	};
+})
  
 
 
 
 
 
-////////////////////sunnittelle
+// //////////////////sunnittelle
 .controller('suunnitteleController', function($scope,$rootScope,$timeout,$window) {
 	var SIZE_DIV_POSS = 5;
 	
@@ -192,7 +217,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.selectedState9;
 	$scope.selectedState10;
 	$scope.selectedState11;
-	$scope.selectedState12;
+	/*$scope.selectedState12;*/
 	
 	$scope.currentState = 1;
 	
@@ -227,6 +252,21 @@ angular.module('stone', ['ngRoute','ngResource']).
 			$scope.currentState=8;
 			return;
 		}
+		if (state == 11 ){         
+			$window.location.href = '/finland.stone/Tarjouspyynto#?type=Sunnitelle&selectedState1='
+				+$scope.selectedState1
+			+'&selectedState2='+$scope.selectedState2
+			+'&selectedState3='+$scope.selectedState3
+			+'&selectedState4='+$scope.selectedState4
+			+'&selectedState5='+$scope.selectedState5
+			+'&selectedState6='+$scope.selectedState6
+			+'&selectedState7='+$scope.selectedState7
+			+'&selectedState8='+$scope.selectedState8
+			+'&selectedState9='+$scope.selectedState9
+			+'&selectedState10='+$scope.selectedState10
+			+'&selectedState11='+$scope.selectedState11;
+				
+		}
 		
 		$scope.currentState++;
 	}
@@ -250,6 +290,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	
 	$scope.getNumber = function(num) {
 	    return new Array(num);   
+	    
 	};
 	
 	//state1
@@ -258,7 +299,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	                "pyorea","Serpentiini"];
 
 	$scope.selectItemState1  = function(index){
-		$scope.selectedState1 = index;
+		$scope.selectedState1 = $scope.names[index];
 	};
 	
 	//state2
@@ -270,7 +311,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.errorState2 = false;
 	
 	$scope.selectItemState2  = function(index){
-		$scope.selectedState2 = index;
+		$scope.selectedState2 = $scope.namesState2[index];
 	};
 	
 	//state3
@@ -279,51 +320,51 @@ angular.module('stone', ['ngRoute','ngResource']).
 	                "13","14","15","16"];
 
 	$scope.selectItemState3  = function(index){
-		$scope.selectedState3 = index;
+		$scope.selectedState3 = $scope.namesState3[index];
 	};
 	//state4
 	$scope.namesState4 = ["Louhittu","Hiottu","sahattu"];
 
 	  	$scope.selectItemState4  = function(index){
-	  		$scope.selectedState4 = index;
+	  		$scope.selectedState4 = $scope.namesState4[index];
 	  	};
 	
 	//state5
 	$scope.namesState5 = ["Ei koristetta","Kynttiläluukku","Risti"];
 
 	$scope.selectItemState5  = function(index){
-		$scope.selectedState5 = index;
+		$scope.selectedState5 = $scope.namesState5[index];
 	};
 	//state6
 	$scope.namesState6 = ["Pyöreä holvi","Goottilainen holvi"];
 
 	$scope.selectItemState6  = function(index){
-		$scope.selectedState6 = index;
+		$scope.selectedState6 = $scope.namesState6[index];
 	};
 	//state7
 	$scope.namesState7 = ["Risti","Risti","Kaksinkertainen ","Kolminkertainen ","Ruusuristi",
 	                      "Tähkäristi","Risti","Risti","Kieloristi","Pieni kieloristi"];
 
 	$scope.selectItemState7  = function(index){
-		$scope.selectedState7 = index;
+		$scope.selectedState7 = $scope.namesState7[index];
 	};
 	//state8
 	$scope.namesState8 = ["Groteski","Korkea Groteski","Antikva","Leveä Antikva","Kapea Antikva"];
 
 	$scope.selectItemState8  = function(index){
-		$scope.selectedState8 = index;
+		$scope.selectedState8 = $scope.namesState8[index];
 	};
 	//state9
 	$scope.namesState9 = ["Tumma patina","Kirkas pintai","Taidepatina","Taonta","Kromaus","Kultaus","Kestolakkaus"];
 
 	$scope.selectItemState9  = function(index){
-		$scope.selectedState9 = index;
+		$scope.selectedState9 = $scope.namesState9[index];
 	};
 	//state10
 	$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
 
 	$scope.selectItemState10  = function(index){
-		$scope.selectedState10 = index;
+		$scope.selectedState10 = $scope.namesState10[index];
 	};
 	//state11
 	$scope.namesState11 = ["Ei koristetta","Enkeli 1","Enkeli 2","Enkeli 4","Enkeli 6","Pitsienkeli",
@@ -335,14 +376,14 @@ angular.module('stone', ['ngRoute','ngResource']).
 	  	                "Perhonen","Purjevene","Sinisiipi","Sydän","Vene ja airot"];
 
 	 $scope.selectItemState11  = function(index){
-	  		$scope.selectedState11 = index;
+	  		$scope.selectedState11 = $scope.namesState11[index];
 	  	};
-	//state12
+	/*//state12
 	$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
 
 	$scope.selectItemState10  = function(index){
 		$scope.selectedState10 = index;
-		};
+		};*/
 	});
 
 

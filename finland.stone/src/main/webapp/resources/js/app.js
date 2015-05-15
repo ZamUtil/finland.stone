@@ -84,7 +84,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.blackHeadstonesData = $scope.getBlackHeadstones({});
 	
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?BlackHeadstone='+item.id;
 	}
 })
 ///////PORTAAT    
@@ -122,7 +122,7 @@ angular.module('stone', ['ngRoute','ngResource']).
     $scope.blackHeadstonesData = $scope.getBlackHeadstones({});
     
     $scope.selectDiv = function(item) {
-    	$window.location.href = '/finland.stone/index?blackHeadstone='+item.id;
+    	$window.location.href = '/finland.stone/Tarjouspyynto#?blackHeadstone='+item.id;
 	}
 })
 .controller('MyCtrl1', function($scope, emailService, $location,$timeout) {
@@ -217,14 +217,13 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.selectedState9;
 	$scope.selectedState10;
 	$scope.selectedState11;
-	/*$scope.selectedState12;*/
 	
 	$scope.currentState = 1;
 	
 	$scope.nextState = function(state) {
 		console.log($scope);
-		if(state == 2 && $scope.selectedState2 == 5){
-			if($scope.state2width == "" && $scope.state2height == ""){
+		if(state == 2 && $scope.selectedState2 == "Oma koko"){
+			if($scope.state2width == " " && $scope.state2height == " "){
 				$scope.errorState2 = true;
 				return;
 			} else {
@@ -236,15 +235,15 @@ angular.module('stone', ['ngRoute','ngResource']).
 				$scope.selectedState2.state2height = $scope.state2height;
 			}
 		}
-		if (state == 5 && $scope.selectedState5 == 0){
+		if (state == 5 && $scope.selectedState5 == "Ei koristetta"){
 			$scope.currentState=8;
 			return;
 		}
-		if (state == 5 && $scope.selectedState5 == 1){
+		if (state == 5 && $scope.selectedState5 == "Kynttiläluukku"){
 			$scope.currentState=6;
 			return;
 		}
-		if (state == 5 && $scope.selectedState5 == 2){
+		if (state == 5 && $scope.selectedState5 == "Risti"){
 			$scope.currentState=7;
 			return;
 		}
@@ -378,12 +377,6 @@ angular.module('stone', ['ngRoute','ngResource']).
 	 $scope.selectItemState11  = function(index){
 	  		$scope.selectedState11 = $scope.namesState11[index];
 	  	};
-	/*//state12
-	$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
-
-	$scope.selectItemState10  = function(index){
-		$scope.selectedState10 = index;
-		};*/
 	});
 
 

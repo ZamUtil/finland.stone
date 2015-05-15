@@ -99,7 +99,9 @@ background-position:700px 100px;
                                 </div>
                             </div>                      							
 						</div>         
- 						<h2><left><spring:message code="pages.tarjous" /></left></h2>						
+ 						<h2><left><spring:message code="pages.tarjous" /></left></h2>		
+ 						<h4 style="color:#04B404"><left>Tilauksen jälkeen soitamme takaisin ja tarkistamme </left></h4>	
+ 						<h4 style="color:#04B404"><left>tilauksen valinta.</red></h4>				
 					<!-- END OF HEADER -->      
 					     <div>
                                       

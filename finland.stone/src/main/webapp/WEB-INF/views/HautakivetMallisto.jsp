@@ -82,7 +82,12 @@
 					    
  						<div id="head-title">
  						<center><h2>  Hautakivimallisto</h2></center>
- 						</div>	
+ 						</div>
+ 						<div>
+ 						<center><h4> Hinnat_sisältävät pohjakiven, arvonlisävero, yhden vainajan nimi-aikatiedot kaiverrettuna ja 
+maalattuna esim. harmaalla tai mustalla, rahti ja asennus pääkaupunkiseudalle.
+Kultaus 45€. Pronssikirjain 3cm-16€, 5cm-25€/kpl. Lisä kaiverrus 4€-kpl.</h4></center>
+ 							</div>	
  						<div>
  						<%-- <H3><center><spring:message code="pages.hautakivet.mallisto.text1"/><center/></H3> --%>
  						</div>
@@ -106,11 +111,11 @@
 					<!-- <p style="text-align: center"><button ng-click="selectDiv(item)"></button> -->
 					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa</a>
 					</div>
-					
-					
-				
-				
-				</div>
+
+
+
+
+					</div>
 			
 			</div>
 		</div>

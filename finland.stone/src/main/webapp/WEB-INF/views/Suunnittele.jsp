@@ -235,6 +235,7 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 <!-- state 11 -->
 		<div ng-show="currentState == 11">
 			<div class="state1"><center><h3>Koristeet 1/9</h3><center/></div>
+			<div class="state1"><center><h4>Vielä paljon muita tuotteita pronssista.</h4><center/></div>
 			<div ng-repeat="i in getNumber(37) track by $index" >
 				<div class="col-md-4" ng-class="{ 'selected-div': $index == selectedState11 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState11($index)">

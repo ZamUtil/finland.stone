@@ -13,24 +13,12 @@
   <meta name="description" content="" />
 <title>Hautakiviliike KiiskenKivi Oy</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link
 	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
 	rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
 <style type='text/css' media='screen,projection'>
-<!--
-fieldset { border:0;margin:0;padding:0; }
-label {  padding-right:15px; float:left; width:70px;}
-input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
--->
 </style>
 
 
@@ -49,9 +37,6 @@ background-position:700px 100px;
 </style>
 
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
@@ -70,45 +55,38 @@ background-position:700px 100px;
     
 </head>
 <body>
-	
-	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
          <div class="fon_scroll">
-        	<!-- FRAME -->
 				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
 						<div id="top">
                         	<div id="logo">
 								<div id="pad_logo">
 									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
 								</div>
 							</div>
-                            <div id="topmenu">
+                           <div id="topmenu">
                                 <div id="nav">
                                     <ul id="menu">
-                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> >
-                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>  
-                                <li class="current"><a class="active" href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                                                                                              
+                                <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li> 
+                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                <li class="current"><a class="active" href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                                 <span style="float: right"> 
                         		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
 						</span>
                             </ul>
+                                    <div>
+						
+					</div>
                                 </div>
                             </div>                      							
 						</div>         
  						<h2><left><spring:message code="pages.tarjous" /></left></h2>		
  						<h4 style="color:#04B404"><left>Tilauksen jälkeen soitamme takaisin ja tarkistamme </left></h4>	
  						<h4 style="color:#04B404"><left>tilauksen valinta.</red></h4>				
-					<!-- END OF HEADER -->      
 					     <div>
-                                      
-               
          <form class="form-horizontal" role="form" ng-controller="MyCtrl1">         
-                                      
-      
   <div class="form-group">
     <label for="inputName" class="col-sm-2 control-label"><spring:message code="pages.tarjous.1" /></label>
     <div class="col-sm-4">
@@ -153,31 +131,17 @@ background-position:700px 100px;
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
+    
       <button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /></button>
     </div>
   </div>
   <span>{{formInfo}}</span>
 </form>
-                                                                 
-                     
 <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
-                     
-                     
-
-                     
-                    
-              
-                
-                <!-- END OF FRAME -->
-               
-        		</div>
-         
         		</div>
         		</div>
         		</div>
-        <!-- END OF MAIN_CONTAINER -->
-        
-        <!-- BEGIN FOOTER -->
+        		</div>
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
@@ -189,7 +153,5 @@ background-position:700px 100px;
 				</div>
 			</div>
 		</div>
-		<!-- END OF FOOTER -->
-        
 </body>
 </html>

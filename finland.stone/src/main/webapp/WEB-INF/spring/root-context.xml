@@ -16,7 +16,7 @@
 
 	<!-- Определяем папки, в которых будем автоматически искать бины-компоненты 
 		(@Component, @Service) -->
-	<context:component-scan base-package="com.zam.finland.stone" />
+	<context:component-scan base-package="com.boiko.finland.stone" />
 
 	<bean id="mailAsyncTaskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor">
 		<property name="concurrencyLimit" value="3" />
@@ -25,7 +25,7 @@
 	<bean id="entityManagerFactory"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean"
 		depends-on="dbConfig">
-		<property name="packagesToScan" value="com.zam.finland.stone" />
+		<property name="packagesToScan" value="com.boiko.finland.stone" />
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
 				<property name="showSql" value="true" />

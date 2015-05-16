@@ -18,7 +18,7 @@
 
     <bean id="entityManagerFactory"
         class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" depends-on="dbConfig">
-        <property name="packagesToScan" value="com.zam.finland.stone" />
+        <property name="packagesToScan" value="com.boiko.finland.stone" />
         <property name="jpaVendorAdapter">
             <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
                 <property name="showSql" value="false" />

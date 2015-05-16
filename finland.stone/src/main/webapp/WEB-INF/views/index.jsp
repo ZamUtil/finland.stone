@@ -14,16 +14,27 @@
 <title>Hautakiviliike KiiskenKivi Oy</title>
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/main.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/swfobject/swfobject.js"/>
-<script type="text/javascript">
-		var flashvars = {};
-		flashvars.xml = "${pageContext.request.contextPath}/resources/config.xml";
-		flashvars.font = "font.swf";
-		var attributes = {};
-		attributes.wmode = "transparent";
-		attributes.id = "slider";
-		swfobject.embedSWF("${pageContext.request.contextPath}/resources/cu3er.swf", "threed-slider", "630", "265", "9", "expressInstall.swf", flashvars, attributes);
+
+<!-- slider -->
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/liSlidik.css"   />
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery-1.8.min.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.liSlidik.js"></script>
+
+
+<script>
+$(function(){
+	$(window).load(function(){
+		$('#slide_2').liSlidik({
+			auto:3000,			//false - чтобы выключить слайд-шоу, или целое число (милисекунды) - чтобы включить и задать время между сменой слайдов
+    		duration: 1000		//Число, определяющие, как долго будет протекать анимация смены слайда (в миллисекундах)
+		});
+	})
+});
 </script>
+<!-- slider -->
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/swfobject/swfobject.js"/>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
@@ -62,7 +73,35 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
                          
                     </div>                            	
                 </div>
-					<div id="slides_container">
+
+
+
+
+
+			<div class="conteiner">
+				<ul id="slide_2" class="slidik">
+
+					<li class="show"><img
+						src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
+					<li><img alt="Цель"src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
+					<li><img alt="Влюблённый " src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
+					<li><img src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
+					<a data-slidik="slide_2" class="next" href="#">Следующий</a>
+					<a data-slidik="slide_2" class="prev" href="#">Предыдущий</a>
+					<div class="captionWrap">
+						<div data-slidik="slide_2" class="caption"></div>
+					</div>
+					<div data-slidik="slide_2" class="dotted"></div>
+				</ul>
+			</div>
+
+
+
+
+
+
+
+			<div id="slides_container">
                         <div id="slides-cu3er">
                             <div id="threed-slider">
                                 <a href="http://www.adobe.com/go/getflashplayer">

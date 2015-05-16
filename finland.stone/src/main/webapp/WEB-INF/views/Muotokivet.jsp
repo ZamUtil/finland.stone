@@ -24,10 +24,6 @@
 
 </style>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
-
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
@@ -43,15 +39,8 @@
 </head>
 <body ng-controller="blackHeadstoneController">
 <div id="bottom_c">
-	
-	
-	<!-- MAIN_CONTAINER -->
 		<div id="main_container">
-        
-        	<!-- FRAME -->
 				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
 						<div id="top">
                         	<div id="logo">
 								<div id="pad_logo">
@@ -76,39 +65,23 @@
                                 </div>
                             </div>                            							
 						</div>   
-					    
- 						
  						<div id="head-title">
  						<center><h2><spring:message code="pages.hautakivet.moutokivet"/></h2></center>
- 						
  						</div>	
  						<div>
  						<H3><center><spring:message code="pages.hautakivet.moutokivet.text"/><center/></H3>
  						</div>
- 						
- 					
-					<!-- END OF HEADER -->   
 			<div ng-repeat="item in blackHeadstonesData">
-	
 				<div class="col-md-3" style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
 					<div>
 						<img src="${pageContext.request.contextPath}/resources/headstone-data2/{{item.picture}}.jpg"
 							style="width:75%"></img>
-							
 					</div>
 					<span><h4>{{item.names}}</h4></span>
 					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa</a>
-				
 				</div>
-			
 		</div>
-		<!-- END OF FRAME -->
-	
-	<!-- END OF MAIN_CONTAINER -->
-	
 			</div>
-			
-	<!-- BEGIN FOOTER -->
 	<div id="bottom_container">
 		<div id="footer">
 			<div id="foot">
@@ -120,8 +93,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- END OF FOOTER -->
-
 </div>
 </body>
 </html>

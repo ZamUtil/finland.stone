@@ -70,22 +70,16 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
             	<div id="head-top">
                     <div id="head-title">
                          <h2><spring:message code="pages.index.title" /></h2>
-                         
                     </div>                            	
                 </div>
-
-
-
-
-
-			<div class="conteiner">
-				<ul id="slide_2" class="slidik">
-
-					<li class="show"><img
-						src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
-					<li><img alt="Цель"src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
-					<li><img alt="Влюблённый " src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
-					<li><img src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
+			<div id="slides_container">
+                <div id="slides-cu3er">
+                    <ul id="slide_2" class="slidik">
+					<li class="show"><img alt="столешницы" src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
+					<li><img alt="Обработка камня "src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
+					<li><img alt="Памятники " src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
+					<li><img alt="Плитка "src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
+					<li><img alt="Брусчатка "src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
 					<a data-slidik="slide_2" class="next" href="#">Следующий</a>
 					<a data-slidik="slide_2" class="prev" href="#">Предыдущий</a>
 					<div class="captionWrap">
@@ -93,22 +87,7 @@ Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
 					</div>
 					<div data-slidik="slide_2" class="dotted"></div>
 				</ul>
-			</div>
-
-
-
-
-
-
-
-			<div id="slides_container">
-                        <div id="slides-cu3er">
-                            <div id="threed-slider">
-                                <a href="http://www.adobe.com/go/getflashplayer">
-        							<!-- <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" class="flash-img" /> -->
-        							<img src="${pageContext.request.contextPath}/resources/images/slide_2.jpg"> 
-    							</a>
-                            </div>
+                          
                         </div>
                         	<div id="slides-text">
 								<p> 

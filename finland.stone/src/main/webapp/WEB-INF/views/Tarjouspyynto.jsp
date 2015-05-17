@@ -127,6 +127,7 @@ background-position:700px 100px;
     <label for="inputMessage" class="col-sm-2 control-label"><spring:message code="pages.tarjous.7" /></label>
     <div class="col-sm-4">
       <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message" >
+   
     </div>
   </div>
   <div class="form-group">
@@ -135,7 +136,7 @@ background-position:700px 100px;
       <button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /></button>
     </div>
   </div>
-  <span>{{formInfo}}</span>
+<!--   <span>{{formInfo}}</span> -->
 </form>
 <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
         		</div>

@@ -51,7 +51,7 @@ background-position:700px 100px;
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
-</script>   
+</script> 
     
 </head>
 <body>
@@ -136,6 +136,8 @@ background-position:700px 100px;
       <button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /></button>
     </div>
   </div>
+
+ 
 <!--   <span>{{formInfo}}</span> -->
 </form>
 <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>

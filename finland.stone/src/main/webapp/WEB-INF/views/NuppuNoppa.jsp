@@ -68,22 +68,22 @@
   								 <div class="wrapper"> 
   								 	<div class="left_block"><p><h4> NOPPAKIVET</h4>Noppakivet ovat lohkomalla valmistettuja tasasivuisia kivikuutioita.</p>
   								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x100 - 85€ ')" class="button11">100x100x100 - 85€</a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x100 - 85€ - m2 ')" class="button11">100x100x100 - 85€- m2</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x50 - 90€')" class="button11">100x100x50 - 90€</a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x50 - 90€'- m2)" class="button11">100x100x50 - 90€- m2</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 50x50x50 - 85€ ')" class="button11">50x50x50 - 85€ </a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 50x50x50 - 85€ - m2')" class="button11">50x50x50 - 85€- m2 </a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv('NOPPA 140x140x140 - 150€ ')" class="button11">140x140x140 - 150€  </a></p>
+           								<p><a href="#" ng-click = "selectDiv('NOPPA 140x140x140 - 150€ - m2')" class="button11">140x140x140 - 150€- m2  </a></p>
            								&nbsp;
            								<hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>	
            							</div>
            							<div class="right_block">
            								<p><h4> NUPUKIVET</h4>Nupukivet ovat lohkottuja suorakaiteen mallisia kivituotteita</p>
   								 		&nbsp;
-  								 		<p><a href="#" ng-click = "selectDiv('NUPU 70-80x140x200-220 - 120€')" class="button11">70-80x140x200-220 - 120€</a></p>
+  								 		<p><a href="#" ng-click = "selectDiv('NUPU 70-80x140x200-220 - 120€'- m2)" class="button11">70-80x140x200-220 - 120€- m2</a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€')" class="button11">140x140x200-220 - 150€ </a></p>
+           								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€'- m2)" class="button11">140x140x200-220 - 150€- m2 </a></p>
            								
            							</div> 
            							</div>

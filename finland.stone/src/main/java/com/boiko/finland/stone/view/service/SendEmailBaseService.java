@@ -87,4 +87,16 @@ public class SendEmailBaseService {
 		mailService.sendPreConfiguredMail(builder.toString());
 		return null;
 	}
+	
+
+	@RequestMapping(value = "/postContactInfo", method = RequestMethod.POST)
+	public @ResponseBody String postContactInfo(@RequestBody EmailModel model) {
+		StringBuilder builder = new StringBuilder();
+		builder.append("Имя: ").append(model.getName())
+		.append(" \n" + "Емейл: ").append(model.getEmail())
+		.append(" \n" + "Сообщение: ").append(model.getMessage());
+		
+		mailService.sendPreConfiguredMail(builder.toString());
+		return null;
+	}
 }

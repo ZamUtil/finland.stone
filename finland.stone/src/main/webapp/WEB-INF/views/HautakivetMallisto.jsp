@@ -16,6 +16,9 @@
 <!-- ////////////////////////////////// -->
 <!-- //      Start Stylesheets       // -->
 <!-- ////////////////////////////////// -->
+<link
+	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
+	rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/style.css"	rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css"	rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"	rel="stylesheet" type="text/css" />
@@ -86,7 +89,7 @@
  						<div>
  						<center><h4> Hinnat_sisältävät pohjakiven, arvonlisävero, yhden vainajan nimi-aikatiedot kaiverrettuna ja 
 maalattuna esim. harmaalla tai mustalla, rahti ja asennus pääkaupunkiseudalle.
-Kultaus 45€. Pronssikirjain 3cm-16€, 5cm-25€/kpl. Lisä kaiverrus 4€-kpl.</h4></center>
+</h4></center>
  							</div>	
  						<div>
  						<%-- <H3><center><spring:message code="pages.hautakivet.mallisto.text1"/><center/></H3> --%>

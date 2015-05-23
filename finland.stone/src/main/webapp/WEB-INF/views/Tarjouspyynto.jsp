@@ -23,18 +23,27 @@
 
 
 
-<style type="text/css">
-body {
 
-}
-.fon_scroll {
 
-background-image:url(resources/images/portfolio-thumb/zakazat.jpg);
-background-repeat:no-repeat;
+ <style>
+   .layer1 {
+    background-color: #F2F2F2; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 470px; /* Ширина слоя */
+   }
+   .layer2 {
+    /*background-color: #F2F2F2;  Цвет фона слоя */
+   /* padding: 5px;  Поля вокруг текста */
+    width: 470px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+   }
+   .clear {
+    clear: left; /* Отмена обтекания */
+   }
+  </style>
 
-background-position:700px 100px;
-}
-</style>
+
 
 
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
@@ -77,70 +86,54 @@ background-position:700px 100px;
 						</span>
                             </ul>
                                     <div>
-						
 					</div>
                                 </div>
                             </div>                      							
 						</div>         
  						<h2><left><spring:message code="pages.tarjous" /></left></h2>		
- 						<h4 style="color:#04B404"><left>Tilauksen jälkeen soitamme takaisin ja tarkistamme </left></h4>	
- 						<h4 style="color:#04B404"><left>tilauksen valinta.</red></h4>				
+ 						<h4 style="color:#04B404"><left>Tilauksen jälkeen soitamme takaisin ja tarkistamme tilauksen valinta. </left></h4>	
+ 								
 					     <div>
+		<div class="layer1">
          <form class="form-horizontal" role="form" ng-controller="MyCtrl1">         
-  <div class="form-group">
     <label for="inputName" class="col-sm-2 control-label"><spring:message code="pages.tarjous.1" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputName" placeholder="<spring:message code="pages.tarjous.1" />" ng-model="formInfo.name">
-    </div>
-  </div>
-  <div class="form-group">
     <label for="inputAdress" class="col-sm-2 control-label"><spring:message code="pages.tarjous.2" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputAddress" placeholder="<spring:message code="pages.tarjous.2" />" ng-model="formInfo.address">
-    </div>
-  </div>
-  <div class="form-group">
     <label for="inputPostcode" class="col-sm-2 control-label"><spring:message code="pages.tarjous.3" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputPostcode" placeholder="<spring:message code="pages.tarjous.3" />" ng-model="formInfo.postcode">
-    </div>
-  </div>
-  <div class="form-group">
     <label for="inputPhone" class="col-sm-2 control-label"><spring:message code="pages.tarjous.4" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.phone">
-    </div>
-  </div>
-  <div class="form-group">
     <label for="inputDelivery" class="col-sm-2 control-label"><spring:message code="pages.tarjous.5" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputDelivery" placeholder="<spring:message code="pages.tarjous.5" />" ng-model="formInfo.delivery">
-    </div>
-  </div>
-  <div class="form-group">
     <label for="inputEmail" class="col-sm-2 control-label"><spring:message code="pages.tarjous.6" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.email">
-    </div>
-  </div>
-   <div class="form-group">
     <label for="inputMessage" class="col-sm-2 control-label"><spring:message code="pages.tarjous.7" /></label>
-    <div class="col-sm-4">
       <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message" >
-   
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-    
-      <button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /></button>
-    </div>
-  </div>
+  <br>
+      <button type="submit" onclick="alert('Заказ успешно отправлен')" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /> </button>
 
- 
-<!--   <span>{{formInfo}}</span> -->
 </form>
-<hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+
+</div>
+ <div class="layer1">
+   <img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/zakazat.jpg">
+</div>
+ <div class="clear">
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+ </div>
+<!--   <span>{{formInfo}}</span> -->
         		</div>
         		</div>
         		</div>

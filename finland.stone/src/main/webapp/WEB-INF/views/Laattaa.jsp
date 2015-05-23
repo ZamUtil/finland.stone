@@ -19,6 +19,48 @@
 <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
 <style type='text/css' media='screen,projection'> </style>
+ <style>
+   .layer1 {
+    background-color: #E6E6E6; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 240px; /* Ширина слоя */
+   }
+   .layer2 {
+    background-color: #D8D8D8; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 240px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+   }
+    .layer3 {
+    background-color: #E6E6E6; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 240px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+   }
+    .layer4 {
+    background-color: #D8D8D8; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 240px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+   }
+     .layer11 {
+    background-color: #FFFFFF; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 470px; /* Ширина слоя */
+   }
+     .layer12 {
+    background-color: #FFFFFF; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    width: 470px; /* Ширина слоя */
+   }
+   .clear {
+    clear: left; /* Отмена обтекания */
+   }
+   </style>
+
 
 <script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
@@ -57,15 +99,28 @@
                                 </div>
                             </div>                      							
 						</div>         
- 						<h2><left><spring:message code="pages.graniitti.laattaa" /></left></h2>	
- 						<h4><left>Min tilaus 50 m</left></h4>	
+ 						<h2><left><spring:message code="pages.graniitti.laattaa" /> (Min tilaus 50 m2)</left></h2>	
+ 						
                     	 <div>
 								<div class="imgCenter">
    									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/latta.jpg">
   								</div>   
-  								 	<h4><left>2cm- 70E, 3 cm- 100E</left></h4>	
-           								<div class="wrapper"> 
-  								 			<div class="left_block"><p><h4>Poltettu</h4>Min tilaus 50 m2</p>
+  								 		
+           								<div class="layer11">
+           							<h1><center>Kiillotettu</center></h1>
+           								</div>
+           								<div class="layer22">
+           							<h1><center>Poltettu</center></h1>
+           								</div>
+           								
+           								 <div class="clear"></div>
+  
+           								
+							
+           								
+           								
+           								<div class="layer1">
+  								 			<p><h2>70€/m2</h2></p>
   								 		&nbsp;
 										<p><a href="#" ng-click = "selectDiv('Poltettu 60*40*2')" class="button11">60*40*2 cm.</a></p>
 										&nbsp;
@@ -77,6 +132,11 @@
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Poltettu 60*60*2')" class="button11">60*60*2 cm. </a></p>
            								&nbsp;
+           								</div>
+           								
+           								<div class="layer2">
+           									<p><h2>100€/m2</h2></p>
+           									&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Poltettu 60*40*3')" class="button11">60*40*3 cm. </a></p>
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Poltettu 60*30*3')" class="button11">60*30*3 cm. </a></p>
@@ -87,9 +147,11 @@
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Poltettu 60*60*3')" class="button11">60*60*3 cm. </a></p>
            								&nbsp;
-           									</div>
-           								<div class="right_block">
-           								<p><h4>Kiillotettu</h4>Min tilaus 50 m2</p>
+           								</div>
+           							
+           								
+           								<div class="layer3">
+           									<p><h2>70€/m2</h2></p>
   								 		&nbsp;
 										<p><a href="#" ng-click = "selectDiv('Kiillotettu 60*40*2')" class="button11">60*40*2 cm.</a></p>
 										&nbsp;
@@ -101,6 +163,10 @@
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Kiillotettu 60*60*2')" class="button11">60*60*2 cm. </a></p>
            								&nbsp;
+           								</div>
+           								<div class="layer4">
+           								<p><h2>100€/m2</h2></p>
+           								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Kiillotettu 60*40*3')" class="button11">60*40*3 cm. </a></p>
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Kiillotettu 60*30*3')" class="button11">60*30*3 cm. </a></p>
@@ -111,8 +177,10 @@
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('Kiillotettu 60*60*3')" class="button11">60*60*3 cm. </a></p>
            								&nbsp;
-           								</div> 
            								</div>
+           								 <div class="clear"></div>
+           								
+           								
 								</div>
                      <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                 </div>

@@ -147,7 +147,7 @@
 <div ng-controller="ModalDemoCtrl">
 	<script type="text/ng-template" id="myModalContent.html">
         <div class="modal-header">
-            <h3 class="modal-title">Введите ваши данные и вопрос, и мы вам ответим!</h3>
+            <h3 class="modal-title">Syötä tietosi ja kysymyksesi, ja me vastaamme sinulle!</h3>
        	</div>
    		<div class="col-sm-12">
 			<br>	
@@ -253,7 +253,7 @@
 					<!--  <a href="http://twitter.com" class="twitter-follow-button" data-show-count="true">Follow</a>
                         <a href="http://twitter.com" class="twitter-follow-button" data-show-count="true">Follow</a>
                         <a href="http://twitter.com" class="twitter-follow-button" data-show-count="true">Follow</a> -->
-					&nbsp;&nbsp; Mi v social setjax &nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp; Jaa tämä tuote! &nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

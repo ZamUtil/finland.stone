@@ -76,7 +76,7 @@
 						</div></li>
 						<li class="cell1"><div class="content2">							
                         <h2><a href="Muotokivet.html" ><spring:message code="pages.hautakivet.moutokivet"/></h2><br />
-						<a href="Keittiotasot.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_5.jpg"></img></a>
+						<a href="Muotokivet.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_5.jpg"></img></a>
                         <p>
                         <H3><spring:message code="pages.hautakivet.moutokivet.text"/></H3>
 						</li>

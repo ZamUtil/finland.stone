@@ -29,7 +29,40 @@
 <style type='text/css' media='screen,projection'>
 
 </style>
-
+<style>
+a.button19 {
+  display: inline-block;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0,0,0,.5);
+  user-select: none;
+  padding: .7em 1.5em;
+  border: 1px solid rgb(80,32,0);
+  border-radius: 5px;
+  outline: none;
+  background: rgb(147,80,36) linear-gradient(rgb(106,58,26), rgb(147,80,36) 80%);
+  box-shadow:
+   0 6px rgb(86,38,6),
+   0 3px 15px rgba(0,0,0,.4),
+   inset 0 1px rgba(255,255,255,.3),
+   inset 0 0 3px rgba(255,255,255,.5);
+  transition: .2s;
+} 
+.button19:hover {
+  background: rgb(167,91,41) linear-gradient(rgb(126,69,31), rgb(167,91,41) 80%);
+}
+.button19:active {
+  background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+  box-shadow:
+   0 2px rgb(86,38,6),
+   0 1px 6px rgba(0,0,0,.4),
+   inset 0 1px rgba(255,255,255,.3),
+   inset 0 0 3px rgba(255,255,255,.5);
+  -webkit-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
+</style>
 <!-- ////////////////////////////////// -->
 <!-- //      Javascript Files        // -->
 <!-- ////////////////////////////////// -->
@@ -112,7 +145,7 @@ maalattuna esim. harmaalla tai mustalla, rahti ja asennus pääkaupunkiseudalle.
 					</div>
 					<span><h4>{{item.prise}} €</h4></span>
 					<!-- <p style="text-align: center"><button ng-click="selectDiv(item)"></button> -->
-					<p style="text-align: center"><a href="#" class="button19"ng-click="selectDiv(item)">Kassa</a>
+					<p style="text-align: center"><a href="" class="button19"ng-click="selectDiv(item)">Kassa</a>
 					</div>
 
 

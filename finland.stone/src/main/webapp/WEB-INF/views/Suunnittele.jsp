@@ -254,7 +254,7 @@
 					<div>
 							<img src="${pageContext.request.contextPath}/resources/suunnittele-kivi/koristeet/{{$index+1}}.png"
 							style="width="50%"></img>
-							<a ng-click="selectItemStat11($index)" href="#" class="button30">+</a>
+							<a ng-click="selectItemStat11($index)" href="" class="button30">+</a>
 							 <span>{{namesState11[$index]}}</span>
 						
 					</div>

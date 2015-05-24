@@ -96,23 +96,31 @@
 					     <div>
 		<div class="layer1">
          <form class="form-horizontal" role="form" ng-controller="MyCtrl1">         
-    <label for="inputName" class="col-sm-2 control-label"><spring:message code="pages.tarjous.1" /></label>
+    <span ng-show="nameRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>
+     </br>
       <input class="form-control" id="inputName" placeholder="<spring:message code="pages.tarjous.1" />" ng-model="formInfo.name">
-    <label for="inputAdress" class="col-sm-2 control-label"><spring:message code="pages.tarjous.2" /></label>
+        
+       <span ng-show="addressRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>
+     </br>
       <input class="form-control" id="inputAddress" placeholder="<spring:message code="pages.tarjous.2" />" ng-model="formInfo.address">
-    <label for="inputPostcode" class="col-sm-2 control-label"><spring:message code="pages.tarjous.3" /></label>
+       <span ng-show="postcodeRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>
+     </br>
       <input class="form-control" id="inputPostcode" placeholder="<spring:message code="pages.tarjous.3" />" ng-model="formInfo.postcode">
-    <label for="inputPhone" class="col-sm-2 control-label"><spring:message code="pages.tarjous.4" /></label>
+       <span ng-show="phoneRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>
+     </br>
       <input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.phone">
-    <label for="inputDelivery" class="col-sm-2 control-label"><spring:message code="pages.tarjous.5" /></label>
+       <span ng-show="deliveryRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>
+     </br>
       <input class="form-control" id="inputDelivery" placeholder="<spring:message code="pages.tarjous.5" />" ng-model="formInfo.delivery">
-    <label for="inputEmail" class="col-sm-2 control-label"><spring:message code="pages.tarjous.6" /></label>
+    <span ng-show="emailRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>   
+     </br>
       <input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.email">
-    <label for="inputMessage" class="col-sm-2 control-label"><spring:message code="pages.tarjous.7" /></label>
+ <span ng-show="messageRequired" class="errorMessage">{{"Это поле обязательное для заполнения*"}}</span>
+ </br>
       <input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message" >
   <br>
-      <button type="submit" onclick="alert('Заказ успешно отправлен')" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /> </button>
-
+      <button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /> </button>
+ </br>
 </form>
 
 </div>

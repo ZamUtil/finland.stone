@@ -185,9 +185,8 @@ code {
 }	
 
  
- .selected-div{
-   background-color: #ff0000;
-  border-color: #ff0000;}
+
+  
 a.button19 {
   display: inline-block;
   font-weight: bold;
@@ -405,6 +404,9 @@ float:right;
 width:500px;
 }
 
+.errorMessage{
+	color:red;
+}
 
 
 

@@ -91,15 +91,15 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
   								 </div>   
   								 	<p><h4> Graniittiset pöytätasot ovat pitkällejalostettua luonnon graniittia. Täyskivitasot kestävät kovaakin kulutusta ja ovat käytännössä ikuisia. Pöytätasot ovat hyvin helppohoitoisia ja niiden ajaton kauneus nostaa kotisi arvokkuutta.</h4></p>
   								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv(1)" class="button11">610x2000-433,00 €/m </a></p>
+										<p><a href="#" ng-click = "selectDiv('610x2000-433,00 €/m')" class="button11">610x2000-433,00 €/m </a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(2)" class="button11">610x3000-384,00 €/m </a></p>
+										<p><a href="#" ng-click = "selectDiv('610x3000-384,00 €/m')" class="button11">610x3000-384,00 €/m </a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(3)" class="button11">610x4000-360,00 €/m </a></p>
+										<p><a href="#" ng-click = "selectDiv('610x4000-360,00 €/m')" class="button11">610x4000-360,00 €/m </a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(4)" class="button11">610x5000-345,00 €/m </a></p>
+           								<p><a href="#" ng-click = "selectDiv('610x5000-345,00 €/m')" class="button11">610x5000-345,00 €/m </a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv(5)" class="button11">610x8000-327,00 €/m </a></p>
+           								<p><a href="#" ng-click = "selectDiv('610x8000-327,00 €/m')" class="button11">610x8000-327,00 €/m </a></p>
            								&nbsp;
            								<h4> posle zakaza tovara mi vam perezvinim i yti4nim koli4estvo zakazannogo tovara!</h4> 
 								</div>

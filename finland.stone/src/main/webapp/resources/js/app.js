@@ -139,33 +139,45 @@ angular.module('stone', ['ngRoute','ngResource']).
       $scope.deliveryRequired = '';
       $scope.emailRequired = '';
       $scope.messageRequired = '';
+      
+      var notValid = false;
  
       if (!$scope.formInfo.name) {
         $scope.nameRequired = 'Name Required';
+        notValid = true;
       }
  
       if (!$scope.formInfo.address) {
         $scope.addressRequired = 'Address Required';
+        notValid = true;
       }
  
       if (!$scope.formInfo.postcode) {
         $scope.postcodeRequired = 'Postcode Required';
+        notValid = true;
       }
       
       if (!$scope.formInfo.phone) {
           $scope.phoneRequired = 'Phone Required';
+          notValid = true;
       }
    
       if (!$scope.formInfo.delivery) {
           $scope.deliveryRequired = 'Delivery Required';
+          notValid = true;
       }
    
       if (!$scope.formInfo.email) {
           $scope.emailRequired = 'Email Required';
+          notValid = true;
       }
       
       if (!$scope.formInfo.message) {
           $scope.messageRequired = 'Message Required';
+          notValid = true;
+      }
+      if(notValid){
+    	  return;
       }
       
 
@@ -175,7 +187,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 			/* $scope.formInfo.dataKey1 = data */
 			// $scope.formInfo.dataKey1 = data
 			$scope.formInfo.st1 = params['selectedState1']
-			$scope.formInfo.st2 = params['selectedState2']
+			$scope.formInfo.st2 = params['selectedState2state2width'] + "x" + params['selectedState2state2height'] + "cm";
 			$scope.formInfo.st3 = params['selectedState3']
 			$scope.formInfo.st4 = params['selectedState4']
 			$scope.formInfo.st5 = params['selectedState5']
@@ -186,6 +198,8 @@ angular.module('stone', ['ngRoute','ngResource']).
 			$scope.formInfo.st10 = params['selectedState10']
 			$scope.formInfo.st11 = params['selectedState11']
 			emailService.postSunnitelle($scope.formInfo);
+			alert('Заказ успешно отправлен')
+			document.location.href = 'index.html';
 		} else {
 			for (data in params) {
 				$scope.formInfo.dataKey = data
@@ -193,15 +207,11 @@ angular.module('stone', ['ngRoute','ngResource']).
 				break;
 			}
 			emailService.post($scope.formInfo);
+			alert('Заказ успешно отправлен')
+			document.location.href = 'index.html';
 		}
 	};
 })
- 
-
-
-
-
-
 // //////////////////sunnittelle
 .controller('suunnitteleController', function($scope,$rootScope,$timeout,$window) {
 	var SIZE_DIV_POSS = 5;
@@ -221,19 +231,87 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.currentState = 1;
 	
 	$scope.nextState = function(state) {
-		console.log($scope);
+		console.log(state)
+		if (state == 1) {
+			if ($scope.selectedState1 == null || $scope.selectedState1 == undefined) {
+				alert('Сделайте выбор1!')
+				return;
+			}
+		}
+		if (state == 2) {
+			if ($scope.selectedState2 == null || $scope.selectedState2 == undefined) {
+				alert('Сделайте выбор2!')
+				return;
+			}
+		}
+		if (state == 3) {
+			if ($scope.selectedState3 == null || $scope.selectedState3 == undefined) {
+				alert('Сделайте выбор3!')
+				return;
+			}
+		}
+		if (state == 4) {
+			if ($scope.selectedState4 == null || $scope.selectedState4 == undefined) {
+				alert('Сделайте выбор4!')
+				return;
+			}
+		}
+		if (state == 5) {
+			if ($scope.selectedState5 == null || $scope.selectedState5 == undefined) {
+				alert('Сделайте выбор5!')
+				return;
+			}
+		}
+		if (state == 6) {
+			if ($scope.selectedState6 == null || $scope.selectedState6 == undefined) {
+				alert('Сделайте выбор6!')
+				return;
+			}
+		}
+		if (state == 7) {
+			if ($scope.selectedState7 == null || $scope.selectedState7 == undefined) {
+				alert('Сделайте выбор7!')
+				return;
+			}
+		}
+		if (state == 8) {
+			if ($scope.selectedState8 == null || $scope.selectedState8 == undefined) {
+				alert('Сделайте выбор8!')
+				return;
+			}
+		}
+		if (state == 9) {
+			if ($scope.selectedState9 == null || $scope.selectedState9 == undefined) {
+				alert('Сделайте выбор9!')
+				return;
+			}
+		}
+		if (state == 10) {
+			if ($scope.selectedState10 == null || $scope.selectedState10 == undefined) {
+				alert('Сделайте выбор10!')
+				return;
+			}
+		}
+		if (state == 11) {
+			if ($scope.selectedState11 == null || $scope.selectedState11 == undefined) {
+				alert('Сделайте выбор11!')
+				return;
+			}
+		}
+		
+		
 		if(state == 2 && $scope.selectedState2 == "Oma koko"){
-			if($scope.state2width == " " && $scope.state2height == " "){
+			if($scope.state2width == "" || $scope.state2height == ""){
 				$scope.errorState2 = true;
 				return;
-			} else {
+			} else{
 				var id = $scope.selectedState2;
 				$scope.errorState2 = false;
 				$scope.selectedState2 = {}
 				$scope.selectedState2.index = id;
 				$scope.selectedState2.state2width = $scope.state2width;
 				$scope.selectedState2.state2height = $scope.state2height;
-			}
+			} 	
 		}
 		if (state == 5 && $scope.selectedState5 == "Ei koristetta"){
 			$scope.currentState=8;
@@ -251,10 +329,13 @@ angular.module('stone', ['ngRoute','ngResource']).
 			$scope.currentState=8;
 			return;
 		}
+		
 		if (state == 11 ){         
 			$window.location.href = '/finland.stone/Tarjouspyynto#?type=Sunnitelle&selectedState1='
 				+$scope.selectedState1
 			+'&selectedState2='+$scope.selectedState2
+			+'&selectedState2state2width='+$scope.selectedState2.state2width
+			+'&selectedState2state2height='+$scope.selectedState2.state2height
 			+'&selectedState3='+$scope.selectedState3
 			+'&selectedState4='+$scope.selectedState4
 			+'&selectedState5='+$scope.selectedState5
@@ -268,6 +349,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		}
 		
 		$scope.currentState++;
+		
 	}
 	
 	$scope.backState =  function(state) {
@@ -298,6 +380,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	                "pyorea","Serpentiini"];
 
 	$scope.selectItemState1  = function(index){
+	console.log($scope.selectedState1)
 		$scope.selectedState1 = $scope.names[index];
 	};
 	

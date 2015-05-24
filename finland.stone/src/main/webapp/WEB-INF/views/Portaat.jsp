@@ -91,24 +91,17 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
   								 </div>   
   								 	<p><h4> Poltettu päälipinta, etupinta ja päädyt. Pohja ja tausta sahattu</h4></p>
   								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv(1)" class="button11">90x37x15cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('90x37x15 cm')" class="button11">90x37x15 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(2)" class="button11">120x37x15 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('120x37x15 cm')" class="button11">120x37x15 cm.</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv(3)" class="button11">150x37x15 cm.</a></p>
+										<p><a href="#" ng-click = "selectDiv('150x37x15 cm')" class="button11">150x37x15 cm.</a></p>
            								&nbsp;
            								<h4> posle zakaza tovara mi vam perezvinim i yti4nim koli4estvo zakazannogo tovara!</h4> 
 								</div>
                      <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                 </div>
-                <!-- END OF FRAME -->
-               
         		</div>
-         
-        		
-        <!-- END OF MAIN_CONTAINER -->
-        
-        <!-- BEGIN FOOTER -->
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
@@ -120,7 +113,5 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 				</div>
 			</div>
 		</div>
-		<!-- END OF FOOTER -->
-        
 </body>
 </html>

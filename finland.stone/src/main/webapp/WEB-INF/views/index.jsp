@@ -111,16 +111,21 @@
 			<div id="slides_container">
 				<div id="slides-cu3er">
 					<ul id="slide_2" class="slidik">
-						<li class="show"><img alt="столешницы"
+						<li class="show">
+						<img alt=<spring:message code="pages.graniitti.keittiötasot" />
 							src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
-						<li><img alt="Обработка камня "
+						<li>
+						<img alt=<spring:message code="pages.slider" />
 							src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
-						<li><img alt="Памятники "
-							src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
-						<li><img alt="Плитка "
-							src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
-						<li><img alt="Брусчатка "
-							src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
+						<li>
+						<img alt=<spring:message code="pages.hautakivet" />
+						src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
+						<li>
+						<img alt=<spring:message code="pages.graniitti.laattaa" />
+						src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
+						<li>
+						<img alt=<spring:message code="pages.graniitti.portaat" />
+						src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
 						<a data-slidik="slide_2" class="next" href="#">Следующий</a>
 						<a data-slidik="slide_2" class="prev" href="#">Предыдущий</a>
 						<div class="captionWrap">

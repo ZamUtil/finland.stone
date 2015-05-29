@@ -122,8 +122,7 @@
 					<div id="slides-text">
 						</p><h2><spring:message code="pages.home.about" /></p><h4>
 						<spring:message code="pages.home.about.text" /><br /></h4>
-						
-						<div style="color:green" ><h3>Muut värit myös saatavilla</h3></div>
+						<div style="color:green" ><h4><spring:message code="pages.color" /></h4></div>
 					<div ng-controller="ModalDemoCtrl">
 						<script type="text/ng-template" id="myModalContent.html">
        						<div class="modal-header">

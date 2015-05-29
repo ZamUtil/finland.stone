@@ -11,31 +11,16 @@
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
-<title>Hautakiviliike KiiskenKivi Oy</title>
+<title>KiiskenKivi Oy</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link
 	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
 	rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
 <style type='text/css' media='screen,projection'>
-<!--
-fieldset { border:0;margin:0;padding:0; }
-label {  padding-right:15px; float:left; width:70px;}
-input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#333;padding:3px;margin:1px 0; }
--->
 </style>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
@@ -53,43 +38,39 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
     
 </head>
 <body ng-controller="portaatController">
-	
-	<!-- MAIN_CONTAINER -->
-		<div id="main_container">
-        
-        	<!-- FRAME -->
-				<div id="frame">
-                	
-                   	<!-- BEGIN HEADER -->
-						<div id="top">
-                        	<div id="logo">
-								<div id="pad_logo">
-									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
-								</div>
-							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
+	<div id="main_container">
+		<div id="frame">
+			<div id="top">
+            	<div id="logo">
+					<div id="pad_logo">
+						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
+					</div>
+				</div>
+                	<div id="topmenu">
+                    	<div id="nav">
+                        	<ul id="menu">
                                 <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
                                 <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
                                 <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                <span style="float: right"> 
-                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-						</span>
+                                <span style="float: right">
+								<a href="?lang=en">
+								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
+						   	 	<a href="?lang=fi">|
+						    	<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+								</span>
                             </ul>
-                                </div>
-                            </div>                      							
-						</div>         
- 						<h2><left>Portaat</left></h2>						
-					<!-- END OF HEADER -->           
-                                                                       
-                     <div>
-								<div class="imgCenter">
-   									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portaat.jpg">
-  								 </div>   
-  								 	<p><h4> Poltettu päälipinta, etupinta ja päädyt. Pohja ja tausta sahattu</h4></p>
+                		</div>
+                	</div>                      							
+			</div>         
+ 					<h2><left><spring:message code ="pages.graniitti.portaat"/></left></h2>						
+                     	<div>
+							<div class="imgCenter">
+   								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portaat.jpg">
+  							</div>   
+  								<%-- <center><h3><spring:message code ="pages.nds"/></h3></center> --%>
+  								 	<p><h4><spring:message code ="pages.graniitti.portaat.text"/></h4></p>
   								 		&nbsp;
 										<p><a href="#" ng-click = "selectDiv('90x37x15 cm')" class="button11">90x37x15 cm.</a></p>
 										&nbsp;
@@ -97,19 +78,29 @@ input.text{ width:290px;font:12px/12px 'courier new',courier,monospace;color:#33
 										&nbsp;
 										<p><a href="#" ng-click = "selectDiv('150x37x15 cm')" class="button11">150x37x15 cm.</a></p>
            								&nbsp;
-           								<h4> posle zakaza tovara mi vam perezvinim i yti4nim koli4estvo zakazannogo tovara!</h4> 
-								</div>
+						</div>
                      <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
-                </div>
-        		</div>
+		</div>
+	</div>
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
-						<div class="left-foot">
-							<spring:message code="pages.index.down1" /><br />
-							<spring:message code="pages.index.down2" /><br />
-							<spring:message code="pages.index.down3" /><br />
-                        </div>
+					<div class="left-foot">
+						<spring:message code="pages.index.down1" />
+						<br />
+						<spring:message code="pages.index.down2" />
+						<br />
+						<spring:message code="pages.index.down3" />
+						<br />
+					</div>
+					<div class="right-foot1">
+						<spring:message code="pages.index.down4" />
+						 </br>
+						<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
+					</div>
 				</div>
 			</div>
 		</div>

@@ -11,7 +11,8 @@
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
-<title>Hautakiviliike KiiskenKivi Oy</title>
+  
+<title>KiiskenKivi Oy</title>
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
@@ -37,36 +38,40 @@
     
 </head>
 <body ng-controller="nupunopaController">
-		<div id="main_container">
-				<div id="frame">
-						<div id="top">
-                        	<div id="logo">
-								<div id="pad_logo">
-									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
-								</div>
-							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
+	<div id="main_container">
+		<div id="frame">
+			<div id="top">
+            	<div id="logo">
+					<div id="pad_logo">
+						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
+					</div>
+				</div>
+            		<div id="topmenu">
+                    	<div id="nav">
+                        	<ul id="menu">
                                 <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
                                 <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
                                 <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                <span style="float: right"> 
-                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-						</span>
+                                <span style="float: right">
+								<a href="?lang=en">
+								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
+						   		<a href="?lang=fi">|
+						    	<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+								</span>
                             </ul>
-                                </div>
-                            </div>                      							
-						</div>         
- 						<h2><left>Nupu ja noppa-kivet (Min tilaus 50 m2)</left></h2>	
-                     <div>
-								<div class="imgCenter">
-   									<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/nupu.jpg">
-  								 </div>  
-  								 <div class="wrapper"> 
-  								 	<div class="left_block"><p><h4> NOPPAKIVET</h4>Noppakivet ovat lohkomalla valmistettuja tasasivuisia kivikuutioita.</p>
+                   		</div>
+                    </div>                      							
+			</div>         
+ 						<h2><left><spring:message code="pages.graniitti.nupu1" /></left></h2>	
+                    <div>
+						<div class="imgCenter">
+   							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/nupu.jpg">
+  						</div>  
+  							<div class="wrapper"> 
+  								 	<h3><spring:message code="pages.nds"/></h3>
+  								 	<div class="left_block"><p><h4><spring:message code="pages.graniitti.noppakivet"/></h4><spring:message code="pages.graniitti.noppakivet.text"/></p>
   								 		&nbsp;
 										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x100 - 85€ - m2 ')" class="button11">100x100x100 - 85€- m2</a></p>
 										&nbsp;
@@ -79,25 +84,35 @@
            								<hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>	
            							</div>
            							<div class="right_block">
-           								<p><h4> NUPUKIVET</h4>Nupukivet ovat lohkottuja suorakaiteen mallisia kivituotteita</p>
+           								<p><h4><spring:message code="pages.graniitti.nupukivet"/></h4><spring:message code="pages.graniitti.nupukivet.text"/></p>
   								 		&nbsp;
   								 		<p><a href="#" ng-click = "selectDiv('NUPU 70-80x140x200-220 - 120€'- m2)" class="button11">70-80x140x200-220 - 120€- m2</a></p>
            								&nbsp;
            								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€'- m2)" class="button11">140x140x200-220 - 150€- m2 </a></p>
-           								
            							</div> 
-           							</div>
-								</div>
-                </div>
-        		</div>
+           					</div>
+					</div>
+			</div>
+	</div>
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
-						<div class="left-foot">
-							<spring:message code="pages.index.down1" /><br />
-							<spring:message code="pages.index.down2" /><br />
-							<spring:message code="pages.index.down3" /><br />
-                        </div>
+					<div class="left-foot">
+						<spring:message code="pages.index.down1" />
+						<br />
+						<spring:message code="pages.index.down2" />
+						<br />
+						<spring:message code="pages.index.down3" />
+						<br />
+					</div>
+					<div class="right-foot1">
+						<spring:message code="pages.index.down4" />
+						 </br>
+						<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
+					</div>
 				</div>
 			</div>
 		</div>

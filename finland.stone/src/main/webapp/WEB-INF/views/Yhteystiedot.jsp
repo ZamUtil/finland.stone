@@ -5,36 +5,30 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"dir="ltr" xml:lang="fi" lang="fi"><head>
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
   <meta name="robots" content="index, follow" />
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
-<title>Hautakiviliike KiiskenKivi Oy</title>
-
-
+  
+<title>KiiskenKivi Oy</title>
  <style>
    .layer1 {
-    background-color: #c0c0c0; /* Цвет фона слоя */
-    padding: 5px; /* Поля вокруг текста */
-    float: left; /* Обтекание по правому краю */
-    width: 470px; /* Ширина слоя */
+    background-color: #c0c0c0; 
+    padding: 5px; 
+    float: left; 
+    width: 470px; 
    }
    .layer2 {
-    /*background-color: #c0c0c0;  Цвет фона слоя */
-    padding: 5px; /* Поля вокруг текста */
-    width: 470px; /* Ширина слоя */
-    float: left; /* Обтекание по правому краю */
+   
+    padding: 5px; 
+    width: 470px; 
+    float: left; 
    }
    .clear {
-    clear: left; /* Отмена обтекания */
+    clear: left; 
    }
   </style>
-
-
-
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
@@ -44,8 +38,6 @@
 <script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" ></script>
-
-
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
@@ -62,64 +54,54 @@
 									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
 								</div>
 							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
-                            	<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
-                                <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
-                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
-                                <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
-                                <li class="last"><a class="active" href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                <span style="float: right"> 
-                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-						</span>
-                            </ul>
-                                </div>
-                            </div>                           							
+                           		<div id="topmenu">
+                               		<div id="nav">
+                                 		<ul id="menu">
+                            				<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
+                                			<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
+                                			<li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                			<li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
+                               				 <li class="last"><a class="active" href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                           
+                           				</ul>
+                               		</div>
+                            	</div>                           							
 						</div>
-                       <div id="head-top">
+                       	<div id="head-top">
                             <div id="head-title">
-						     <h2>Kartta-Helsinki</h2>
-							 </div>                                                     	
+						     	<h2><spring:message code="pages.menu.contact" /></h2>
+							</div>                                                     	
                         </div>
-<div class="layer1">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3968.2371425909246!2d24.945788403125892!3d60.17876962853813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2zMDAxMDAg0KXQtdC70YzRgdC40L3QutC4LCDQpNC40L3Qu9GP0L3QtNC40Y8!5e0!3m2!1sru!2sru!4v1432029915399"
-					width="470" height="450" frameborder="0" style="border:0"></iframe>
-			</div>
-  <div class="layer2">
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  
-  <center><h2>Info
-  </h2>
-  <hr />
- 	 <h3>
-		<spring:message code="pages.index.down1" /><br />
-		<spring:message code="pages.index.down2" /><br />
-		<spring:message code="pages.index.down3" /><br />
-	</h3>
-	<h2>
-	Links
-	</h2>
-	<hr />
-	<h3>http://www.paasikivi.fi/hautakivet/index.htm</h3>
-	</center>
-  </div>
-  <div class="clear"></div>
-  
+							<div class="layer1">
+								<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3968.2371425909246!2d24.945788403125892!3d60.17876962853813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2zMDAxMDAg0KXQtdC70YzRgdC40L3QutC4LCDQpNC40L3Qu9GP0L3QtNC40Y8!5e0!3m2!1sru!2sru!4v1432029915399"
+								width="470" height="450" frameborder="0" style="border:0"></iframe>
+							</div>
+  						<div class="layer2">
+  							<br />
+ 							<br />
+  							<br />
+  							<br />
+  							<br />
+  							<br />
+  					<center><h2>Info</h2> <hr />
+ 						<h3>
+						<spring:message code="pages.index.down1" /><br />
+						<spring:message code="pages.index.down2" /><br />
+						<spring:message code="pages.index.down3" /><br />
+						</h3>
+					<h2>
+					Links
+					</h2>
+					<hr />
+					<h3> Pronssi tuotteita: http://www.paasikivi.fi/hautakivet/index.htm</h3>
+					</center>
+  					</div>
+  					<div class="clear"></div>
 					 <p>
                      <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                 </div>
-                <!-- END OF FRAME -->
         </div>
-        <!-- END OF MAIN_CONTAINER -->
-        
-         <!-- BEGIN FOOTER -->
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">
@@ -128,12 +110,9 @@
 							<spring:message code="pages.index.down2" /><br />
 							<spring:message code="pages.index.down3" /><br />
                         </div>
-                        
 				</div>
 			</div>
 		</div>
-		<!-- END OF FOOTER -->
-        
 </body>
 </html>
 

@@ -12,7 +12,7 @@
     <meta name="title" content="" />
  	<meta name="description" content="" />
  	
-<title>Hautakiviliike KiiskenKivi Oy</title>
+<title>KiiskenKivi Oy</title>
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
@@ -30,35 +30,38 @@
     
 </head>
 <body>
-		<div id="main_container">
-				<div id="frame">
-						<div id="top">
-                        	<div id="logo">
-								<div id="pad_logo">
-									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
-								</div>
-							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
-                               			<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
-                               			<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
-                                		<li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
-                               			<li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
-                               			<li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                		<span style="float: right"> 
-                        				<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-										</span>
-                           			 </ul>
-                                </div>
-                            </div>                            							
-						</div>
-                      	<div id="head-top">
-                            <div id="head-title">
-                            <h2><spring:message code="pages.graniitti" /></h2>
-                            </div>                                                     	
+	<div id="main_container">
+		<div id="frame">
+			<div id="top">
+            	<div id="logo">
+					<div id="pad_logo">
+						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
+					</div>
+				</div>
+                	<div id="topmenu">
+                    	<div id="nav">
+                        	<ul id="menu">
+                               	<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
+                               	<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
+                                <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
+                               	<li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
+                               	<li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                                <span style="float: right">
+								<a href="?lang=en">
+								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
+						    	<a href="?lang=fi">|
+						    	<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+								</span>
+                           	</ul>
                         </div>
-                     	<div id="content">
+                   	</div>                            							
+			</div>
+                   	<div id="head-top">
+                   		<div id="head-title">
+                            <h2><spring:message code="pages.graniitti" /></h2>
+                        </div>                                                     	
+                	</div>
+                    	<div id="content">
 							<div class="base">
 								<ul class="base-row">
 									<li class="cell1">
@@ -83,7 +86,7 @@
 								   </li>
 								</ul>
                      		</div>
-                     	<hr></hr>
+                     	</hr>
                      </div>
                      <div id="content">
 						<div class="base">
@@ -99,26 +102,37 @@
 									</div>
 								</li>
 								<li class="cell1">
-									<div class="content3">
-									</div></li>
+									<div class="content3"></div>
+								</li>
 							</ul>
                     	 </div>
-                 	 	<p>
-              		 	<hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+                 	 	</p>
+              		 	<hr><a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                     </div>
-                </div> 
-       		</div>
-			<div id="bottom_container">
-				<div id="footer">
-					<div id="foot">
-						<div class="left-foot">
-							<spring:message code="pages.index.down1" /><br />
-							<spring:message code="pages.index.down2" /><br />
-							<spring:message code="pages.index.down3" /><br />
-                        </div>
+	           </div> 
+	</div>
+		<div id="bottom_container">
+			<div id="footer">
+				<div id="foot">
+					<div class="left-foot">
+						<spring:message code="pages.index.down1" />
+						<br />
+						<spring:message code="pages.index.down2" />
+						<br />
+						<spring:message code="pages.index.down3" />
+						<br />
+					</div>
+					<div class="right-foot1">
+						<spring:message code="pages.index.down4" />
+						 </br>
+						<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
 					</div>
 				</div>
 			</div>
+		</div>
 </body>
 </html>
 

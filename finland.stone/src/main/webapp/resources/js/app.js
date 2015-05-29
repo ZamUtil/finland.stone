@@ -234,67 +234,67 @@ angular.module('stone', ['ngRoute','ngResource']).
 		console.log(state)
 		if (state == 1) {
 			if ($scope.selectedState1 == null || $scope.selectedState1 == undefined) {
-				alert('Сделайте выбор1!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 2) {
 			if ($scope.selectedState2 == null || $scope.selectedState2 == undefined) {
-				alert('Сделайте выбор2!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 3) {
 			if ($scope.selectedState3 == null || $scope.selectedState3 == undefined) {
-				alert('Сделайте выбор3!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 4) {
 			if ($scope.selectedState4 == null || $scope.selectedState4 == undefined) {
-				alert('Сделайте выбор4!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 5) {
 			if ($scope.selectedState5 == null || $scope.selectedState5 == undefined) {
-				alert('Сделайте выбор5!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 6) {
 			if ($scope.selectedState6 == null || $scope.selectedState6 == undefined) {
-				alert('Сделайте выбор6!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 7) {
 			if ($scope.selectedState7 == null || $scope.selectedState7 == undefined) {
-				alert('Сделайте выбор7!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 8) {
 			if ($scope.selectedState8 == null || $scope.selectedState8 == undefined) {
-				alert('Сделайте выбор8!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 9) {
 			if ($scope.selectedState9 == null || $scope.selectedState9 == undefined) {
-				alert('Сделайте выбор9!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 10) {
 			if ($scope.selectedState10 == null || $scope.selectedState10 == undefined) {
-				alert('Сделайте выбор10!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}
 		if (state == 11) {
 			if ($scope.selectedState11 == null || $scope.selectedState11 == undefined) {
-				alert('Сделайте выбор11!')
+				alert('Tee valintasi!')
 				return;
 			}
 		}

@@ -11,27 +11,16 @@
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
-<title>Hautakiviliike KiiskenKivi Oy</title>
+  
+<title>KiiskenKivi Oy</title>
 
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"	rel="stylesheet" type="text/css" />
-<!--[if IE 6]>
-    <script type="text/javascript" src="js/unitpngfix.js"></script>
-	<link href="css/ie6.css" rel="stylesheet" type="text/css" />
-<![endif]-->
 <style type='text/css' media='screen,projection'>
  .selected-div{
    background-color: #2A90FD;}
 </style>
-
-<!-- ////////////////////////////////// -->
-<!-- //      Javascript Files        // -->
-<!-- ////////////////////////////////// -->
-
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
@@ -46,37 +35,35 @@
 <script type="text/javascript">
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
 </script>  
- 
     
 </head>
 <body ng-controller="suunnitteleController">
-		<div id="main_container">
-				<div id="frame">
-						<div id="top">
-                        	<div id="logo">
-								<div id="pad_logo">
-									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
-								</div>
-							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
+	<div id="main_container">
+		<div id="frame">
+			<div id="top">
+            	<div id="logo">
+					<div id="pad_logo">
+						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
+					</div>
+				</div>
+                    <div id="topmenu">
+                    	<div id="nav">
+                        	<ul id="menu">
                                 <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
                             	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
                                 <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                <span style="float: right"> 
-                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-						</span>
+                                <span style="float: right">
+								<a href="?lang=en">
+								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
+						   		<a href="?lang=fi">|
+						  	 	<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+								</span>
                             </ul>
-                                    <div>
-						
-					</div>
-                                </div>
-                            </div>                            							
-						</div>  
-						
+                      	</div>
+               		</div>                            							
+			</div>  
 <!-- 1  -->      
 		<div ng-show="currentState == 1">
 			<div class="state1"><center><h3>Valitse kivimalli 1/1</h3><center/></div>
@@ -104,10 +91,8 @@
 							<a ng-click="selectItemState2($index)" href="#" class="button30">+</a>
 							 <span>{{namesState2[$index]}}</span>
 					</div>
-						
 				</div>
 			</div>
-			
 			<div >
 				<div class="col-md-6" ng-class="{ 'selected-div': namesState2[5] == selectedState2 }"
 					style="border: 2px solid black; border-color: grey" ng-click="selectItemState2(5)">
@@ -123,8 +108,6 @@
 						<span class="errorMessage" ng-show ="errorState2 == true">Заполните все поля</span>
 				</div>
 			</div>
-			
-			
 		</div>
 <!-- 3 -->		
 		<div ng-show="currentState == 3">
@@ -256,40 +239,37 @@
 							style="width="50%"></img>
 							<a ng-click="selectItemStat11($index)" href="" class="button30">+</a>
 							 <span>{{namesState11[$index]}}</span>
-						
 					</div>
 				</div>
 			</div>
 		</div>
-                      <div style="float:right">
-				
+            <div style="float:right">
                 <a ng-click="backState(currentState)" ng-show="currentState > 1" href="" class="button10">Back</a>
                 <a ng-click="nextState(currentState)" href="" class="button10">Next</a>
-                
-		             </div>
-  </div>
-  
+		    </div>
+  	</div>
  </div>	
-                
- 							<!-- <div id="head-title">
-						     <h2>Hautakiviet</h2>
-							 </div>  -->                                                    	
-                        
-                    
-		
-		
-
-		<div id="bottom_container">
-			<div id="footer">
-				<div id="foot">
-						<div class="left-foot">
-							<spring:message code="pages.index.down1" /><br />
-							<spring:message code="pages.index.down2" /><br />
-							<spring:message code="pages.index.down3" /><br />
-                        </div>
-                        
+	<div id="bottom_container">
+		<div id="footer">
+			<div id="foot">
+				<div class="left-foot">
+					<spring:message code="pages.index.down1" />
+					<br />
+					<spring:message code="pages.index.down2" />
+					<br />
+					<spring:message code="pages.index.down3" />
+					<br />
+				</div>
+				<div class="right-foot1">
+					<spring:message code="pages.index.down4" />
+					 </br>
+					<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
 				</div>
 			</div>
 		</div>
+	</div>
 </body>
 </html>

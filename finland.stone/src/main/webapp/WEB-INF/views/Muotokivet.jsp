@@ -12,10 +12,7 @@
 <meta name="keywords" content="" />
 <meta name="title" content="" />
 <meta name="description" content="" />
-<title>Hautakiviliike KiiskenKivi Oy</title>
-<!-- ////////////////////////////////// -->
-<!-- //      Start Stylesheets       // -->
-<!-- ////////////////////////////////// -->
+<title>KiiskenKivi Oy</title>
 <link href="${pageContext.request.contextPath}/resources/css/style.css"	rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css"	rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"	rel="stylesheet" type="text/css" />
@@ -54,9 +51,7 @@ a.button19 {
 }
 </style>
 <style type='text/css' media='screen,projection'>
-
 </style>
-
 	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
@@ -69,41 +64,44 @@ a.button19 {
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 	<script type="text/javascript">	Cufon.replace('h1')('h2')('h3')('h4')('#nav li')('#nav li a');</script>
+	
 </head>
 <body ng-controller="blackHeadstoneController">
 <div id="bottom_c">
-		<div id="main_container">
-				<div id="frame">
-						<div id="top">
-                        	<div id="logo">
-								<div id="pad_logo">
-									<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
-								</div>
-							</div>
-                            <div id="topmenu">
-                                <div id="nav">
-                                    <ul id="menu">
+	<div id="main_container">
+		<div id="frame">
+			<div id="top">
+           		<div id="logo">
+					<div id="pad_logo">
+						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
+					</div>
+				</div>
+                	<div id="topmenu">
+                    	<div id="nav">
+                        	<ul id="menu">
                                 <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
                             	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
                                 <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                                <span style="float: right"> 
-                        		<a href="?lang=en"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a> | <a href="?lang=fi"><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
-						</span>
+                                <span style="float: right">
+								<a href="?lang=en">
+								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
+						   		<a href="?lang=fi">|
+						   		<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+								</span>
                             </ul>
-                                    <div>
-						
-					</div>
-                                </div>
-                            </div>                            							
-						</div>   
- 						<div id="head-title">
- 						<center><h2><spring:message code="pages.hautakivet.moutokivet"/></h2></center>
- 						</div>	
- 						<div>
- 						<H3><center><spring:message code="pages.hautakivet.moutokivet.text"/><center/></H3>
- 						</div>
+                 		</div>
+                	</div>                            							
+			</div>   
+ 				<div id="head-title">
+ 					<center><h2><spring:message code="pages.hautakivet.moutokivet"/></h2></center>
+ 					</br>
+ 					</br>
+ 					</br>
+ 					</br>
+ 					<center><H4><spring:message code="pages.hautakivet.moutokivet.text"/></H4><center/>
+ 				</div>	
 			<div ng-repeat="item in blackHeadstonesData">
 				<div class="col-md-3" style="border: 2px solid black;border-color:grey" ng-click="selectDiv(item)">
 					<div>
@@ -113,19 +111,30 @@ a.button19 {
 					<span><h4>{{item.names}}</h4></span>
 					<p style="text-align: center"><a href="" class="button19"ng-click="selectDiv(item)">Kassa</a>
 				</div>
-		</div>
-			</div>
-	<div id="bottom_container">
-		<div id="footer">
-			<div id="foot">
-				<div class="left-foot">
-							<spring:message code="pages.index.down1" /><br />
-							<spring:message code="pages.index.down2" /><br />
-							<spring:message code="pages.index.down3" /><br />
-                        </div>
 			</div>
 		</div>
 	</div>
-</div>
+		<div id="bottom_container">
+			<div id="footer">
+				<div id="foot">
+					<div class="left-foot">
+						<spring:message code="pages.index.down1" />
+						<br />
+						<spring:message code="pages.index.down2" />
+						<br />
+						<spring:message code="pages.index.down3" />
+						<br />
+					</div>
+					<div class="right-foot1">
+						<spring:message code="pages.index.down4" />
+						 </br>
+						<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
+						<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
 </html>

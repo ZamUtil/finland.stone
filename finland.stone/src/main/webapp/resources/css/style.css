@@ -176,9 +176,8 @@ code {
 #foot{padding:13px 0px 0px 0px; font-size:11px; line-height:18px; float:left;}
 #foot a, #foot a:visited{color:#787773; text-decoration:none;}
 #foot a:hover{text-decoration:underline;}
-.left-foot{width:504px; float:left;}
-.right-foot{ background-image:url(../images/twitter-bg.jpg); background-repeat:no-repeat; width:456px; height:34px; margin-top:10px; float:left;}
-.right-foot1{ background-repeat:no-repeat; width:256px; height:34px; margin-top:10px; float:right;}
+.left-foot{width:750px; float:left;}
+.right-foot1{ width:190px; float:right;}
 
 .twitter-code{width:400px; margin-top:7px; margin-left:8px; text-align:center; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
 #bottom_c{background-image:url(../images/bg-top-container1.jpg);}

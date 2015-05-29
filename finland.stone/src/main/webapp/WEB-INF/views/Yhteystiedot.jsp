@@ -107,17 +107,28 @@
                      <hr> <a href="index.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
                 </div>
         </div>
-		<div id="bottom_container">
-			<div id="footer">
-				<div id="foot">
-						<div class="left-foot">
-							<spring:message code="pages.index.down1" /><br />
-							<spring:message code="pages.index.down2" /><br />
-							<spring:message code="pages.index.down3" /><br />
-                        </div>
+	<div id="bottom_container">
+		<div id="footer">
+			<div id="foot">
+				<div class="left-foot">
+					<spring:message code="pages.index.down1" />
+					<br />
+					<spring:message code="pages.index.down2" />
+					<br />
+					<spring:message code="pages.index.down3" />
+					<br />
+				</div>
+				<div class="right-foot1">
+					<spring:message code="pages.index.down4" />
+					 </br>
+					<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
+					<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
 				</div>
 			</div>
 		</div>
+	</div>		
 </body>
 </html>
 

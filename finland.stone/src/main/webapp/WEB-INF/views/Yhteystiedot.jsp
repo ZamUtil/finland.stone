@@ -61,8 +61,13 @@
                                 			<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
                                 			<li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 			<li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
-                               				 <li class="last"><a class="active" href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
-                           
+                               				<li class="last"><a class="active" href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
+                                            <span style="float: right">
+											<a href="?lang=en">
+											<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
+						   	 				<a href="?lang=fi">|
+						    				<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
+											</span>
                            				</ul>
                                		</div>
                             	</div>                           							

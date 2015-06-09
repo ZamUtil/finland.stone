@@ -14,6 +14,7 @@
 <meta name="description" content="" />
 
 <title>KiiskenKivi Oy</title>
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
 <link
 	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"

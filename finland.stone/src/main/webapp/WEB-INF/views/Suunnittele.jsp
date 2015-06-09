@@ -13,6 +13,7 @@
   <meta name="description" content="" />
   
 <title>KiiskenKivi Oy</title>
+<link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
@@ -105,7 +106,7 @@
 						<input type="text"  ng-model="state2width"></input>
 						<input type="text"  ng-model="state2height"></input>
 						<br />
-						<span class="errorMessage" ng-show ="errorState2 == true">Заполните все поля</span>
+						<span class="errorMessage" ng-show ="errorState2 == true">Täytä kaikki kentät!</span>
 				</div>
 			</div>
 		</div>

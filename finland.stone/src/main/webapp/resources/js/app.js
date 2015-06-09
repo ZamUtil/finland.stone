@@ -207,7 +207,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 				break;
 			}
 			emailService.post($scope.formInfo);
-			alert('Заказ успешно отправлен')
+			alert('Tilaus onnistui!')
 			document.location.href = 'index.html';
 		}
 	};

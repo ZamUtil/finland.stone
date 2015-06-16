@@ -105,13 +105,13 @@
 						<li class="show">
 						<img alt=<spring:message code="pages.graniitti.keittiötasot" /> src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
 						<li>
-						<img alt=<spring:message code="pages.slider" />	src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
+						<img src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
 						<li>
 						<img alt=<spring:message code="pages.hautakivet" />	src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
 						<li>
 						<img alt=<spring:message code="pages.graniitti.laattaa" /> src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
 						<li>
-						<img alt=<spring:message code="pages.graniitti.portaat" />	src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
+						<img alt=<spring:message code="pages.graniitti.nupu" />	src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
 						<a data-slidik="slide_2" class="next" href="#">Next</a>
 						<a data-slidik="slide_2" class="prev" href="#">Back</a>
 						<div class="captionWrap">

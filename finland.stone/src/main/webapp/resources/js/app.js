@@ -59,7 +59,7 @@ angular.module('stone', ['ngRoute','ngResource']).
         $scope.headstonesData = $scope.getHeadstones({});
         
         $scope.selectDiv = function(item) {
-    		$window.location.href = '/finland.stone/Tarjouspyynto#?Headstone='+item.id;
+    		$window.location.href = '/Tarjouspyynto#?Headstone='+item.id;
 		}
     })
 ///// Blackheadstone
@@ -84,31 +84,31 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.blackHeadstonesData = $scope.getBlackHeadstones({});
 	
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?BlackHeadstone='+item.id;
+		$window.location.href = '/Tarjouspyynto#?BlackHeadstone='+item.id;
 	}
 })
 ///////PORTAAT    
 .controller('portaatController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?portaat='+item;
+		$window.location.href = '/Tarjouspyynto#?portaat='+item;
 	}
 })
 ////////LAATTAA
 .controller('lattaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?laattaa='+item;
+		$window.location.href = '/Tarjouspyynto#?laattaa='+item;
 	}
 })
 ///NUPUNOOPA
 .controller('nupunopaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?nupuNoppa='+item;
+		$window.location.href = '/Tarjouspyynto#?nupuNoppa='+item;
 	}
 })
 ///KETIASART
 .controller('keittiController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?keittiötasot='+item;
+		$window.location.href = '/Tarjouspyynto#?keittiötasot='+item;
 	}
 })
 
@@ -122,7 +122,7 @@ angular.module('stone', ['ngRoute','ngResource']).
     $scope.blackHeadstonesData = $scope.getBlackHeadstones({});
     
     $scope.selectDiv = function(item) {
-    	$window.location.href = '/finland.stone/Tarjouspyynto#?blackHeadstone='+item.id;
+    	$window.location.href = '/Tarjouspyynto#?blackHeadstone='+item.id;
 	}
 })
 .controller('MyCtrl1', function($scope, emailService, $location,$timeout) {
@@ -331,7 +331,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		}
 		
 		if (state == 11 ){         
-			$window.location.href = '/finland.stone/Tarjouspyynto#?type=Sunnitelle&selectedState1='
+			$window.location.href = '/Tarjouspyynto#?type=Sunnitelle&selectedState1='
 				+$scope.selectedState1
 			+'&selectedState2='+$scope.selectedState2
 			+'&selectedState2state2width='+$scope.selectedState2.state2width

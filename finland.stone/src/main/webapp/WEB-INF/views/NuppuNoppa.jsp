@@ -76,7 +76,7 @@
   								 		&nbsp;
 										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x100 - 85€ - m2 ')" class="button11">100x100x100 - 85€- m2</a></p>
 										&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x50 - 90€'- m2')" class="button11">100x100x50 - 90€- m2</a></p>
+										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x50 - 90€- m2 ')" class="button11">100x100x50 - 90€- m2</a></p>
 										&nbsp;
 										<p><a href="#" ng-click = "selectDiv('NOPPA 50x50x50 - 85€ - m2')" class="button11">50x50x50 - 85€- m2 </a></p>
            								&nbsp;
@@ -87,9 +87,9 @@
            							<div class="right_block">
            								<p><h4><spring:message code="pages.graniitti.nupukivet"/></h4><spring:message code="pages.graniitti.nupukivet.text"/></p>
   								 		&nbsp;
-  								 		<p><a href="#" ng-click = "selectDiv('NUPU 70-80x140x200-220 - 120€'- m2')" class="button11">70-80x140x200-220 - 120€- m2</a></p>
+  								 		<p><a href="#" ng-click = "selectDiv('NUPU 70-80x140x200-220 - 120€- m2')" class="button11">70-80x140x200-220 - 120€- m2</a></p>
            								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€'- m2')" class="button11">140x140x200-220 - 150€- m2 </a></p>
+           								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€- m2')" class="button11">140x140x200-220 - 150€- m2 </a></p>
            							</div> 
            					</div>
 					</div>

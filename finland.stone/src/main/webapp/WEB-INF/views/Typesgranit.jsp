@@ -11,7 +11,6 @@
   <meta name="keywords" content="" />
   <meta name="title" content="" />
   <meta name="description" content="" />
-  
 <title>KiiskenKivi Oy</title>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
@@ -23,10 +22,11 @@
 <style type='text/css' media='screen,projection'>
 </style>
 
-<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
-<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
+	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
+
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -35,10 +35,9 @@
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
 <script type="text/javascript">
             Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
-</script>     
+</script>   
     
 </head>
-<body ng-controller="nupunopaController">
 	<div id="main_container">
 		<div id="frame">
 			<div id="top">
@@ -47,53 +46,70 @@
 						<a href="index.html"><img src="${pageContext.request.contextPath}/resources/images/logo.gif" alt="" /></a>
 					</div>
 				</div>
-            		<div id="topmenu">
+                	<div id="topmenu">
                     	<div id="nav">
                         	<ul id="menu">
                                 <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
                                 <li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
-                                <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
+                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                                 <span style="float: right">
 								<a href="?lang=en">
 								<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/2.jpg"></img></a>
-						   		<a href="?lang=fi">|
+						   	 	<a href="?lang=fi">|
 						    	<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/1.jpg"></img></a>
 								</span>
                             </ul>
-                   		</div>
-                    </div>                      							
-			</div>         
- 						<h2><left><spring:message code="pages.graniitti.nupu1" /></left></h2>	
-                    <div>
-						<div class="imgCenter">
-   							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/nupu.jpg">
-  						</div>  
-  							<div class="wrapper"> 
-  								 	<h3><spring:message code="pages.nds"/></h3>
-  								 	<div class="left_block"><p><h4><spring:message code="pages.graniitti.noppakivet"/></h4><spring:message code="pages.graniitti.noppakivet.text"/></p>
-  								 		&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x100 - 85€ - m2 ')" class="button11">100x100x100 - 85€- m2</a></p>
-										&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 100x100x50 - 90€'- m2')" class="button11">100x100x50 - 90€- m2</a></p>
-										&nbsp;
-										<p><a href="#" ng-click = "selectDiv('NOPPA 50x50x50 - 85€ - m2')" class="button11">50x50x50 - 85€- m2 </a></p>
-           								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv('NOPPA 140x140x140 - 150€ - m2')" class="button11">140x140x140 - 150€- m2  </a></p>
-           								&nbsp;
-           								<hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>	
-           							</div>
-           							<div class="right_block">
-           								<p><h4><spring:message code="pages.graniitti.nupukivet"/></h4><spring:message code="pages.graniitti.nupukivet.text"/></p>
-  								 		&nbsp;
-  								 		<p><a href="#" ng-click = "selectDiv('NUPU 70-80x140x200-220 - 120€'- m2')" class="button11">70-80x140x200-220 - 120€- m2</a></p>
-           								&nbsp;
-           								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€'- m2')" class="button11">140x140x200-220 - 150€- m2 </a></p>
-           							</div> 
-           					</div>
-					</div>
-			</div>
+                		</div>
+                	</div>                      							
+			</div>     
+			
+			
+			    
+ <h2><center>Types of granit</ctnter></h2>						
+ 					
+ 					
+ 					
+ <div class="col-xs-3">
+ <h4><center>opisanie</center></h4>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/1.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+<h4><center>opisanie</center></h4>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/2.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+<h4><center>opisanie</center></h4>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/3.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+<h4><center>opisanie</center></h4>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/4.jpg" alt="140x140">
+  </a>
+</div>
+ <div class="col-xs-3">
+ <h4><center>opisanie</center></h4>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/5.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+<h4><center>opisanie</center></h4>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/6.jpg" alt="140x140">
+  </a>
+</div>
+
+ 					
+		</div>
 	</div>
 		<div id="bottom_container">
 			<div id="footer">

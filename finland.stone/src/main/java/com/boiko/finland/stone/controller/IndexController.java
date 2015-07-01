@@ -70,4 +70,9 @@ public class IndexController {
 	public String Laattaa() {
 		return "Laattaa";
 	}
+	
+	@RequestMapping("/Typesgranit")
+	public String Typesgranit() {
+		return "Typesgranit";
+	}
 }

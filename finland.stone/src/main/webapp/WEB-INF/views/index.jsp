@@ -185,19 +185,18 @@
 							<br />
 					</div>
 				</div>
+				
+				
 				<div id="content3">
 					<div class="maincontent">
+					
 						<h4>
 							<spring:message code="pages.home.properties" />
 						</h4>
-						<ul>
-							<li><spring:message code="pages.home.properties.1" /></li>
-							<li><spring:message code="pages.home.properties.2" /></li>
-							<li><spring:message code="pages.home.properties.3" /></li>
-							<li><spring:message code="pages.home.properties.4" /></li>
-							<li><spring:message code="pages.home.properties.5" />;</li>
-						</ul>
-						<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_7.jpg" class="img-circle">
+<%-- 					<center><a class="btn btn-default" href="Typesgranit.html" role="button"><spring:message code="pages.typegranit" /></a></center>
+ --%><p>
+						<a href="Typesgranit.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/gr.jpg" class="img-circle">
+					<p>
 					</div>
 					<div class="maincontent"></div>
 				</div>

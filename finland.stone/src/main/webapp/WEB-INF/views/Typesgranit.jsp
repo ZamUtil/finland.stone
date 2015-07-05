@@ -67,50 +67,179 @@
 			
 			
 			    
- <h2><center>Types of granit</ctnter></h2>						
+ <h2><center><spring:message code="pages.typegranit" /></ctnter></h2>						
  					
  					
- 					
+ 				
  <div class="col-xs-3">
- <h4><center>opisanie</center></h4>
+ <h4><center>MAPLE RED </center></h4>
+ <h5><center>
+ 	tiheys-2650 kg/m3
+	vedenimukyky-0,5%
+	puristuslujuus-270 Mpa
+</center></h5>
   <a href="#" class="thumbnail">
     <img src="${pageContext.request.contextPath}/resources/types-granit/1.jpg" alt="140x140">
   </a>
 </div>
 <div class="col-xs-3">
-<h4><center>opisanie</center></h4>
+ <h4><center>STAR OF UKRAINE  </center></h4>
+ <h5><center>
+ 	Tiheys-2670 kg/m3
+	vedenimukyky-0,22 %
+	puristuslujuus-220 Mpa
+</center></h5>
   <a href="#" class="thumbnail">
     <img src="${pageContext.request.contextPath}/resources/types-granit/2.jpg" alt="140x140">
   </a>
 </div>
 <div class="col-xs-3">
-<h4><center>opisanie</center></h4>
+<h4><center>WITHERED</center></h4>
+ <h5><center>
+	tiheys- 2720 kg/m3
+	vedenimukyky-0,26 %
+	purisruslujuus-133-268 Mpa
+</center></h5>
   <a href="#" class="thumbnail">
     <img src="${pageContext.request.contextPath}/resources/types-granit/3.jpg" alt="140x140">
   </a>
 </div>
 <div class="col-xs-3">
-<h4><center>opisanie</center></h4>
+<h4><center>GREY</center></h4>
+ <h5><center>
+	tiheys-2740 kg/m3
+	vedenimukyky-0,14%
+	puristuslujuus-220 Mpa
+</center></h5>
   <a href="#" class="thumbnail">
     <img src="${pageContext.request.contextPath}/resources/types-granit/4.jpg" alt="140x140">
   </a>
 </div>
  <div class="col-xs-3">
- <h4><center>opisanie</center></h4>
+ <h4><center>FLOWER</center></h4>
+ <h5><center>
+	tiheys-2600 kg/m3
+	vedenimukyky-0,50%
+	puristuslujuus-150 Mpa
+</center></h5>
   <a href="#" class="thumbnail">
     <img src="${pageContext.request.contextPath}/resources/types-granit/5.jpg" alt="140x140">
   </a>
 </div>
 <div class="col-xs-3">
-<h4><center>opisanie</center></h4>
+ <h4><center>ROSSO SANTIAGO</center></h4>
+ <h5><center>
+	tiheys-2740 kg/m3
+	vedevimukyky-0,22 %
+	puristuslujuus-170Mpa 
+</center></h5>
   <a href="#" class="thumbnail">
     <img src="${pageContext.request.contextPath}/resources/types-granit/6.jpg" alt="140x140">
   </a>
 </div>
+<div class="col-xs-3">
+ <h4><center>GABBRO BLACK Buky</center></h4>
+ <h5><center>
+	tiheys-2810-3210 kg/m3
+	vedenimukyky-0,02-0,3 %
+	puristuslujuus-153-267 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/7.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>ROSSO TOLEDO </center></h4>
+ <h5><center>
+	tiheys-2660 kg/m3
+	vedenimukyky-0,28 %
+	puristuslujuus-120-240 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/8.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>KARELIA BROWN</center></h4>
+ <h5><center>
+	tiheys-2800 kg/m3
+	vedenimukyky-
+	puristuslujuus-220Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/9.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>BALTIC GREEN</center></h4>
+ <h5><center>
+	tiheys-2740 kg/m3
+	vedenimukyky-0,14%
+	puristuslujuus-160 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/10.jpg" alt="140x140">
+  </a>
+</div>	
+<div class="col-xs-3">
+ <h4><center>LABRADORITE GREEN</center></h4>
+ <h5><center>
+	tiheys- 2850 kg/m3
+	vedenimukyky-0,10 %
+	puristuslujuus- 80 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/11.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>BASALT Black</center></h4>
+ <h5><center>
+	tiheys-2500 kg/m3
+	vedenimukyky-0,22%
+	puristuslujuus-250 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/12.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>NERO BLACK</center></h4>
+ <h5><center>
+	tiheys-2980-3050 kg/m3
+	vedenimukyky-0,06-0,15 %
+	puristuslujuus-240-288 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/13.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>VERDE OLIVA</center></h4>
+ <h5><center>
+	tiheys-2710 kg/m3
+	vedenimukyky-0,15%
+	puristuslujuus-255 Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/14.jpg" alt="140x140">
+  </a>
+</div>
+<div class="col-xs-3">
+ <h4><center>KARELIA BLACK</center></h4>
+ <h5><center>
+	tiheys- 3080-3200 kg/m3
+	vedenimukyky-0,07 p-%
+	puristuslujuus- 311Mpa
+</center></h5>
+  <a href="#" class="thumbnail">
+    <img src="${pageContext.request.contextPath}/resources/types-granit/15.jpg" alt="140x140">
+  </a>
+</div>	
 
- 					
 		</div>
 	</div>
+
 		<div id="bottom_container">
 			<div id="footer">
 				<div id="foot">

@@ -102,7 +102,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 ///NUPUNOOPA
 .controller('nupunopaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/Tarjouspyynto#?nupuNoppa='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?nupuNoppa='+item;
 	}
 })
 ///KETIASART

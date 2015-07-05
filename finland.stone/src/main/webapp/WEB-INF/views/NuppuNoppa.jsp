@@ -23,13 +23,15 @@
 <style type='text/css' media='screen,projection'>
 </style>
 
+<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
+<%-- <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script> --%>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/xmlHttp.js"></script>  
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
@@ -66,7 +68,11 @@
                     </div>                      							
 			</div>         
  						<h2><left><spring:message code="pages.graniitti.nupu1" /></left></h2>	
-                    <div>
+
+<div class="alert alert-info">
+ <h4><spring:message code="pages.nds"/></h4>
+</div>
+                    <%-- <div>
 						<div class="imgCenter">
    							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/nupu.jpg">
   						</div>  
@@ -92,8 +98,147 @@
            								<p><a href="#" ng-click = "selectDiv('NUPU 140x140x200-220 - 150€- m2')" class="button11">140x140x200-220 - 150€- m2 </a></p>
            							</div> 
            					</div>
-					</div>
-			</div>
+					</div> --%>
+<!-- 1	 -->	
+
+				
+<div class="col-xs-3">
+ 	<h4><center>Grey (noppa) </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/1.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Grey noppa 50*50*50-50€')">50*50*50mm-50€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Grey noppa 100*100*100€')">100x100x100mm-55€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Nero black (noppa)  </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/2.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Nero black noppa 50*50*50-55€')">50*50*50mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Nero black noppa 100*100*100-60€')">100x100x100mm-60€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Karelia brown (noppa)  </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/3.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Karelia brown noppa 50*50*50-55€')">50*50*50mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia brown noppa 100*100*100-50€')">100x100x100mm-50€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Karelia black (nupu)   </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/4.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Karelia black nupu 140*140*200-220;-80€')">140*140*200-220mm-80€(m²)</a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Withred (noppa)   </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/5.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Withred noppa 50*50*50-60€')">50*50*50mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Withred noppa 100*100*100-55€')">100x100x100mm-55€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Maple red  (noppa)    </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/6.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Maple red  noppa  50*50*50-70€')">50*50*50mm-70€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Maple red  noppa  100*100*100-65€')">100x100x100mm-65€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Karelia black (noppa)  </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/7.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  50*50*50-80€')">50*50*50mm-80€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  100*100*100-75€')">100x100x100mm-75€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Rosso toledo (noppa)  </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/8.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  50*50*50-60€')">50*50*50mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  100*100*100-55€')">100x100x100mm-55€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+<div class="col-xs-3">
+ 	<h4><center>Basalt (noppa)   </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/nupunoppa/9.jpg" alt="200x200">
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Basalt noppa   50*50*50-60€')">50*50*50mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Basalt noppa   100*100*100-55€')">100x100x100mm-55€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+
+<!-- 1	 -->		
+</div>
 	</div>
 		<div id="bottom_container">
 			<div id="footer">

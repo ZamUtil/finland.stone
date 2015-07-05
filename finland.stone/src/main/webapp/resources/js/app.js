@@ -96,13 +96,13 @@ angular.module('stone', ['ngRoute','ngResource']).
 ////////LAATTAA
 .controller('lattaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/Tarjouspyynto#?laattaa='+item;
+		$window.location.href = '/finland.stone/Tarjouspyynto#?laattaa='+item;
 	}
 })
 ///NUPUNOOPA
 .controller('nupunopaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?nupuNoppa='+item;
+		$window.location.href = '/Tarjouspyynto#?nupuNoppa='+item;
 	}
 })
 ///KETIASART

@@ -17,62 +17,27 @@
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
-<link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link
+	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
+	rel="stylesheet" type="text/css" />
+<style type='text/css' media='screen,projection'>
+</style>
 
-<style type='text/css' media='screen,projection'> </style>
- <style>
-   .layer1 {
-    background-color: #E6E6E6; 
-    padding: 5px; 
-    float: left; 
-    width: 240px; 
-   }
-   .layer2 {
-    background-color: #D8D8D8; 
-    padding: 5px; 
-    width: 240px; 
-    float: left; 
-   }
-    .layer3 {
-    background-color: #E6E6E6; 
-    padding: 5px; 
-    width: 240px; 
-    float: left; 
-   }
-    .layer4 {
-    background-color: #D8D8D8; 
-    padding: 5px; 
-    width: 240px; 
-    float: left; 
-   }
-     .layer11 {
-    background-color: #FFFFFF; 
-    padding: 5px; 
-    float: left; 
-    width: 470px; 
-   }
-     .layer12 {
-    background-color: #FFFFFF; 
-    padding: 5px; 
-    float: left; 
-    width: 470px; 
-   }
-   .clear {
-    clear: left; 
-   }
-   </style>
-
+<script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
+<%-- <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script> --%>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/xmlHttp.js"></script>  
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/cufon-yui.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/Grandesign_Neue_Serif_400.font.js"></script>
-<script type="text/javascript"> Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a'); </script>   
+<script type="text/javascript">
+            Cufon.replace('h1') ('h2') ('h3') ('h4') ('#nav li') ('#nav li a');
+</script>     
     
 </head>
 <body ng-controller="lattaController">
@@ -100,7 +65,7 @@
                		 </div>                      							
 			</div>         
  				<h2><left><spring:message code="pages.graniitti.laattaa1" /></left></h2>	
-          			<div>
+          			<%-- <div>
 						<div class="imgCenter">
    							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/latta.jpg">
   						</div>   
@@ -170,7 +135,32 @@
            					</div>
            					<div class="clear"></div>
 					</div>
-                     <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr>
+                     <hr> <a href="Graniitti.html" class="button"/><spring:message code="pages.kotisivu" /></a></hr> --%>
+		
+		
+<div class="col-xs-3">
+ 	<h4><center>Grey (noppa) </center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/laattaa/10.jpg" >
+  		</a>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    				<li><a href="#" ng-click = "selectDiv('Grey noppa 50*50*50-50€')">50*50*50mm-50€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Grey noppa 100*100*100€')">100x100x100mm-55€(m²)</a></a></li>
+  				</ul>
+		</div>
+	</center>
+</div>
+
+
+<!-- 1	 -->
+		
+		
+		
+		
+		
 		</div>
 	</div>
 		<div id="bottom_container">

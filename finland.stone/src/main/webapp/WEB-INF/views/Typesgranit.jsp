@@ -66,9 +66,8 @@
 			</div>     
 			
 			
-			    
- <h2><center><spring:message code="pages.typegranit" /></ctnter></h2>						
- 					
+		 <h2><center><spring:message code="pages.typegranit" /></ctnter></h2>				
+			
  					
  				
  <div class="col-xs-3">

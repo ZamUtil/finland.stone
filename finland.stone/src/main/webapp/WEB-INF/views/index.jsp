@@ -103,15 +103,21 @@
 				<div id="slides-cu3er">
 					<ul id="slide_2" class="slidik">
 						<li class="show">
-						<img alt=<spring:message code="pages.graniitti.keittiötasot" /> src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
+						<img src="${pageContext.request.contextPath}/resources/pic/1.jpg"></li>
 						<li>
 						<img src="${pageContext.request.contextPath}/resources/pic/2.jpg"></li>
 						<li>
-						<img alt=<spring:message code="pages.hautakivet" />	src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
+						<img src="${pageContext.request.contextPath}/resources/pic/3.jpg"></li>
 						<li>
-						<img alt=<spring:message code="pages.graniitti.laattaa" /> src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
+						<img alt=<spring:message code="pages.graniitti.keittiötasot" /> src="${pageContext.request.contextPath}/resources/pic/4.jpg"></li>
 						<li>
-						<img alt=<spring:message code="pages.graniitti.nupu" />	src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
+						<img src="${pageContext.request.contextPath}/resources/pic/5.jpg"></li>
+						<li>
+						<img alt=<spring:message code="pages.hautakivet" />	src="${pageContext.request.contextPath}/resources/pic/6.jpg"></li>
+						<li>
+						<img alt=<spring:message code="pages.graniitti.laattaa" /> src="${pageContext.request.contextPath}/resources/pic/7.jpg"></li>
+						<li>
+						<img alt=<spring:message code="pages.graniitti.nupu" />	src="${pageContext.request.contextPath}/resources/pic/8.jpg"></li>
 						<a data-slidik="slide_2" class="next" href="#">Next</a>
 						<a data-slidik="slide_2" class="prev" href="#">Back</a>
 						<div class="captionWrap">
@@ -193,8 +199,12 @@
 						<h4>
 							<spring:message code="pages.home.properties" />
 						</h4>
-<%-- 					<center><a class="btn btn-default" href="Typesgranit.html" role="button"><spring:message code="pages.typegranit" /></a></center>
- --%><p>
+						<h4>
+							<spring:message code="pages.home.properties1" />
+						</h4>
+<p>
+<a href="Typesgranit.html" ><button type="button" class="btn"><spring:message code="pages.typegranit" /></button>
+<p>
 						<a href="Typesgranit.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/gr.jpg" class="img-circle">
 					<p>
 					</div>

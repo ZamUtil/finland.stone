@@ -67,11 +67,14 @@
                    		</div>
                     </div>                      							
 			</div>         
- 						<h2><left><spring:message code="pages.graniitti.nupu1" /></left></h2>	
+ 						<h2><center><spring:message code="pages.graniitti.nupu1" /></center></h2>
 
 <div class="alert alert-info">
- <h4><spring:message code="pages.nds"/></h4>
+<p>
+ <center><h4><spring:message code="pages.nds"/></h4></center>
 </div>
+<%--  <a href="Typesgranit.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/gr.jpg" class="img-circle">
+ --%>
                     <%-- <div>
 						<div class="imgCenter">
    							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/nupu.jpg">
@@ -101,9 +104,11 @@
 					</div> --%>
 <!-- 1	 -->	
 
-				
+<div>				
 <div class="col-xs-3">
- 	<h4><center>Grey (noppa) </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Grey</center></h4>
+ 	<h4><center>(noppa, nupu) </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/1.jpg" alt="200x200">
   		</a>
@@ -111,14 +116,20 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Grey noppa 50*50*50-50€')">50*50*50mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Grey noppa 100*100*100€')">100x100x100mm-55€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Grey nupu 140*140*200-220mm-80€')">Nupu: 140*140*200-220mm-80€(m²)</a></li>
+    				<li class="divider"></li>
+    				<li><a href="#" ng-click = "selectDiv('Grey noppa 50*50*50-50€')">Noppa: 50*50*50mm-50€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Grey noppa 100*100*100€')">Noppa: 100x100x100mm-55€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Nero black (noppa)  </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Nero black</center></h4>
+ 	<h4><center>(noppa, nupu)  </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/2.jpg" alt="200x200">
   		</a>
@@ -126,14 +137,20 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Nero black noppa 50*50*50-55€')">50*50*50mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Nero black noppa 100*100*100-60€')">100x100x100mm-60€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Nero black nupu: 140*140*200-220mm-120€')">Nupu: 140*140*200-220mm-120€(m²)</a></li>
+    				<li class="divider"></li>
+    				<li><a href="#" ng-click = "selectDiv('Nero black noppa 50*50*50-55€')">Noppa: 50*50*50mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Nero black noppa 100*100*100-60€')">Noppa: 100x100x100mm-60€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Karelia brown (noppa)  </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Karelia brown</center></h4>
+ 	<h4><center>(noppa)  </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/3.jpg" alt="200x200">
   		</a>
@@ -141,14 +158,18 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Karelia brown noppa 50*50*50-55€')">50*50*50mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Karelia brown noppa 100*100*100-50€')">100x100x100mm-50€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia brown noppa 50*50*50-55€')">Noppa: 50*50*50mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia brown noppa 100*100*100-50€')">Noppa: 100x100x100mm-50€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Karelia black (nupu)   </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Karelia black</center></h4>
+ 	<h4><center>(nupu)   </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/4.jpg" alt="200x200">
   		</a>
@@ -156,13 +177,17 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Karelia black nupu 140*140*200-220;-80€')">140*140*200-220mm-80€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black nupu 140*140*200-220;-120€')">Nupu: 140*140*200-220mm-120€(m²)</a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Withred (noppa)   </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Withred </center></h4>
+ 	<h4><center>(noppa)   </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/5.jpg" alt="200x200">
   		</a>
@@ -170,14 +195,18 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Withred noppa 50*50*50-60€')">50*50*50mm-60€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Withred noppa 100*100*100-55€')">100x100x100mm-55€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Withred noppa 50*50*50-60€')">Noppa: 50*50*50mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Withred noppa 100*100*100-55€')">Noppa: 100x100x100mm-55€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Maple red  (noppa)    </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Maple red</center></h4>
+ 	<h4><center>(noppa, nupu)    </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/6.jpg" alt="200x200">
   		</a>
@@ -185,14 +214,20 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Maple red  noppa  50*50*50-70€')">50*50*50mm-70€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Maple red  noppa  100*100*100-65€')">100x100x100mm-65€(m²)</a></a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Maple red  nupu 140*140*200-220mm-95€')">Nupu: 140*140*200-220mm-95€(m²)</a></li>
+    				<li class="divider"></li>
+    				<li><a href="#" ng-click = "selectDiv('Maple red  noppa  50*50*50-70€')">Noppa: 50*50*50mm-70€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Maple red  noppa  100*100*100-65€')">Noppa: 100x100x100mm-65€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Karelia black (noppa)  </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Karelia black</center></h4>
+ 	<h4><center>(noppa, nupu)  </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/7.jpg" alt="200x200">
   		</a>
@@ -200,14 +235,20 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  50*50*50-80€')">50*50*50mm-80€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  100*100*100-75€')">100x100x100mm-75€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black  nupu 140*140*200-220mm-120€')">Nupu: 140*140*200-220mm-120€(m²)</a></li>
+    				<li class="divider"></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  50*50*50-80€')">Noppa: 50*50*50mm-80€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  100*100*100-75€')">Noppa: 100x100x100mm-75€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Rosso toledo (noppa)  </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Rosso toledo</center></h4>
+ 	<h4><center>(noppa)  </center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/8.jpg" alt="200x200">
   		</a>
@@ -215,14 +256,18 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  50*50*50-60€')">50*50*50mm-60€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  100*100*100-55€')">100x100x100mm-55€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  50*50*50-60€')">Noppa: 50*50*50mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Karelia black noppa  100*100*100-55€')">Noppa: 100x100x100mm-55€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
 <div class="col-xs-3">
- 	<h4><center>Basalt (noppa)   </center></h4>
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Basalt (noppa)</center></h4>
+ 	<h4><center>(noppa)</center></h4>
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/nupunoppa/9.jpg" alt="200x200">
   		</a>
@@ -230,13 +275,14 @@
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Basalt noppa   50*50*50-60€')">50*50*50mm-60€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Basalt noppa   100*100*100-55€')">100x100x100mm-55€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Basalt noppa   50*50*50-60€')">Noppa: 50*50*50mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Basalt noppa   100*100*100-55€')">Noppa: 100x100x100mm-55€(m²)</a></a></li>
   				</ul>
 		</div>
+		<p>
 	</center>
+	</div>
 </div>
-
 <!-- 1	 -->		
 </div>
 	</div>

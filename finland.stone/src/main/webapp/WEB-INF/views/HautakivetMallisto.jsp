@@ -121,6 +121,7 @@ a.button19 {
 					</div>
 					<span><h4>{{item.prise}} €</h4></span>
 					<p style="text-align: center"><a href="" class="button19"ng-click="selectDiv(item)">Kassa</a>
+					<p>
 				</div>
 			</div>
 		</div>

@@ -96,7 +96,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 ////////LAATTAA
 .controller('lattaController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?laattaa='+item;
+		$window.location.href = '/Tarjouspyynto#?laattaa='+item;
 	}
 })
 ///NUPUNOOPA

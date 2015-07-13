@@ -11,7 +11,7 @@
   <meta name="title" content="" />
   <meta name="description" content="" />
   
-<title>KiiskenKivi Oy</title>
+<title>Yhteystiedot</title>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
  <style>

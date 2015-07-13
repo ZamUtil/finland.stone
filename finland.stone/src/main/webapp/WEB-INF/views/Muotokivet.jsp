@@ -12,7 +12,7 @@
 <meta name="keywords" content="" />
 <meta name="title" content="" />
 <meta name="description" content="" />
-<title>KiiskenKivi Oy</title>
+<title>Muotokivet</title>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css"	rel="stylesheet" type="text/css" />

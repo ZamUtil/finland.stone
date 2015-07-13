@@ -13,7 +13,7 @@
 <meta name="title" content="" />
 <meta name="description" content="" />
 
-<title>KiiskenKivi Oy</title>
+<title>Hautakivet-Mallisto</title>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
 <link

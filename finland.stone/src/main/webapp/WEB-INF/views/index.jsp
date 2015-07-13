@@ -13,7 +13,7 @@
 <meta name="title" content="" />
 <meta name="description" content="" />
 
-<title>KiiskenKivi Oy</title>
+<title>Halvemmat hautakivet. Halvemmat rakennuskivet | Hintatasomme halvempi kuin mihin Suomessa | KiiskenKivi Oy</title>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css"
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 				<div>
-				<center><h2><spring:message code="pages.index.title" /></h2></center>
+				<center><h2><spring:message code="pages.index.title" /></h2><h3><spring:message code="pages.color" /></h3></center>
 				</div>
 			<div id="slides_container">
 				<div id="slides-cu3er">
@@ -129,7 +129,7 @@
 					<div id="slides-text">
 						</p><h2><spring:message code="pages.home.about" /></p><h4>
 						<spring:message code="pages.home.about.text" /><br /></h4>
-						<div style="color:green" ><h4><spring:message code="pages.color" /></h4></div>
+						<%-- <div style="color:green" ><h3><spring:message code="pages.color" /></h3></div> --%>
 					<div ng-controller="ModalDemoCtrl">
 						<script type="text/ng-template" id="myModalContent.html">
        						<div class="modal-header">

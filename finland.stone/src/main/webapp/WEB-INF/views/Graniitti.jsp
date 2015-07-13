@@ -12,7 +12,7 @@
     <meta name="title" content="" />
  	<meta name="description" content="" />
  	
-<title>KiiskenKivi Oy</title>
+<title>Rakennuskivet | Graniitti tuotteet</title>
 <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.ico" type="image/x-icon">
 
 <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet" type="text/css" />
@@ -101,7 +101,7 @@
 								</li>
 								<li class="cell1">
 									<div class="content2">							
-                        				<h2><a href="Typesgranit.html" ><spring:message code="pages.typegranit" /></h2><br />
+                        				<h2><a href="Typesgranit.html" ><spring:message code="pages.home.properties" /></h2><br />
 										<a href="Typesgranit.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_9.jpg"></img></a>
                        					<H3><spring:message code="pages.graniitti.portaat.text" /></H3>		
 									</div>

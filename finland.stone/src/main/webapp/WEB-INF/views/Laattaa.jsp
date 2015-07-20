@@ -148,6 +148,8 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/1.jpg" >
   		</a>
+ 	<h4><center>30mm-75€(m²)</center></h4>
+ 	<h4><center>40mm-90€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -168,6 +170,8 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/2.jpg" >
   		</a>
+  	<h4><center>30mm-50€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -187,6 +191,8 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/3.jpg" >
   		</a>
+  	<h4><center>30mm-55€(m²)</center></h4>
+ 	<h4><center>40mm-75€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -201,24 +207,26 @@
 </div>
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
- 	<h4><center>Star of Ukraine </center></h4>
- 	<h4><center>(killotettu)</center></h4>
+ 	<h4><center>Flower of Ukraine </center></h4>
+ 	<h4><center>(poltettu)</center></h4>
  		<a href="" class="thumbnail">
-    		<img src="${pageContext.request.contextPath}/resources/lattaa/4.jpg" >
+    		<img src="${pageContext.request.contextPath}/resources/lattaa/15.jpg" >
   		</a>
+	<h4><center>30mm-55€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 20mm-55€')">20mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 30mm-65€')">30mm-65€(m²)</a></a></li>
-  					<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 40mm-75€')">40mm-75€(m²)</a></a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
   				</ul>
 		</div>
 		<p>
 	</center>
 	</div>
 </div>
+
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
  	<h4><center>Rosso Toledo  </center></h4>
@@ -226,6 +234,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/5.jpg" >
   		</a>
+   	<h5><center>20mm-55€(m²)</center></h5>
+ 	<h5><center>30mm-65€(m²)</center></h5>
+ 	<h5><center>40mm-75€(m²)</center></h5>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -246,6 +257,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/6.jpg" >
   		</a>
+  	<h4><center>20mm-50€(m²)</center></h4>
+ 	<h4><center>30mm-65€(m²)</center></h4>
+ 	<h4><center>40mm-75€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -266,6 +280,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/7.jpg" >
   		</a>
+  	<h4><center>20mm-70€(m²)</center></h4>
+ 	<h4><center>30mm-80€(m²)</center></h4>
+ 	<h4><center>40mm-95€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -286,6 +303,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/8.jpg" >
   		</a>
+  	<h4><center>20mm-55€(m²)</center></h4>
+ 	<h4><center>30mm-65€(m²)</center></h4>
+ 	<h4><center>40mm-80€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -306,6 +326,8 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/9.jpg" >
   		</a>
+  	<h4><center>30mm-55€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -324,6 +346,8 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/10.jpg" >
   		</a>
+  	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -343,6 +367,8 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/11.jpg" >
   		</a>
+  	<h4><center>30mm-55€(m²)</center></h4>
+ 	<h4><center>40mm-75€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -357,24 +383,26 @@
 </div>
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
- 	<h4><center>Labradorite green  </center></h4>
- 	<h4><center>(killotettu)</center></h4>
+ 	<h4><center>Rosso Santiago  </center></h4>
+ 	<h4><center>(poltettu)</center></h4>
  		<a href="" class="thumbnail">
-    		<img src="${pageContext.request.contextPath}/resources/lattaa/12.jpg" >
+    		<img src="${pageContext.request.contextPath}/resources/lattaa/16.jpg" >
   		</a>
+	<h4><center>30mm-55€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Labradorite green    (killotettu) 20mm-40€')">20mm-40€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Labradorite green    (killotettu) 30mm-50€')">30mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Labradorite green  (killotettu) 40mm-60€')">40mm-60€(m²)</a></a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
   				</ul>
 		</div>
 		<p>
 	</center>
 	</div>
 </div>
+
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
  	<h4><center>Grey  </center></h4>
@@ -382,6 +410,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/13.jpg" >
   		</a>
+	<h4><center>20mm-50€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -402,6 +433,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/14.jpg" >
   		</a>
+  	<h4><center>20mm-60€(m²)</center></h4>
+	<h4><center>30mm-75€(m²)</center></h4>
+ 	<h4><center>40mm-90€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -417,17 +451,21 @@
 </div>
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
- 	<h4><center>Flower of Ukraine </center></h4>
- 	<h4><center>(poltettu)</center></h4>
+ 	<h4><center>Star of Ukraine </center></h4>
+ 	<h4><center>(killotettu)</center></h4>
  		<a href="" class="thumbnail">
-    		<img src="${pageContext.request.contextPath}/resources/lattaa/15.jpg" >
+    		<img src="${pageContext.request.contextPath}/resources/lattaa/4.jpg" >
   		</a>
+  	<h4><center>20mm-55€(m²)</center></h4>
+ 	<h4><center>30mm-65€(m²)</center></h4>
+ 	<h4><center>40mm-75€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 20mm-55€')">20mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 30mm-65€')">30mm-65€(m²)</a></a></li>
+  					<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 40mm-75€')">40mm-75€(m²)</a></a></li>
   				</ul>
 		</div>
 		<p>
@@ -436,17 +474,21 @@
 </div>
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
- 	<h4><center>Rosso Santiago  </center></h4>
- 	<h4><center>(poltettu)</center></h4>
+ 	<h4><center>Labradorite green  </center></h4>
+ 	<h4><center>(killotettu)</center></h4>
  		<a href="" class="thumbnail">
-    		<img src="${pageContext.request.contextPath}/resources/lattaa/16.jpg" >
+    		<img src="${pageContext.request.contextPath}/resources/lattaa/12.jpg" >
   		</a>
+	<h4><center>20mm-40€(m²)</center></h4>
+	<h4><center>30mm-50€(m²)</center></h4>
+ 	<h4><center>40mm-60€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Labradorite green    (killotettu) 20mm-40€')">20mm-40€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Labradorite green    (killotettu) 30mm-50€')">30mm-50€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Labradorite green  (killotettu) 40mm-60€')">40mm-60€(m²)</a></a></li>
   				</ul>
 		</div>
 		<p>
@@ -460,6 +502,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/17.jpg" >
   		</a>
+  	<h4><center>20mm-50€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -480,6 +525,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/18.jpg" >
   		</a>
+  	<h4><center>20mm-50€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -493,44 +541,7 @@
 	</center>
 	</div>
 </div>
-<div class="col-xs-3">
-	<div style="border: 4px black double; margin: 5px; border-color:grey">
- 	<h4><center>Rosso Toledo </center></h4>
- 	<h4><center>(poltettu)</center></h4>
- 		<a href="" class="thumbnail">
-    		<img src="${pageContext.request.contextPath}/resources/lattaa/19.jpg" >
-  		</a>
-	<center>
-		<div class="btn-group">
-  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
-    			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Rosso Toledo(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Rosso Toledo(poltettu) 40mm-65€')">40mm-65€(m²)</a></li>
-  				</ul>
-		</div>
-		<p>
-	</center>
-	</div>
-</div>
-<div class="col-xs-3">
-	<div style="border: 4px black double; margin: 5px; border-color:grey">
- 	<h4><center>Maple red  </center></h4>
- 	<h4><center>(poltettu)</center></h4>
- 		<a href="" class="thumbnail">
-    		<img src="${pageContext.request.contextPath}/resources/lattaa/20.jpg" >
-  		</a>
-	<center>
-		<div class="btn-group">
-  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
-    			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 40mm-75€')">40mm-75€(m²)</a></li>
-  				</ul>
-		</div>
-		<p>
-	</center>
-	</div>
-</div>
+
 <div class="col-xs-3">
 	<div style="border: 4px black double; margin: 5px; border-color:grey">
  	<h4><center>Flower of Ukraine  </center></h4>
@@ -538,6 +549,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/21.jpg" >
   		</a>
+  	<h4><center>20mm-50€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -558,6 +572,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/22.jpg" >
   		</a>
+  	<h4><center>20mm-60€(m²)</center></h4>
+	<h4><center>30mm-75€(m²)</center></h4>
+ 	<h4><center>40mm-90€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -578,6 +595,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/23.jpg" >
   		</a>
+  	<h4><center>20mm-55€(m²)</center></h4>
+	<h4><center>30mm-65€(m²)</center></h4>
+ 	<h4><center>40mm-75€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -585,6 +605,48 @@
     			    <li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 20mm-55€')">20mm-55€(m²)</a></li>
     				<li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 30mm-65€')">30mm-65€(m²)</a></li>
     				<li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 40mm-75€')">40mm-75€(m²)</a></a></li>
+  				</ul>
+		</div>
+		<p>
+	</center>
+	</div>
+</div>
+<div class="col-xs-3">
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Rosso Toledo </center></h4>
+ 	<h4><center>(poltettu)</center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/lattaa/19.jpg" >
+  		</a>
+	<h4><center>30mm-55€(m²)</center></h4>
+ 	<h4><center>40mm-65€(m²)</center></h4>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    			    <li><a href="#" ng-click = "selectDiv('Rosso Toledo(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Rosso Toledo(poltettu) 40mm-65€')">40mm-65€(m²)</a></li>
+  				</ul>
+		</div>
+		<p>
+	</center>
+	</div>
+</div>
+<div class="col-xs-3">
+	<div style="border: 4px black double; margin: 5px; border-color:grey">
+ 	<h4><center>Maple red  </center></h4>
+ 	<h4><center>(poltettu)</center></h4>
+ 		<a href="" class="thumbnail">
+    		<img src="${pageContext.request.contextPath}/resources/lattaa/20.jpg" >
+  		</a>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-75€(m²)</center></h4>
+	<center>
+		<div class="btn-group">
+  			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
+    			<ul class="dropdown-menu">
+    			    <li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 40mm-75€')">40mm-75€(m²)</a></li>
   				</ul>
 		</div>
 		<p>

@@ -80,9 +80,7 @@
 							</div>                                                     	
                         </div>
 							<div class="layer1">
-								<iframe
-								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3968.2371425909246!2d24.945788403125892!3d60.17876962853813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2zMDAxMDAg0KXQtdC70YzRgdC40L3QutC4LCDQpNC40L3Qu9GP0L3QtNC40Y8!5e0!3m2!1sru!2sru!4v1432029915399"
-								width="470" height="450" frameborder="0" style="border:0"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1968.0117830520732!2d23.2018913!3d60.44502099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c386a201ecb4b%3A0xcabf47aa1addc69b!2sSomerontie+717%2C+24260+Salo!5e0!3m2!1sru!2sfi!4v1439390159841" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 							</div>
   						<div class="layer2">
   							<br />

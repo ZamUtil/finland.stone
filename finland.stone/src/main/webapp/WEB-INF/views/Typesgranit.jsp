@@ -71,7 +71,7 @@
  					
  				
  <div class="col-xs-3">
- <h4><center>MAPLE RED </center></h4>
+ <h4><center>MAPLE RED<br>(PUNAINEN) </center></h4>
  <h5><center>
  	tiheys-2650 kg/m3
 	vedenimukyky-0,5%
@@ -82,7 +82,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>STAR OF UKRAINE  </center></h4>
+ <h4><center>STAR OF UKRAINE <br>(VAALEANPUNAINEN) </center></h4>
  <h5><center>
  	Tiheys-2670 kg/m3
 	vedenimukyky-0,22 %
@@ -93,7 +93,7 @@
   </a>
 </div>
 <div class="col-xs-3">
-<h4><center>WITHERED</center></h4>
+<h4><center>WITHERED<br>(PUNAINEN)</center></h4>
  <h5><center>
 	tiheys- 2720 kg/m3
 	vedenimukyky-0,26 %
@@ -104,7 +104,7 @@
   </a>
 </div>
 <div class="col-xs-3">
-<h4><center>GREY</center></h4>
+<h4><center>GREY<br>(HARMAA) </center></h4>
  <h5><center>
 	tiheys-2740 kg/m3
 	vedenimukyky-0,14%
@@ -115,7 +115,7 @@
   </a>
 </div>
  <div class="col-xs-3">
- <h4><center>FLOWER</center></h4>
+ <h4><center>FLOWER<br>(VAALEANPUNAINEN)</center></h4>
  <h5><center>
 	tiheys-2600 kg/m3
 	vedenimukyky-0,50%
@@ -126,7 +126,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>ROSSO SANTIAGO</center></h4>
+ <h4><center>ROSSO SANTIAGO<br>(PUNAINEN) </center></h4>
  <h5><center>
 	tiheys-2740 kg/m3
 	vedevimukyky-0,22 %
@@ -137,7 +137,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>GABBRO BLACK Buky</center></h4>
+ <h4><center>GABBRO BLACK Buky<br>(MUSTA)</center></h4>
  <h5><center>
 	tiheys-2810-3210 kg/m3
 	vedenimukyky-0,02-0,3 %
@@ -148,7 +148,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>ROSSO TOLEDO </center></h4>
+ <h4><center>ROSSO TOLEDO<br>(VAALEANPUNAINEN) </center></h4>
  <h5><center>
 	tiheys-2660 kg/m3
 	vedenimukyky-0,28 %
@@ -159,7 +159,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>KARELIA BROWN</center></h4>
+ <h4><center>KARELIA BROWN<br>(RUSKEA)</center></h4>
  <h5><center>
 	tiheys-2800 kg/m3
 	vedenimukyky-
@@ -170,7 +170,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>BALTIC GREEN</center></h4>
+ <h4><center>BALTIC GREEN<br>(VIHREÄ)</center></h4>
  <h5><center>
 	tiheys-2740 kg/m3
 	vedenimukyky-0,14%
@@ -181,7 +181,7 @@
   </a>
 </div>	
 <div class="col-xs-3">
- <h4><center>LABRADORITE GREEN</center></h4>
+ <h4><center>LABRADORITE <br>GREEN</center></h4>
  <h5><center>
 	tiheys- 2850 kg/m3
 	vedenimukyky-0,10 %
@@ -192,7 +192,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>BASALT Black</center></h4>
+ <h4><center>BASALT Black<br>(MUSTA)</center></h4>
  <h5><center>
 	tiheys-2500 kg/m3
 	vedenimukyky-0,22%
@@ -203,7 +203,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>NERO BLACK</center></h4>
+ <h4><center>NERO BLACK<br>(MUSTA)</center></h4>
  <h5><center>
 	tiheys-2980-3050 kg/m3
 	vedenimukyky-0,06-0,15 %
@@ -214,7 +214,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>VERDE OLIVA</center></h4>
+ <h4><center>VERDE OLIVA<br>(VIHREÄ)</center></h4>
  <h5><center>
 	tiheys-2710 kg/m3
 	vedenimukyky-0,15%
@@ -225,7 +225,7 @@
   </a>
 </div>
 <div class="col-xs-3">
- <h4><center>KARELIA BLACK</center></h4>
+ <h4><center>KARELIA BLACK<br>(MUSTA)</center></h4>
  <h5><center>
 	tiheys- 3080-3200 kg/m3
 	vedenimukyky-0,07 p-%

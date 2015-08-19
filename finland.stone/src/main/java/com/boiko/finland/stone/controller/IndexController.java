@@ -31,14 +31,14 @@ public class IndexController {
 		return "Yhteystiedot";
 	}
 
-	@RequestMapping("/Graniitti")
-	public String Graniitti() {
-		return "Graniitti";
+	@RequestMapping("/graniitti")
+	public String graniitti() {
+		return "graniitti";
 	}
 
-	@RequestMapping("/Keittiotasot")
-	public String Keittiotasot() {
-		return "Keittiotasot";
+	@RequestMapping("/sokkelikivi")
+	public String sokkelikivi() {
+		return "sokkelikivi";
 	}
 
 	@RequestMapping("/HautakivetMallisto")

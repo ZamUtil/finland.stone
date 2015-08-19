@@ -35,7 +35,7 @@
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="${pageContext.request.contextPath}/resources/css/jcarousel.css" rel="stylesheet" type="text/css" />
-
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery-1.3.2.min.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
@@ -61,7 +61,7 @@
                                  		<ul id="menu">
                             				<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>                                        
                                 			<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
-                                			<li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                			<li><a href="graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 			<li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                				<li class="last"><a class="active" href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                                             <span style="float: right">
@@ -80,7 +80,7 @@
 							</div>                                                     	
                         </div>
 							<div class="layer1">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1968.0117830520732!2d23.2018913!3d60.44502099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c386a201ecb4b%3A0xcabf47aa1addc69b!2sSomerontie+717%2C+24260+Salo!5e0!3m2!1sru!2sfi!4v1439390159841" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1968.0117830520732!2d23.2018913!3d60.44502099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468c386a201ecb4b%3A0xcabf47aa1addc69b!2sSomerontie+717%2C+24260+Salo!5e0!3m2!1sru!2sfi!4v1439390159841" width="470" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 							</div>
   						<div class="layer2">
   							<br />
@@ -120,16 +120,14 @@
 				</div>
 				<div class="right-foot1">
 					<spring:message code="pages.index.down4" />
-					 </br>
-					<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
-				</div>
+					</br>
+						<div class="yashare-auto-init" data-yashareL10n="en"
+				 			data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
+				 			data-yashareTheme="counter">
+				 		</div>
+				</div>		
 			</div>
 		</div>
-	</div>		
+	</div>
 </body>
-</html>
-
-                            
+</html>              

@@ -22,7 +22,7 @@
 	rel="stylesheet" type="text/css" />
 <style type='text/css' media='screen,projection'>
 </style>
-
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/lib/angular.min.js"></script>
@@ -54,7 +54,7 @@
                         	<ul id="menu">
                             	<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>
                                	<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li> 
-                                <li class="current"><a class="active" href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
+                                <li class="current"><a class="active" href="graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                                                            
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                                 <span style="float: right"> 
@@ -162,9 +162,9 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/5.jpg" >
   		</a>
-   	<h5><center>20mm-50€(m²)</center></h5>
- 	<h5><center>30mm-60€(m²)</center></h5>
- 	<h5><center>40mm-70€(m²)</center></h5>
+   	<h4><center>20mm-50€(m²)</center></h4>
+ 	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
@@ -588,28 +588,27 @@
 		
 		
 		</div>
-	</div>
-		<div id="bottom_container">
-			<div id="footer">
-				<div id="foot">
-					<div class="left-foot">
-						<spring:message code="pages.index.down1" />
-						<br />
-						<spring:message code="pages.index.down2" />
-						<br />
-						<spring:message code="pages.index.down3" />
-						<br />
-					</div>
-					<div class="right-foot1">
-						<spring:message code="pages.index.down4" />
-						 </br>
-						<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
-						<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
-						<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
-						<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
-					</div>
+	<div id="bottom_container">
+		<div id="footer">
+			<div id="foot">
+				<div class="left-foot">
+					<spring:message code="pages.index.down1" />
+					<br />
+					<spring:message code="pages.index.down2" />
+					<br />
+					<spring:message code="pages.index.down3" />
+					<br />
 				</div>
+				<div class="right-foot1">
+					<spring:message code="pages.index.down4" />
+					</br>
+						<div class="yashare-auto-init" data-yashareL10n="en"
+				 			data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
+				 			data-yashareTheme="counter">
+				 		</div>
+				</div>		
 			</div>
 		</div>
+	</div>
 </body>
 </html>

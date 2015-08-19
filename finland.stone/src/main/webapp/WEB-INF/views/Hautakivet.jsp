@@ -18,7 +18,7 @@
 <link href="${pageContext.request.contextPath}/resources/css/inner.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/css/fancybox.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="${pageContext.request.contextPath}/resources/css/jcarousel.css" rel="stylesheet" type="text/css" />
-
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery-1.3.2.min.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.jcarousel.pack.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery.easing.1.3.js" type="text/javascript"></script>
@@ -46,7 +46,7 @@
                     	<ul id="menu">
                         	<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
                            	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
-                            <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                            <li><a href="graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                             <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                             <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                             <span style="float: right">
@@ -110,16 +110,15 @@
 					<br />
 				</div>
 				<div class="right-foot1">
-					<%-- <spring:message code="pages.index.down4" />
-					 </br>
-					<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" /> --%>
-				</div>
+					<spring:message code="pages.index.down4" />
+					</br>
+						<div class="yashare-auto-init" data-yashareL10n="en"
+				 			data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
+				 			data-yashareTheme="counter">
+				 		</div>
+				</div>		
 			</div>
 		</div>
 	</div>
 </body>
 </html>
-

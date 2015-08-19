@@ -65,7 +65,7 @@
 							<spring:message	code="pages.menu.home" /></a></li>
 							<li><a href="Hautakivet.html">
 							<spring:message	code="pages.menu.headstones" /></a></li>
-							<li><a href="Graniitti.html">
+							<li><a href="graniitti.html">
 							<spring:message	code="pages.menu.granite" /></a></li>
 							<li><a href="Tarjouspyynto.html">
 							<spring:message	code="pages.menu.request" /></a></li>
@@ -153,8 +153,8 @@
    					 	<li><a href="NuppuNoppa.html"><button type="button" class="btn btn-warning"><spring:message code="pages.graniitti.nupu" /></button></a></li>
 						<li><a href="Laattaa.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.l" /></button></a></li>
       					<li><a href="Portaat.html"><button type="button" class="btn btn-warning"><spring:message code="pages.graniitti.portaat" /></button></a></li>          
-	 					<li><a href="Keittiotasot.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.k" /></button></a></li>
-	  					<li><a href="Keittiotasot.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.r" /></button></a></li>
+	 					<li><a href="sokkelikivi.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.k" /></button></a></li>
+	  					<li><a href="sokkelikivi.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.r" /></button></a></li>
       					<li><a href="HautakivetMallisto.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.h" /></button></a></li>
       					<li><a href="Muotokivet.html"><button type="button" class="btn btn-warning"><spring:message code="pages.hautakivet.moutokivet"/></button></a></li>
       					<li><a href="Suunnittele.html"><button type="button" class="btn btn-warning"><spring:message code="pages.hautakivet.suunnittele"/></button></a></li>
@@ -320,18 +320,16 @@ Hintoihin lisätään kulloinkin voimassa oleva arvonlisävero.
 					<spring:message code="pages.index.down3" />
 					<br />
 				</div>
-				
 				<div class="right-foot1">
 					<spring:message code="pages.index.down4" />
 					</br>
-							<div class="yashare-auto-init" data-yashareL10n="en"
-				 				data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
-				 				data-yashareTheme="counter">
-				 			</div>
+						<div class="yashare-auto-init" data-yashareL10n="en"
+				 			data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
+				 			data-yashareTheme="counter">
+				 		</div>
 				</div>		
 			</div>
 		</div>
 	</div>
 </body>
 </html>
-

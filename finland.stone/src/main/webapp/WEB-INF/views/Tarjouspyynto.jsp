@@ -43,7 +43,7 @@
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
-
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -70,7 +70,7 @@
                             	<ul id="menu">
                                		<li><a href="index.html"><spring:message code="pages.menu.home" /></a></li> 
                                 	<li><a href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                        
-                               		<li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                               		<li><a href="graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 	<li class="current"><a class="active" href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 	<li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                            			<span style="float: right">
@@ -137,14 +137,14 @@
 				</div>
 				<div class="right-foot1">
 					<spring:message code="pages.index.down4" />
-					 </br>
-					<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
-					<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
-				</div>
+					</br>
+						<div class="yashare-auto-init" data-yashareL10n="en"
+				 			data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
+				 			data-yashareTheme="counter">
+				 		</div>
+				</div>		
 			</div>
 		</div>
-	</div>		
+	</div>
 </body>
 </html>

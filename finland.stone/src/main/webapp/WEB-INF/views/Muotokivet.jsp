@@ -58,7 +58,7 @@ a.button19 {
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-resource.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/lib/angular-route.min.js"></script>
 	<script src="${pageContext.request.contextPath}/resources/js/app.js"></script>
-
+<script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/jquery.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/functionAddEvent.js"></script>
 	<script type="text/javascript" src="${pageContext.request.contextPath}/resources/js/contact.js"></script>
@@ -83,7 +83,7 @@ a.button19 {
                         	<ul id="menu">
                                 <li><a href="index.html"><spring:message code="pages.menu.home" /></a></li>   
                             	<li class="current"><a class="active" href="Hautakivet.html"><spring:message code="pages.menu.headstones" /></a></li>                                                                              
-                                <li><a href="Graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
+                                <li><a href="graniitti.html"><spring:message code="pages.menu.granite" /></a></li>                                        
                                 <li><a href="Tarjouspyynto.html"><spring:message code="pages.menu.request" /></a></li>                                        
                                 <li class="last"><a href="Yhteystiedot.html"><spring:message code="pages.menu.contact" /></a></li>
                                 <span style="float: right">
@@ -116,27 +116,27 @@ a.button19 {
 			</div>
 		</div>
 	</div>
-		<div id="bottom_container">
-			<div id="footer">
-				<div id="foot">
-					<div class="left-foot">
-						<spring:message code="pages.index.down1" />
-						<br />
-						<spring:message code="pages.index.down2" />
-						<br />
-						<spring:message code="pages.index.down3" />
-						<br />
-					</div>
-					<div class="right-foot1">
-						<spring:message code="pages.index.down4" />
-						 </br>
-						<img src="${pageContext.request.contextPath}/resources/images/t.png" alt="" />
-						<img src="${pageContext.request.contextPath}/resources/images/f.png" alt="" />
-						<img src="${pageContext.request.contextPath}/resources/images/g.png" alt="" />
-						<img src="${pageContext.request.contextPath}/resources/images/p.png" alt="" />
-					</div>
+	<div id="bottom_container">
+		<div id="footer">
+			<div id="foot">
+				<div class="left-foot">
+					<spring:message code="pages.index.down1" />
+					<br />
+					<spring:message code="pages.index.down2" />
+					<br />
+					<spring:message code="pages.index.down3" />
+					<br />
 				</div>
+				<div class="right-foot1">
+					<spring:message code="pages.index.down4" />
+					</br>
+						<div class="yashare-auto-init" data-yashareL10n="en"
+				 			data-yashareType="large" data-yashareQuickServices="facebook,twitter,gplus"
+				 			data-yashareTheme="counter">
+				 		</div>
+				</div>		
 			</div>
 		</div>
+	</div>
 </body>
 </html>

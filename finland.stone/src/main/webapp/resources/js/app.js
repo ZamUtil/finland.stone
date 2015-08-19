@@ -108,7 +108,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 ///sokkelikivi
 .controller('sokkelikiviController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/finland.stone/Tarjouspyynto#?sokkelikivi='+item;
+		$window.location.href = '/Tarjouspyynto#?sokkelikivi='+item;
 	}
 })
 

@@ -154,7 +154,7 @@
 						<li><a href="Laattaa.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.l" /></button></a></li>
       					<li><a href="Portaat.html"><button type="button" class="btn btn-warning"><spring:message code="pages.graniitti.portaat" /></button></a></li>          
 	 					<li><a href="sokkelikivi.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.k" /></button></a></li>
-	  					<li><a href="sokkelikivi.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.r" /></button></a></li>
+	  					<li><a href="reunakivet.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.r" /></button></a></li>
       					<li><a href="HautakivetMallisto.html"><button type="button" class="btn btn-warning"><spring:message code="pages.title.button.h" /></button></a></li>
       					<li><a href="Muotokivet.html"><button type="button" class="btn btn-warning"><spring:message code="pages.hautakivet.moutokivet"/></button></a></li>
       					<li><a href="Suunnittele.html"><button type="button" class="btn btn-warning"><spring:message code="pages.hautakivet.suunnittele"/></button></a></li>

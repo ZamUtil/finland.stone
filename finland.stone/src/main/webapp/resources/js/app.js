@@ -111,6 +111,12 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$window.location.href = '/Tarjouspyynto#?sokkelikivi='+item;
 	}
 })
+///reunakivet
+.controller('reunakivetController', function($scope,$rootScope,$timeout,$window) {
+	$scope.selectDiv = function(item) {
+		$window.location.href = '/Tarjouspyynto#?sokkelikivi='+item;
+	}
+})
 
 .controller('blackHeadstoneController', function($scope,$rootScope, blackHeadstoneService,$timeout,$window) {
     $scope.getBlackHeadstones = function (param) {
@@ -424,8 +430,8 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$scope.selectedState6 = $scope.namesState6[index];
 	};
 	//state7
-	$scope.namesState7 = ["Risti","Risti","Kaksinkertainen ","Kolminkertainen ","Ruusuristi",
-	                      "Tähkäristi","Risti","Risti","Kieloristi","Pieni kieloristi"];
+	$scope.namesState7 = ["Risti1","Risti","Kaksinkertainen ","Kolminkertainen ","Ruusuristi",
+	                      "Tähkäristi","Risti2","Risti3","Kieloristi","Pieni kieloristi"];
 
 	$scope.selectItemState7  = function(index){
 		$scope.selectedState7 = $scope.namesState7[index];

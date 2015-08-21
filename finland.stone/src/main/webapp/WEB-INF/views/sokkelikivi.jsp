@@ -22,9 +22,10 @@
 	rel="stylesheet" type="text/css" />
 <style type='text/css' media='screen,projection'>
 </style>
-<link href="${pageContext.request.contextPath}/resources/gallery/style.css" type="text/css" media="screen" rel="stylesheet" />
-<script src="${pageContext.request.contextPath}/resources/js/lightgallery.min.js" type="text/javascript"></script>
-<script>lightgallery.init();</script>
+
+
+
+
 <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
 <script src="${pageContext.request.contextPath}/resources/js/jquery-2.1.4.min.js"></script>
 <script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
@@ -70,7 +71,6 @@
   				    <span><center><h2><spring:message code="pages.graniitti.sokkelikivi" /></center><h4><spring:message code="pages.graniitti.sokkelikivi.text" /></h4></span>
 			</div>
 			<p></p>
-		
 			<div class="bs-example">
 				<table class="table table-bordered">
 					<thead>
@@ -87,7 +87,10 @@
 							<td rowspan="2">
 								Gabro
 								<p>
-							<a href="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s1.jpg" rel="lightgallery" title="Gabro">
+								
+								
+								
+								
 							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s1min.jpg" alt=""/></a>	
 							</td>
 							<td>40</td>
@@ -129,7 +132,6 @@
 						<tr class="warning">
 							<td rowspan="2">Maple Red
 								<p>
-							<a href="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s2.jpg" rel="lightgallery" title="Mapple red">
 							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s2min.jpg" alt=""/></a>
 							</td>
 							<td>40</td>
@@ -172,7 +174,6 @@
 						<tr class="warning">
 							<td rowspan="2">Grey
 								<p>
-							<a href="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s3.jpg" rel="lightgallery" title="Grey">
 							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s3min.jpg" alt=""/></a>
 							</td>
 							<td>40</td>

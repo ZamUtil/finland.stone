@@ -75,4 +75,9 @@ public class IndexController {
 	public String Typesgranit() {
 		return "Typesgranit";
 	}
+	
+	@RequestMapping("/reunakivet")
+	public String reunakivet() {
+		return "reunakivet";
+	}
 }

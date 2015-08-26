@@ -167,21 +167,38 @@
 
 
 <!-- ////////////////////////////////////////// -->
-
-
-				<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon8.png"
+<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon8.png"
 							height="58px" weight="58px" alt="" class="img-circle" />
-							<spring:message code="pages.home.toimitus" /></h4>
-								<div class="bs-example">
-			<div id="content">
-				<div id="content1">
-					<div class="maincontent">
-								<p><spring:message code="pages.home.toimitus.text" /></p>
-					</div>
-				</div>
-				<div id="content2">
-					<div class="maincontent">
-									<p>Tämä kuljetushinnasto on  KIISKENKIVI.
+							Hautakiven hankinta</h4>
+  
+  <div class="maincontent">
+	<p>
+	<h5>Hautakiven tilaus</h5>
+ 	<p>
+Lähettämällä tiedustelun työkalun kautta, saat vuorokauden sisään sähköpostiisi linkin suunnitelmaan. Samalla voimme esittää ehdotuksia tai tarkentavia kysymyksiä kiven suhteen.  Samalla saat etumaksun, jonka maksamalla lähdemme valmistamaan kiveä. Etumaksu on 25 % kivitilauksissa ja loput laskutetaan kiven asennuksen jälkeen.
+Kiven valmistus kestää 3-7 viikkoa, mutta asennusajankohta riippuu hautausmaan säännöistä. Ilmoitamme tilausvahvistuksessa arvioidun asennusajan kivelle.
+ 	<p>
+	<h5>Tilaaminen</h5> 
+	<p>
+Tilaaminen on helppoa. Voit olla meihin yhteydessä sähköpostilla, sunnitteluohjelman kautta tai puhelimella
+Hinnat sisältävät pohjakiven, arvonlisävero, yhden vainajan nimi-aikatiedot kaiverrettuna ja maalattuna esim. harmaalla, rahti ja asennus pääkaupunkiseudalle.
+    <p> 
+    <h5>Varastosta Nouto</h5>
+    <p>
+	Asiakkaalla on mahdollisuus noutaa tuotteensa Kiiskenkivi varastosta.		
+</div>
+ 
+ <h4><img src="${pageContext.request.contextPath}/resources/images/services-icon8.png"
+							height="58px" weight="58px" alt="" class="img-circle" />
+							Rakennuskivet hankinta</h4>
+  
+  <div class="maincontent">
+	<p>
+	<h5><spring:message code="pages.home.toimitus" /></h5>
+ 	<p>
+<spring:message code="pages.home.toimitus.text" />
+<p>
+  Tämä kuljetushinnasto on  KIISKENKIVI.
 Veloitusperusteet alla olevan taulukon mukaisesti (€/kokonaismatka, alv. 0 %)
 Esim. 1. pienkuljetuksen kuljetusmatka yhteen suuntaan on 13 km. Kokonaismatka on 26km.
 Kokonaisveloitus on 60 €.
@@ -189,17 +206,12 @@ Esim. 2. toimituserän paino 11 000 kg, kuljetusmatka yhteen suuntaan 100 km. Ko
 60 km = 360€
 140 km x 0,75 € = 105 €
 Kokonaisveloitus 360 € + 105€ = 465 €
-					</div>
-				</div>
-				<div id="content3">
-					<div class="maincontent">
-								<p>Odotusajat ja kuorman keräilyajat odotustuntihinnoin. Ennen klo 13.00 tilatut kujetukset toimitetaan seuraavana
+<p>
+Odotusajat ja kuorman keräilyajat odotustuntihinnoin. Ennen klo 13.00 tilatut kujetukset toimitetaan seuraavana
 päivänä klo 8.00 - 16.00. Mikäli toimitus halutaan samana päivänä veloitamme pikatoimituslisän 50 €.
 
 Hintoihin lisätään kulloinkin voimassa oleva arvonlisävero.
-					</div>
-				</div>
-			</div>
+
 
 
 
@@ -268,13 +280,15 @@ Hintoihin lisätään kulloinkin voimassa oleva arvonlisävero.
       </tbody>
     </table>
   </div>
+  
+  
 			<div id="content">
 				<div id="content1">
 					<div class="maincontent">
-						<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon1.png"
+						<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon2.png"
 							height="58px" weight="58px" alt="" class="img-circle" />
-							<spring:message code="pages.home.company" /></h4>
-								<p><spring:message code="pages.home.company.text" /></p>
+							<spring:message code="pages.home.hinta" /></h4>
+								<p><spring:message code="pages.home.hinta.text" /></p>
 						<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon7.png"
 							height="58px" weight="58px" alt="" class="img-circle" />
 							<spring:message code="pages.home.varastosta" /></h4>
@@ -299,13 +313,15 @@ Hintoihin lisätään kulloinkin voimassa oleva arvonlisävero.
 							height="58px" weight="58px" alt="" class="img-circle" />
 								<spring:message code="pages.home.maksu" /></h4>
 									<p><spring:message code="pages.home.maksu.text" /></p>
-						<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon2.png"
-							height="58px" weight="58px" alt="" class="img-circle" />
-							<spring:message code="pages.home.hinta" /></h4>
-								<p><spring:message code="pages.home.hinta.text" /></p>
+						
 					</div>
 				</div>
 			</div>
+			
+			<h4><img src="${pageContext.request.contextPath}/resources/images/services-icon1.png"
+							height="58px" weight="58px" alt="" class="img-circle" />
+							<spring:message code="pages.home.company" /></h4>
+								<p><spring:message code="pages.home.company.text" /></p>
 		</div>
 	</div>
 

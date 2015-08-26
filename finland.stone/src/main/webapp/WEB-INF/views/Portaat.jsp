@@ -70,7 +70,8 @@
 			</div>      
 			
 			
-			
+			<h2><center>Portaat</center></h2>
+    			<center><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/por.jpg"></center>
 			
 			<div class="bs-example">
 				<table class="table table-bordered">

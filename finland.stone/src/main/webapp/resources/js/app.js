@@ -193,8 +193,8 @@ angular.module('stone', ['ngRoute','ngResource']).
 			/* $scope.formInfo.dataKey1 = data */
 			// $scope.formInfo.dataKey1 = data
 			$scope.formInfo.st1 = params['selectedState1']
-			$scope.formInfo.st2 = params['selectedState2state2width'] + "x" + params['selectedState2state2height'] + "cm";
-			$scope.formInfo.st3 = params['selectedState3']
+			$scope.formInfo.st2 = params['selectedState2']
+			$scope.formInfo.st3 = params['selectedState3state3width'] + "x" + params['selectedState3state3height'] + "cm";
 			$scope.formInfo.st4 = params['selectedState4']
 			$scope.formInfo.st5 = params['selectedState5']
 			$scope.formInfo.st6 = params['selectedState6']
@@ -203,6 +203,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 			$scope.formInfo.st9 = params['selectedState9']
 			$scope.formInfo.st10 = params['selectedState10']
 			$scope.formInfo.st11 = params['selectedState11']
+			$scope.formInfo.st12 = params['selectedState12']
 			emailService.postSunnitelle($scope.formInfo);
 			alert('Заказ успешно отправлен')
 			document.location.href = 'index.html';
@@ -233,6 +234,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.selectedState9;
 	$scope.selectedState10;
 	$scope.selectedState11;
+	$scope.selectedState12;
 	
 	$scope.currentState = 1;
 	
@@ -304,45 +306,51 @@ angular.module('stone', ['ngRoute','ngResource']).
 				return;
 			}
 		}
+		if (state == 12) {
+			if ($scope.selectedState12 == null || $scope.selectedState12 == undefined) {
+				alert('Tee valintasi!')
+				return;
+			}
+		}
 		
 		
-		if(state == 2 && $scope.selectedState2 == "Oma koko"){
-			if($scope.state2width == "" || $scope.state2height == ""){
-				$scope.errorState2 = true;
+		if(state == 3 && $scope.selectedState3 == "Oma koko"){
+			if($scope.state3width == "" || $scope.state3height == ""){
+				$scope.errorState3 = true;
 				return;
 			} else{
-				var id = $scope.selectedState2;
-				$scope.errorState2 = false;
-				$scope.selectedState2 = {}
-				$scope.selectedState2.index = id;
-				$scope.selectedState2.state2width = $scope.state2width;
-				$scope.selectedState2.state2height = $scope.state2height;
+				var id = $scope.selectedState3;
+				$scope.errorState3 = false;
+				$scope.selectedState3 = {}
+				$scope.selectedState3.index = id;
+				$scope.selectedState3.state3width = $scope.state3width;
+				$scope.selectedState3.state3height = $scope.state3height;
 			} 	
 		}
-		if (state == 5 && $scope.selectedState5 == "Ei koristetta"){
-			$scope.currentState=8;
+		if (state == 6 && $scope.selectedState6 == "Ei koristetta"){
+			$scope.currentState=9;
 			return;
 		}
-		if (state == 5 && $scope.selectedState5 == "Kynttiläluukku"){
-			$scope.currentState=6;
-			return;
-		}
-		if (state == 5 && $scope.selectedState5 == "Risti"){
+		if (state == 6 && $scope.selectedState6 == "Kynttiläluukku"){
 			$scope.currentState=7;
 			return;
 		}
-		if (state == 6 ){
+		if (state == 6 && $scope.selectedState6 == "Risti"){
 			$scope.currentState=8;
 			return;
 		}
+		if (state == 7 ){
+			$scope.currentState=9;
+			return;
+		}
 		
-		if (state == 11 ){         
+		if (state == 12 ){         
 			$window.location.href = '/Tarjouspyynto#?type=Sunnitelle&selectedState1='
 				+$scope.selectedState1
 			+'&selectedState2='+$scope.selectedState2
-			+'&selectedState2state2width='+$scope.selectedState2.state2width
-			+'&selectedState2state2height='+$scope.selectedState2.state2height
 			+'&selectedState3='+$scope.selectedState3
+			+'&selectedState3state3width='+$scope.selectedState3.state3width
+			+'&selectedState3state3height='+$scope.selectedState3.state3height
 			+'&selectedState4='+$scope.selectedState4
 			+'&selectedState5='+$scope.selectedState5
 			+'&selectedState6='+$scope.selectedState6
@@ -350,7 +358,8 @@ angular.module('stone', ['ngRoute','ngResource']).
 			+'&selectedState8='+$scope.selectedState8
 			+'&selectedState9='+$scope.selectedState9
 			+'&selectedState10='+$scope.selectedState10
-			+'&selectedState11='+$scope.selectedState11;
+			+'&selectedState11='+$scope.selectedState11
+			+'&selectedState12='+$scope.selectedState12;
 				
 		}
 		
@@ -359,16 +368,16 @@ angular.module('stone', ['ngRoute','ngResource']).
 	}
 	
 	$scope.backState =  function(state) {
-		if (state == 6){
-			$scope.currentState=5;
-			return;
-		}
-		if (state == 7 ){
-			$scope.currentState=5;
+		if (state == 7){
+			$scope.currentState=6;
 			return;
 		}
 		if (state == 8 ){
-			$scope.currentState=5;
+			$scope.currentState=6;
+			return;
+		}
+		if (state == 9 ){
+			$scope.currentState=6;
 			return;
 		}
 		$scope.currentState--;
@@ -379,83 +388,89 @@ angular.module('stone', ['ngRoute','ngResource']).
 	    return new Array(num);   
 	    
 	};
-	
 	//state1
-	$scope.names = ["harja","harja-tasoilla","kaari","kaari-tasoilla","louhittu-aaltoilevasti","louhittu-pyoreasti",
-	                "louhittu-symmetrisesti","monikulmio","neliskanttinen","pehmeat-muodot","puoliserpentiini-kaarevilla-sivuilla","puoliserpentiini-suorilla-sivuilla",
-	                "pyorea","Serpentiini"];
+	$scope.names = ["grey(harmaa)","mapple red(punainen)","gabbro black(musta)","baltic green(vihreä)"];
 
 	$scope.selectItemState1  = function(index){
 	console.log($scope.selectedState1)
 		$scope.selectedState1 = $scope.names[index];
 	};
-	
 	//state2
-	$scope.namesState2 = ["40x80cm","50x100cm","70x140cm","120x70cm","130x80cm","Oma koko"];
-	
-	$scope.state2width="";
-	$scope.state2height="";
-	
-	$scope.errorState2 = false;
-	
+	$scope.namesState2 = ["harja","harja-tasoilla","kaari","kaari-tasoilla","louhittu-aaltoilevasti","louhittu-pyoreasti",
+	                "louhittu-symmetrisesti","monikulmio","neliskanttinen","pehmeat-muodot","puoliserpentiini-kaarevilla-sivuilla","puoliserpentiini-suorilla-sivuilla",
+	                "pyorea","Serpentiini"];
+
 	$scope.selectItemState2  = function(index){
+	console.log($scope.selectedState2)
 		$scope.selectedState2 = $scope.namesState2[index];
 	};
 	
 	//state3
-	$scope.namesState3 = ["1","2","3","4","5","6",
-	                "7","8","9","10","11","12",
-	                "13","14","15","16"];
-
+	$scope.namesState3 = ["40x80cm","50x100cm","70x140cm","120x70cm","130x80cm","Oma koko"];
+	
+	$scope.state3width="";
+	$scope.state3height="";
+	
+	$scope.errorState3 = false;
+	
 	$scope.selectItemState3  = function(index){
 		$scope.selectedState3 = $scope.namesState3[index];
 	};
+	
 	//state4
-	$scope.namesState4 = ["Louhittu","Hiottu","sahattu"];
+	$scope.namesState4 = ["ilman jalusta","2","3","4","5","6",
+	                "7","8","9","10","11","12",
+	                "13","14","15","16","17"];
 
-	  	$scope.selectItemState4  = function(index){
-	  		$scope.selectedState4 = $scope.namesState4[index];
+	$scope.selectItemState4  = function(index){
+		$scope.selectedState4 = $scope.namesState4[index];
+	};
+	//state5
+	$scope.namesState5 = ["Louhittu","Hiottu","sahattu"];
+
+	  	$scope.selectItemState5  = function(index){
+	  		$scope.selectedState5 = $scope.namesState5[index];
 	  	};
 	
-	//state5
-	$scope.namesState5 = ["Ei koristetta","Kynttiläluukku","Risti"];
-
-	$scope.selectItemState5  = function(index){
-		$scope.selectedState5 = $scope.namesState5[index];
-	};
 	//state6
-	$scope.namesState6 = ["Pyöreä holvi","Goottilainen holvi"];
+	$scope.namesState6 = ["Ei koristetta","Kynttiläluukku","Risti"];
 
 	$scope.selectItemState6  = function(index){
 		$scope.selectedState6 = $scope.namesState6[index];
 	};
-	//state7
-	$scope.namesState7 = ["Risti1","Risti","Kaksinkertainen ","Kolminkertainen ","Ruusuristi",
-	                      "Tähkäristi","Risti2","Risti3","Kieloristi","Pieni kieloristi"];
+	//state6
+	$scope.namesState7 = ["Pyöreä holvi","Goottilainen holvi"];
 
 	$scope.selectItemState7  = function(index){
 		$scope.selectedState7 = $scope.namesState7[index];
 	};
 	//state8
-	$scope.namesState8 = ["Groteski","Korkea Groteski","Antikva","Leveä Antikva","Kapea Antikva"];
+	$scope.namesState8 = ["Risti1","Risti","Kaksinkertainen ","Kolminkertainen ","Ruusuristi",
+	                      "Tähkäristi","Risti2","Risti3","Kieloristi","Pieni kieloristi"];
 
 	$scope.selectItemState8  = function(index){
 		$scope.selectedState8 = $scope.namesState8[index];
 	};
 	//state9
-	$scope.namesState9 = ["Tumma patina","Kirkas pintai","Taidepatina","Taonta","Kromaus","Kultaus","Kestolakkaus"];
+	$scope.namesState9 = ["Groteski","Korkea Groteski","Antikva","Leveä Antikva","Kapea Antikva"];
 
 	$scope.selectItemState9  = function(index){
 		$scope.selectedState9 = $scope.namesState9[index];
 	};
 	//state10
-	$scope.namesState10 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+	$scope.namesState10 = ["Tumma patina","Kirkas pintai","Taidepatina","Taonta","Kromaus","Kultaus","Kestolakkaus"];
 
 	$scope.selectItemState10  = function(index){
 		$scope.selectedState10 = $scope.namesState10[index];
 	};
 	//state11
-	$scope.namesState11 = ["Ei koristetta","Enkeli 1","Enkeli 2","Enkeli 4","Enkeli 6","Pitsienkeli",
+	$scope.namesState11 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+
+	$scope.selectItemState11  = function(index){
+		$scope.selectedState11 = $scope.namesState11[index];
+	};
+	//state12
+	$scope.namesState12 = ["Ei koristetta","Enkeli 1","Enkeli 2","Enkeli 4","Enkeli 6","Pitsienkeli",
 	  	                "Enkeli 12","Suojelusenkeli","Rukoileva enkeli","Joutsen ","Laulujoutsen, koiras","Laulujoutsen, naaras",
 	  	                "Leppälintu","Lintupari oksalla","Pääsky","Varpunen 7A ","Varpunen 7B ",
 	  	                "Kielo","Kelo","Lyhde","Muratti","Päivänkakkara",
@@ -463,8 +478,8 @@ angular.module('stone', ['ngRoute','ngResource']).
 	  	                "Kaipaus ","Kaipaus","Lohi","Nuottiavain","Orava",
 	  	                "Perhonen","Purjevene","Sinisiipi","Sydän","Vene ja airot"];
 
-	 $scope.selectItemState11  = function(index){
-	  		$scope.selectedState11 = $scope.namesState11[index];
+	 $scope.selectItemState12  = function(index){
+	  		$scope.selectedState12 = $scope.namesState12[index];
 	  	};
 	});
 

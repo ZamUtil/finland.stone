@@ -389,16 +389,14 @@ angular.module('stone', ['ngRoute','ngResource']).
 	    
 	};
 	//state1
-	$scope.names = ["grey(harmaa)","mapple red(punainen)","gabbro black(musta)","baltic green(vihreä)"];
+	$scope.names = ["grey(harmaa)","maple red(punainen)","gabbro black(musta)","baltic green(vihreä)"];
 
 	$scope.selectItemState1  = function(index){
 	console.log($scope.selectedState1)
 		$scope.selectedState1 = $scope.names[index];
 	};
 	//state2
-	$scope.namesState2 = ["harja","harja-tasoilla","kaari","kaari-tasoilla","louhittu-aaltoilevasti","louhittu-pyoreasti",
-	                "louhittu-symmetrisesti","monikulmio","neliskanttinen","pehmeat-muodot","puoliserpentiini-kaarevilla-sivuilla","puoliserpentiini-suorilla-sivuilla",
-	                "pyorea","Serpentiini"];
+	$scope.namesState2 = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14"];
 
 	$scope.selectItemState2  = function(index){
 	console.log($scope.selectedState2)
@@ -418,9 +416,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	};
 	
 	//state4
-	$scope.namesState4 = ["ilman jalusta","2","3","4","5","6",
-	                "7","8","9","10","11","12",
-	                "13","14","15","16","17"];
+	$scope.namesState4 = ["ilman jalusta","2","3","4","5","6","7","8"];
 
 	$scope.selectItemState4  = function(index){
 		$scope.selectedState4 = $scope.namesState4[index];
@@ -458,25 +454,25 @@ angular.module('stone', ['ngRoute','ngResource']).
 		$scope.selectedState9 = $scope.namesState9[index];
 	};
 	//state10
-	$scope.namesState10 = ["Tumma patina","Kirkas pintai","Taidepatina","Taonta","Kromaus","Kultaus","Kestolakkaus"];
+	$scope.namesState10 = ["Tumma patina","Kirkas patina","Taidepatina"];
 
 	$scope.selectItemState10  = function(index){
 		$scope.selectedState10 = $scope.namesState10[index];
 	};
 	//state11
-	$scope.namesState11 = ["Kirkas pronssi","Tumma pronssi","Harmaa kaiverrus","Hopeinen kaiverrus","Kultainen kaiverrus","Musta kaiverrus"];
+	$scope.namesState11 = ["kirkas pronssi","tumma pronssi","taidepatina pronssi","keltainen kaiverrus","musta kaiverrus","valkoinen kaiverrus","pronssi skaiverrus","hopea kaivserrus"];
 
 	$scope.selectItemState11  = function(index){
 		$scope.selectedState11 = $scope.namesState11[index];
 	};
 	//state12
 	$scope.namesState12 = ["Ei koristetta","Enkeli 1","Enkeli 2","Enkeli 4","Enkeli 6","Pitsienkeli",
-	  	                "Enkeli 12","Suojelusenkeli","Rukoileva enkeli","Joutsen ","Laulujoutsen, koiras","Laulujoutsen, naaras",
+	  	                "Enkeli 12","Suojelusenkeli","Vene ja airot","Joutsen ","Laulujoutsen, koiras","Laulujoutsen, naaras",
 	  	                "Leppälintu","Lintupari oksalla","Pääsky","Varpunen 7A ","Varpunen 7B ",
 	  	                "Kielo","Kelo","Lyhde","Muratti","Päivänkakkara",
 	  	                "Petäjä","Rauhanlehvä","Ruusu","Ruusunoksa","Ankkuri",
-	  	                "Kaipaus ","Kaipaus","Lohi","Nuottiavain","Orava",
-	  	                "Perhonen","Purjevene","Sinisiipi","Sydän","Vene ja airot"];
+	  	                "Kaipaus ","Kaipaus","Lohi","Nuottiavain","Sydän",
+	  	                "Perhonen","Purjevene","Sinisiipi"];
 
 	 $scope.selectItemState12  = function(index){
 	  		$scope.selectedState12 = $scope.namesState12[index];

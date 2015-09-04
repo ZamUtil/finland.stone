@@ -89,7 +89,7 @@
 			<div ng-show="currentState == 1">
 				<div class="state1">
 					<center>
-					<h3>Väri kivi 1/1</h3>
+					<h3>Kiven väri 1/1</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(4) track by $index">
@@ -171,7 +171,7 @@
 					<h3>Jalustat 1/4</h3>
 					<center />
 				</div>
-				<div ng-repeat="i in getNumber(17) track by $index">
+				<div ng-repeat="i in getNumber(8) track by $index">
 					<div class="col-md-6"
 						ng-class="{ 'selected-div': namesState4[$index] == selectedState4 }"
 						style="border: 2px solid black; border-color: grey"
@@ -294,7 +294,7 @@
 					<h3>Sukunimi - Kirjasinten valinta 1/8</h3>
 					<center />
 				</div>
-				<div ng-repeat="i in getNumber(7) track by $index">
+				<div ng-repeat="i in getNumber(3) track by $index">
 					<div class="col-md-6"
 						ng-class="{ 'selected-div': namesState10[$index] == selectedState10 }"
 						style="border: 2px solid black; border-color: grey"
@@ -315,14 +315,14 @@
 					<h3>Etunimi - Kirjasinten valinta 1/9</h3>
 					<center />
 				</div>
-				<div ng-repeat="i in getNumber(6) track by $index">
+				<div ng-repeat="i in getNumber(8) track by $index">
 					<div class="col-md-6"
 						ng-class="{ 'selected-div': namesState11[$index] == selectedState11 }"
 						style="border: 2px solid black; border-color: grey"
 						ng-click="selectItemState11($index)">
 						<div>
 							<img
-								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/etunimi/{{$index+1}}.png"
+								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/etunimi/{{$index+1}}.jpg"
 								style="width: 60%"></img> <a ng-click="selectItemState11($index)"
 								href="#" class="button30">+</a> <span>{{namesState11[$index]}}</span>
 						</div>
@@ -341,7 +341,7 @@
 					<h4>Vielä paljon muita tuotteita pronssista.</h4>
 					<center />
 				</div>
-				<div ng-repeat="i in getNumber(37) track by $index">
+				<div ng-repeat="i in getNumber(35) track by $index">
 					<div class="col-md-4"
 						ng-class="{ 'selected-div': namesState12[$index] == selectedState12 }"
 						style="border: 2px solid black; border-color: grey"

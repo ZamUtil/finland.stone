@@ -91,10 +91,10 @@
 							<center><img src="${pageContext.request.contextPath}/resources/reunakivet/1.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>sahattu</td>
-							<td>38€</td>
-							<td>32€</td>
-							<td>26€</td>
-							<td>24€</td>
+							<td>48€</td>
+							<td>42€</td>
+							<td>36€</td>
+							<td>34€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -103,13 +103,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Withred sahattu 300х150х1000(mm) 38€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Withred sahattu 300х150х1000(mm) 48€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Withred sahattu 200х150х1000(mm) 32€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Withred sahattu 200х150х1000(mm) 42€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Withred sahattu 200х100х1000(mm) 26€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Withred sahattu 200х100х1000(mm) 36€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Withred sahattu 200х80х1000(mm) 24€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Withred sahattu 200х80х1000(mm) 34€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -141,10 +141,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>42€</td>
 							<td>34€</td>
+							<td>30€</td>
 							<td>26€</td>
-							<td>22€</td>
-							<td>18€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -153,13 +153,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Withred lohkottu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Withred lohkottu 300х150х1000(mm) 42€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Withred lohkottu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Withred lohkottu 200х150х1000(mm) 34€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Withred lohkottu 200х100х1000(mm) 22€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Withred lohkottu 200х100х1000(mm) 30€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Withred lohkottu 200х80х1000(mm) 18€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Withred lohkottu 200х80х1000(mm) 26€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -170,10 +170,10 @@
 								<center><img src="${pageContext.request.contextPath}/resources/reunakivet/2.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
-							<td>38€</td>
-							<td>32€</td>
-							<td>26€</td>
-							<td>24€</td>
+							<td>48€</td>
+							<td>42€</td>
+							<td>36€</td>
+							<td>34€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -182,13 +182,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine sahattu 300х150х1000(mm) 38€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine sahattu 300х150х1000(mm) 48€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine sahattu 200х150х1000(mm) 32€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine sahattu 200х150х1000(mm) 42€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine sahattu 200х100х1000(mm) 26€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine sahattu 200х100х1000(mm) 36€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine sahattu 200х80х1000(mm) 24€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine sahattu 200х80х1000(mm) 34€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -220,10 +220,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>42€</td>
 							<td>34€</td>
+							<td>30€</td>
 							<td>26€</td>
-							<td>22€</td>
-							<td>18€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -232,13 +232,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine lohkottu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine lohkottu 300х150х1000(mm) 42€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine lohkottu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine lohkottu 200х150х1000(mm) 34€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine lohkottu 200х100х1000(mm) 22€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine lohkottu 200х100х1000(mm) 30€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Flower of Ukraine lohkottu 200х80х1000(mm) 18€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Flower of Ukraine lohkottu 200х80х1000(mm) 26€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -249,10 +249,10 @@
 									<center><img src="${pageContext.request.contextPath}/resources/reunakivet/3.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
-							<td>38€</td>
-							<td>32€</td>
-							<td>26€</td>
-							<td>24€</td>
+							<td>48€</td>
+							<td>42€</td>
+							<td>36€</td>
+							<td>34€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -261,13 +261,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Grey sahattu 300х150х1000(mm) 38€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Grey sahattu 300х150х1000(mm) 48€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Grey sahattu 200х150х1000(mm) 32€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Grey sahattu 200х150х1000(mm) 42€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Grey sahattu 200х100х1000(mm) 26€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Grey sahattu 200х100х1000(mm) 36€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Grey sahattu 200х80х1000(mm) 24€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Grey sahattu 200х80х1000(mm) 34€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -299,10 +299,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>42€</td>
 							<td>34€</td>
+							<td>30€</td>
 							<td>26€</td>
-							<td>22€</td>
-							<td>18€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -311,13 +311,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Grey lohkottu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Grey lohkottu 300х150х1000(mm) 42€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Grey lohkottu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Grey lohkottu 200х150х1000(mm) 34€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Grey lohkottu 200х100х1000(mm) 22€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Grey lohkottu 200х100х1000(mm) 30€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Grey lohkottu 200х80х1000(mm) 18€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Grey lohkottu 200х80х1000(mm) 26€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -329,10 +329,10 @@
 								<center><img src="${pageContext.request.contextPath}/resources/reunakivet/4.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
+							<td>50€</td>
+							<td>42€</td>
 							<td>40€</td>
-							<td>32€</td>
-							<td>30€</td>
-							<td>28€</td>
+							<td>38€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -341,13 +341,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo sahattu 300х150х1000(mm) 40€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo sahattu 300х150х1000(mm) 50€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo sahattu 200х150х1000(mm) 32€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo sahattu 200х150х1000(mm) 42€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo sahattu 200х100х1000(mm) 30€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo sahattu 200х100х1000(mm) 40€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo sahattu 200х80х1000(mm) 28€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo sahattu 200х80х1000(mm) 38€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -379,10 +379,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>42€</td>
 							<td>34€</td>
-							<td>26€</td>
-							<td>24€</td>
-							<td>22€</td>
+							<td>32€</td>
+							<td>30€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -391,13 +391,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo lohkottu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo lohkottu 300х150х1000(mm) 42€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo lohkottu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo lohkottu 200х150х1000(mm) 34€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo lohkottu 200х100х1000(mm) 24€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo lohkottu 200х100х1000(mm) 32€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo lohkottu 200х80х1000(mm) 22€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Rosso Toledo lohkottu 200х80х1000(mm) 30€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -409,10 +409,10 @@
 								<center><img src="${pageContext.request.contextPath}/resources/reunakivet/5.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
+							<td>44€</td>
+							<td>36€</td>
 							<td>34€</td>
-							<td>26€</td>
-							<td>24€</td>
-							<td>24€</td>
+							<td>34€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -421,13 +421,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Gabro sahattu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro sahattu 300х150х1000(mm) 44€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Gabro sahattu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro sahattu 200х150х1000(mm) 36€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Gabro sahattu 200х100х1000(mm) 24€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro sahattu 200х100х1000(mm) 34€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Gabro sahattu 200х80х1000(mm) 24€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro sahattu 200х80х1000(mm) 34€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -459,10 +459,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>38€</td>
 							<td>30€</td>
-							<td>22€</td>
-							<td>18€</td>
-							<td>18€</td>
+							<td>26€</td>
+							<td>26€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -471,13 +471,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Gabro lohkottu 300х150х1000(mm) 30€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro lohkottu 300х150х1000(mm) 38€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Gabro lohkottu 200х150х1000(mm) 22€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro lohkottu 200х150х1000(mm) 30€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Gabro lohkottu 200х100х1000(mm) 18€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro lohkottu 200х100х1000(mm) 26€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Gabro lohkottu 200х80х1000(mm) 18€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Gabro lohkottu 200х80х1000(mm) 26€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -489,10 +489,10 @@
 								<center><img src="${pageContext.request.contextPath}/resources/reunakivet/6.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
+							<td>44€</td>
+							<td>36€</td>
 							<td>34€</td>
-							<td>26€</td>
-							<td>24€</td>
-							<td>24€</td>
+							<td>34€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -501,13 +501,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine sahattu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine sahattu 300х150х1000(mm) 44€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine sahattu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine sahattu 200х150х1000(mm) 36€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine sahattu 200х100х1000(mm) 24€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine sahattu 200х100х1000(mm) 34€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine sahattu 200х80х1000(mm) 24€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine sahattu 200х80х1000(mm) 34€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -538,10 +538,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>38€</td>
 							<td>30€</td>
-							<td>22€</td>
-							<td>18€</td>
-							<td>18€</td>
+							<td>26€</td>
+							<td>26€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -550,13 +550,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine lohkottu 300х150х1000(mm) 30€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine lohkottu 300х150х1000(mm) 38€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine lohkottu 200х150х1000(mm) 22€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine lohkottu 200х150х1000(mm) 30€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine lohkottu 200х100х1000(mm) 18€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine lohkottu 200х100х1000(mm) 26€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Star of Ukraine lohkottu 200х80х1000(mm) 18€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Star of Ukraine lohkottu 200х80х1000(mm) 26€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -568,10 +568,10 @@
 								<center><img src="${pageContext.request.contextPath}/resources/reunakivet/7.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
+							<td>48€</td>
+							<td>42€</td>
 							<td>38€</td>
-							<td>32€</td>
-							<td>28€</td>
-							<td>26€</td>
+							<td>36€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -580,13 +580,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä sahattu 300х150х1000(mm) 38€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä sahattu 300х150х1000(mm) 48€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä sahattu 200х150х1000(mm) 32€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä sahattu 200х150х1000(mm) 42€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä sahattu 200х100х1000(mm) 28€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä sahattu 200х100х1000(mm) 38€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä sahattu 200х80х1000(mm) 26€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä sahattu 200х80х1000(mm) 36€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -618,10 +618,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>40€</td>
 							<td>32€</td>
-							<td>26€</td>
-							<td>22€</td>
-							<td>20€</td>
+							<td>30€</td>
+							<td>28€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -630,13 +630,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä lohkottu 300х150х1000(mm) 32€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä lohkottu 300х150х1000(mm) 40€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä lohkottu 200х150х1000(mm) 26€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä lohkottu 200х150х1000(mm) 32€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä lohkottu 200х100х1000(mm) 22€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä lohkottu 200х100х1000(mm) 30€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Vihreä lohkottu 200х80х1000(mm) 20€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Vihreä lohkottu 200х80х1000(mm) 28€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -648,10 +648,10 @@
 								<center><img src="${pageContext.request.contextPath}/resources/reunakivet/8.jpg" weight="150" height="150"></center>
 							</td>
 							<td>sahattu</td>
+							<td>50€</td>
+							<td>44€</td>
+							<td>42€</td>
 							<td>40€</td>
-							<td>34€</td>
-							<td>32€</td>
-							<td>30€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -660,13 +660,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red sahattu 300х150х1000(mm) 40€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red sahattu 300х150х1000(mm) 50€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red sahattu 200х150х1000(mm) 34€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red sahattu 200х150х1000(mm) 44€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red sahattu 200х100х1000(mm) 32€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red sahattu 200х100х1000(mm) 42€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red sahattu 200х80х1000(mm) 30€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red sahattu 200х80х1000(mm) 40€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>
@@ -698,10 +698,10 @@
 						</tr>
 						<tr class="warning">
 							<td>lohkottu</td>
+							<td>42€</td>
+							<td>36€</td>
 							<td>34€</td>
-							<td>28€</td>
-							<td>26€</td>
-							<td>24€</td>
+							<td>32€</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
@@ -710,13 +710,13 @@
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red lohkottu 300х150х1000(mm) 34€')">300х150х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red lohkottu 300х150х1000(mm) 42€')">300х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red lohkottu 200х150х1000(mm) 28€')">200х150х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red lohkottu 200х150х1000(mm) 36€')">200х150х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red lohkottu 200х100х1000(mm) 26€')">200х100х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red lohkottu 200х100х1000(mm) 34€')">200х100х1000(mm)</a></li>
 										<li><a href="#"
-											ng-click="selectDiv('Maple Red lohkottu 200х80х1000(mm) 24€')">200х80х1000(mm)</a></li>
+											ng-click="selectDiv('Maple Red lohkottu 200х80х1000(mm) 32€')">200х80х1000(mm)</a></li>
 									</ul>
 								</div>
 							</td>

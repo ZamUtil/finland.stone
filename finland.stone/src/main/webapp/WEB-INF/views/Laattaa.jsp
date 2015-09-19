@@ -98,13 +98,13 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/2.jpg" >
   		</a>
-  	<h4><center>30mm-45€(m²)</center></h4>
+  	<h4><center>30mm-55€(m²)</center></h4>
  	<h4><center>40mm-65€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Labradorite green (poltettu) 30mm-45€')">30mm-45€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Labradorite green (poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
     				<li><a href="#" ng-click = "selectDiv('Labradorite green (poltettu) 40mm-65€')">40mm-65€(m²)</a></a></li>
   				</ul>
 		</div>
@@ -140,14 +140,14 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/15.jpg" >
   		</a>
-	<h4><center>30mm-50€(m²)</center></h4>
- 	<h4><center>40mm-65€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 30mm-50€')">30mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 40mm-65€')">40mm-65€(m²)</a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Flower of Ukraine(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
   				</ul>
 		</div>
 		<p>
@@ -162,16 +162,16 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/5.jpg" >
   		</a>
-   	<h4><center>20mm-50€(m²)</center></h4>
- 	<h4><center>30mm-60€(m²)</center></h4>
- 	<h4><center>40mm-70€(m²)</center></h4>
+   	<h4><center>20mm-70€(m²)</center></h4>
+ 	<h4><center>30mm-80€(m²)</center></h4>
+ 	<h4><center>40mm-90€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Rosso Toledo  (killotettu) 20mm-50€')">20mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Rosso Toledo  (killotettu) 30mm-60€')">30mm-60€(m²)</a></a></li>
-  					<li><a href="#" ng-click = "selectDiv('Rosso Toledo  (killotettu) 40mm-70€')">40mm-70€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Rosso Toledo  (killotettu) 20mm-70€')">20mm-70€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Rosso Toledo  (killotettu) 30mm-80€')">30mm-80€(m²)</a></a></li>
+  					<li><a href="#" ng-click = "selectDiv('Rosso Toledo  (killotettu) 40mm-90€')">40mm-90€(m²)</a></a></li>
   				</ul>
 		</div>
 		<p>
@@ -254,14 +254,14 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/9.jpg" >
   		</a>
-  	<h4><center>30mm-50€(m²)</center></h4>
- 	<h4><center>40mm-65€(m²)</center></h4>
+  	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Withred   (poltettu) 30mm-50€')">30mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Withred   (poltettu)) 40mm-65€')">40mm-65€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Withred   (poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Withred   (poltettu)) 40mm-70€')">40mm-70€(m²)</a></a></li>
   				</ul>
 		</div>
 	</center>
@@ -274,14 +274,14 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/10.jpg" >
   		</a>
-  	<h4><center>30mm-55€(m²)</center></h4>
- 	<h4><center>40mm-65€(m²)</center></h4>
+  	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Nero black   (poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Nero black  (poltettu)) 40mm-65€')">40mm-65€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Nero black   (poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Nero black  (poltettu)) 40mm-70€')">40mm-70€(m²)</a></a></li>
   				</ul>
 		</div>
 		<p>
@@ -295,13 +295,13 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/11.jpg" >
   		</a>
-  	<h4><center>30mm-50€(m²)</center></h4>
+  	<h4><center>30mm-60€(m²)</center></h4>
  	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Grey    (poltettu) 30mm-50€')">30mm-50€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Grey    (poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
     				<li><a href="#" ng-click = "selectDiv('Grey   (poltettu) 40mm-70€')">40mm-70€(m²)</a></a></li>
   				</ul>
 		</div>
@@ -316,14 +316,14 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/16.jpg" >
   		</a>
-	<h4><center>30mm-50€(m²)</center></h4>
- 	<h4><center>40mm-65€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
+ 	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 30mm-50€')">30mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 40mm-65€')">40mm-65€(m²)</a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Rosso Santiago(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
   				</ul>
 		</div>
 		<p>
@@ -384,16 +384,16 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/4.jpg" >
   		</a>
-  	<h4><center>20mm-50€(m²)</center></h4>
- 	<h4><center>30mm-60€(m²)</center></h4>
- 	<h4><center>40mm-70€(m²)</center></h4>
+  	<h4><center>20mm-70€(m²)</center></h4>
+ 	<h4><center>30mm-80€(m²)</center></h4>
+ 	<h4><center>40mm-90€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 20mm-50€')">20mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 30mm-60€')">30mm-60€(m²)</a></a></li>
-  					<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 40mm-70€')">40mm-70€(m²)</a></a></li>
+    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 20mm-70€')">20mm-70€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 30mm-80€')">30mm-80€(m²)</a></a></li>
+  					<li><a href="#" ng-click = "selectDiv('Star of Ukraine (killotettu) 40mm-90€')">40mm-90€(m²)</a></a></li>
   				</ul>
 		</div>
 		<p>
@@ -523,16 +523,16 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/23.jpg" >
   		</a>
-  	<h4><center>20mm-50€(m²)</center></h4>
-	<h4><center>30mm-60€(m²)</center></h4>
- 	<h4><center>40mm-70€(m²)</center></h4>
+  	<h4><center>20mm-70€(m²)</center></h4>
+	<h4><center>30mm-80€(m²)</center></h4>
+ 	<h4><center>40mm-90€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 20mm-50€')">20mm-50€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 30mm-60€')">30mm-60€(m²)</a></li>
-    				<li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 40mm-70€')">40mm-70€(m²)</a></a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 20mm-70€')">20mm-70€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 30mm-80€')">30mm-80€(m²)</a></li>
+    				<li><a href="#" ng-click = "selectDiv('Maple red(killotettu) 40mm-90€')">40mm-90€(m²)</a></a></li>
   				</ul>
 		</div>
 		<p>
@@ -567,13 +567,13 @@
  		<a href="" class="thumbnail">
     		<img src="${pageContext.request.contextPath}/resources/lattaa/20.jpg" >
   		</a>
-	<h4><center>30mm-55€(m²)</center></h4>
+	<h4><center>30mm-60€(m²)</center></h4>
  	<h4><center>40mm-70€(m²)</center></h4>
 	<center>
 		<div class="btn-group">
   			<button type="button" data-toggle="dropdown" class="btn btn-primary dropdown-toggle">Kassa <span class="caret"></span></button>
     			<ul class="dropdown-menu">
-    			    <li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 30mm-55€')">30mm-55€(m²)</a></li>
+    			    <li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 30mm-60€')">30mm-60€(m²)</a></li>
     				<li><a href="#" ng-click = "selectDiv('Maple red(poltettu) 40mm-70€')">40mm-70€(m²)</a></li>
   				</ul>
 		</div>

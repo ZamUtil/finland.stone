@@ -236,8 +236,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 	$scope.selectedState11;
 	$scope.selectedState12;
 	
-	$scope.currentState = 1;
-	
+	$scope.currentState = 2;////// 1 step with the choice of colors is missing
 	$scope.nextState = function(state) {
 		console.log(state)
 		if (state == 1) {
@@ -345,7 +344,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		}
 		
 		if (state == 12 ){         
-			$window.location.href = '/Tarjouspyynto#?type=Sunnitelle&selectedState1='
+			$window.location.href = '/finland.stone/Tarjouspyynto#?type=Sunnitelle&selectedState1='
 				+$scope.selectedState1
 			+'&selectedState2='+$scope.selectedState2
 			+'&selectedState3='+$scope.selectedState3

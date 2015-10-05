@@ -110,7 +110,7 @@
 			<div ng-show="currentState == 2">
 				<div class="state1">
 					<center>
-					<h3>Valitse kivimalli 1/2</h3>
+					<h3>Valitse kivimalli 1/1</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(14) track by $index">
@@ -131,7 +131,7 @@
 			<div ng-show="currentState == 3">
 				<div class="state1">
 					<center>
-					<h3>Kiven koko 1/3</h3>
+					<h3>Kiven koko 1/2</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(5) track by $index">
@@ -168,7 +168,7 @@
 			<div ng-show="currentState == 4">
 				<div class="state1">
 					<center>
-					<h3>Jalustat 1/4</h3>
+					<h3>Jalustat 1/3</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(8) track by $index">
@@ -189,7 +189,7 @@
 			<div ng-show="currentState == 5">
 				<div class="state1">
 					<center>
-					<h3>Sivujen käsittely 1/5</h3>
+					<h3>Sivujen käsittely 1/4</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(3) track by $index">
@@ -210,7 +210,7 @@
 			<div ng-show="currentState == 6">
 				<div class="state1">
 					<center>
-					<h3>Koristeiden valinta 1/6</h3>
+					<h3>Koristeiden valinta 1/5</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(3) track by $index">
@@ -228,7 +228,7 @@
 			<div ng-show="currentState == 7">
 				<div class="state1">
 					<center>
-					<h3>Kynttiläluukku 1/6.1</h3>
+					<h3>Kynttiläluukku 1/5.1</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(2) track by $index">
@@ -249,7 +249,7 @@
 			<div ng-show="currentState == 8">
 				<div class="state1">
 					<center>
-					<h3>Risti 1/6.2</h3>
+					<h3>Risti 1/5.2</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(9) track by $index">
@@ -270,7 +270,7 @@
 			<div ng-show="currentState == 9">
 				<div class="state1">
 					<center>
-					<h3>Kirjasinten tyyli 1/7</h3>
+					<h3>Kirjasinten tyyli 1/6</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(5) track by $index">
@@ -291,7 +291,7 @@
 			<div ng-show="currentState == 10">
 				<div class="state1">
 					<center>
-					<h3>Sukunimi - Kirjasinten valinta 1/8</h3>
+					<h3>Sukunimi - Kirjasinten valinta 1/7</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(3) track by $index">
@@ -312,7 +312,7 @@
 			<div ng-show="currentState == 11">
 				<div class="state1">
 					<center>
-					<h3>Etunimi - Kirjasinten valinta 1/9</h3>
+					<h3>Etunimi - Kirjasinten valinta 1/8</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(8) track by $index">
@@ -333,7 +333,7 @@
 			<div ng-show="currentState == 12">
 				<div class="state1">
 					<center>
-					<h3>Koristeet 1/10</h3>
+					<h3>Koristeet 1/9</h3>
 					<center />
 				</div>
 				<div class="state1">

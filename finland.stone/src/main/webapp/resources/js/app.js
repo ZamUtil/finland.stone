@@ -344,7 +344,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 		}
 		
 		if (state == 12 ){         
-			$window.location.href = '/finland.stone/Tarjouspyynto#?type=Sunnitelle&selectedState1='
+			$window.location.href = '/Tarjouspyynto#?type=Sunnitelle&selectedState1='
 				+$scope.selectedState1
 			+'&selectedState2='+$scope.selectedState2
 			+'&selectedState3='+$scope.selectedState3

@@ -202,7 +202,7 @@ Hinnat sisältävät pohjakiven, arvonlisävero, yhden vainajan nimi-aikatiedot 
 Veloitusperusteet alla olevan taulukon mukaisesti (€/kokonaismatka, alv. 0 %)
 Esim. 1. pienkuljetuksen kuljetusmatka yhteen suuntaan on 13 km. Kokonaismatka on 26km.
 Kokonaisveloitus on 60 €.
-Esim. 2. toimituserän paino 11 000 kg, kuljetusmatka yhteen suuntaan 100 km. Kokonaismatka 200 km.
+Esim. 2. toimituserän paino 11000 kg, kuljetusmatka yhteen suuntaan 100 km. Kokonaismatka 200 km.
 60 km = 360€
 140 km x 0,75 € = 105 €
 Kokonaisveloitus 360 € + 105€ = 465 €

@@ -68,6 +68,7 @@
  				<h2><center>Reunakivet</center></h2>
     			<center><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/reu.jpg"></center>
   				 
+							<center> <h3>Meiltä löytyy  myös viistereunakivet, luiskareunakivet sekä kaarteiden kivet. V17, V22, LR17, LR22 ja muut.</h3></center>
 			
 		
 		<div class="bs-example">
@@ -211,7 +212,6 @@
 						
 					</tbody>
 				</table>
-				<center> <h3>Meiltä löytyy  myös viistereunakivet, luiskareunakivet sekä kaarteiden kivet. V17, V22, LR17, LR22 ja muut.</h3></center>
 
 			</div>
 		

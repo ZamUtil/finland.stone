@@ -80,9 +80,9 @@
 						<tr class="active">
 							<th>Kivilajit</th>
 							<th>Lasku</th>
-							<th> 50х50х50  </th>
-							<th> 100х100х100 </th>
-							<th>140х140х200-220</th>
+							<th> 50х50х50 (mm)  </th>
+							<th> 100х100х100 (mm) </th>
+							<th>140х140х200-220 (mm)</th>
 							<th>Kassa</th>
 						</tr>
 					</thead>
@@ -338,7 +338,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<center> <h3>Meiltä löytyy  myös viistereunakivet, luiskareunakivet sekä kaarteiden kivet. V17, V22, LR17, LR22 ja muut.</h3></center>
 
 			</div>
 		

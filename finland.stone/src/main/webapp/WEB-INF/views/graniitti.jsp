@@ -110,7 +110,6 @@
 									<div class="content3">							
                         				<h2><a href="Typesgranit.html" ><spring:message code="pages.home.properties" /></h2><br />
 										<a href="Typesgranit.html" ><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/portfolio_9.jpg"></img></a>
-                       					<H3><spring:message code="pages.graniitti.portaat.text" /></H3>		
 									</div>
 								</li>
 							</ul>

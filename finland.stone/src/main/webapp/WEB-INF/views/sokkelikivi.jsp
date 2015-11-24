@@ -85,13 +85,13 @@
 					<tbody>
 						<tr class="warning">
 							<td rowspan="2">
-								Gabro
+								Gabro (Musta)
 								<p>
 								
 								
 								
 								
-							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s1min.jpg" alt=""/></a>	
+							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s3min.jpg" alt=""/></a>	
 							</td>
 							<td>40</td>
 							<td>80€</td>
@@ -130,7 +130,7 @@
 								</div>
 						</tr>
 						<tr class="warning">
-							<td rowspan="2">Maple Red
+							<td rowspan="2">Maple Red (Punainen)
 								<p>
 							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s2min.jpg" alt=""/></a>
 							</td>
@@ -172,9 +172,9 @@
 								</td>
 						</tr>
 						<tr class="warning">
-							<td rowspan="2">Grey
+							<td rowspan="2">Grey (Harmaa)
 								<p>
-							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s3min.jpg" alt=""/></a>
+							<img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/s1min.jpg" alt=""/></a>
 							</td>
 							<td>40</td>
 							<td>80€</td>

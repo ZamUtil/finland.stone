@@ -176,32 +176,6 @@
 							</td>
 						</tr>
 						<tr class="warning">
-							<td>
-								Rosso Toledo
-								<p>
-								<img src="${pageContext.request.contextPath}/resources/reunakivet/4.jpg" weight="150" height="150">
-							</td>
-							<td></td>
-							<td></td>
-							<td></td>
-							<td>75€</td>
-							<td>150€</td>
-							<td>
-								<div class="btn-group">
-									<button type="button" data-toggle="dropdown"
-										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu">
-										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo 600x380x150(mm)75€')">600x380x150(mm)</a></li>
-										<li><a href="#"
-											ng-click="selectDiv('Rosso Toledo 1500x380x150(mm)150€')">1500x380x150(mm</a></li>
-									</ul>
-								</div>
-							</td>
-						</tr>
-						<tr class="warning">
 							<td>Vihreä
 								<p>
 								<img src="${pageContext.request.contextPath}/resources/reunakivet/7.jpg" weight="150" height="150">

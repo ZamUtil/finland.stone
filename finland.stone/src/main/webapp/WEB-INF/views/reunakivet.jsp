@@ -66,8 +66,11 @@
                		 </div>                      							
 			</div>         
  				<h2><center>Reunakivet</center></h2>
+ 				  				  <div class="alert alert-info">
+<p>
+ <center><h4><spring:message code="pages.nds"/></h4></center>
+</div>
     			<center><img src="${pageContext.request.contextPath}/resources/images/portfolio-thumb/reu.jpg"></center>
-  				 
 							<center> <h3>Meiltä löytyy  myös viistereunakivet, luiskareunakivet sekä kaarteiden kivet. V17, V22, LR17, LR22 ja muut.</h3></center>
 			
 		

@@ -83,7 +83,7 @@
 							<th> 50х50х50 (mm)  </th>
 							<th> 100х100х100 (mm) </th>
 							<th>140х140х200-220 (mm)</th>
-							<th>Kassa</th>
+							<th>pyydän tarjous</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -94,14 +94,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/1.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>45€ </td>
-							<td>50€</td>
+							<td>45€/m² </td>
+							<td>50€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -116,12 +116,12 @@
 							<td>Nupu</td>
 							<td></td>
 							<td></td>
-							<td>75€</td>
+							<td>75€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -137,14 +137,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/2.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>50€ </td>
-							<td>55€</td>
+							<td>50€/m²</td>
+							<td>55€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -159,12 +159,12 @@
 							<td>Nupu</td>
 							<td></td>
 							<td></td>
-							<td>115€</td>
+							<td>115€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -180,14 +180,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/6.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>65€ </td>
-							<td>70€</td>
+							<td>65€/m² </td>
+							<td>70€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -202,12 +202,12 @@
 							<td>Nupu</td>
 							<td></td>
 							<td></td>
-							<td>90€</td>
+							<td>90€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -223,14 +223,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/7.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>75€ </td>
-							<td>80€</td>
+							<td>75€/m² </td>
+							<td>80€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -245,12 +245,12 @@
 							<td>Nupu</td>
 							<td></td>
 							<td></td>
-							<td>115€</td>
+							<td>115€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -268,14 +268,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/5.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>55€ </td>
-							<td>60€</td>
+							<td>55€/m² </td>
+							<td>60€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -293,14 +293,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/8.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>55€ </td>
-							<td>60€</td>
+							<td>55€/m² </td>
+							<td>60€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -318,14 +318,14 @@
 							<center><img src="${pageContext.request.contextPath}/resources/nupunoppa/9.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Noppa</td>
-							<td>55€ </td>
-							<td>60€</td>
+							<td>55€/m² </td>
+							<td>60€/m²</td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"

@@ -197,7 +197,7 @@ Hinnat sisältävät pohjakiven, arvonlisävero, yhden vainajan nimi-aikatiedot 
 	<h5><spring:message code="pages.home.toimitus" /></h5>
  	<p>
 <spring:message code="pages.home.toimitus.text" />
-<p>
+<!-- <p>
   Tämä kuljetushinnasto on  KIISKENKIVI.
 Veloitusperusteet alla olevan taulukon mukaisesti (€/kokonaismatka, alv. 0 %)
 Esim. 1. pienkuljetuksen kuljetusmatka yhteen suuntaan on 13 km. Kokonaismatka on 26km.
@@ -279,7 +279,7 @@ Hintoihin lisätään kulloinkin voimassa oleva arvonlisävero.
         </tr>
       </tbody>
     </table>
-  </div>
+  </div> -->
   
   
 			<div id="content">

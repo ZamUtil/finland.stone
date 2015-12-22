@@ -139,10 +139,10 @@ angular.module('stone', ['ngRoute','ngResource']).
     
     $scope.saveData = function() {
       $scope.nameRequired = '';
-      $scope.addressRequired = '';
-      $scope.postcodeRequired = '';
+      /*$scope.addressRequired = '';*/
+     /* $scope.postcodeRequired = '';*/
       $scope.phoneRequired = '';
-      $scope.deliveryRequired = '';
+      /*$scope.deliveryRequired = '';*/
       $scope.emailRequired = '';
       $scope.messageRequired = '';
       
@@ -153,7 +153,7 @@ angular.module('stone', ['ngRoute','ngResource']).
         notValid = true;
       }
  
-      if (!$scope.formInfo.address) {
+      /*if (!$scope.formInfo.address) {
         $scope.addressRequired = 'Address Required';
         notValid = true;
       }
@@ -161,17 +161,17 @@ angular.module('stone', ['ngRoute','ngResource']).
       if (!$scope.formInfo.postcode) {
         $scope.postcodeRequired = 'Postcode Required';
         notValid = true;
-      }
+      }*/
       
       if (!$scope.formInfo.phone) {
           $scope.phoneRequired = 'Phone Required';
           notValid = true;
       }
    
-      if (!$scope.formInfo.delivery) {
+      /*if (!$scope.formInfo.delivery) {
           $scope.deliveryRequired = 'Delivery Required';
           notValid = true;
-      }
+      }*/
    
       if (!$scope.formInfo.email) {
           $scope.emailRequired = 'Email Required';

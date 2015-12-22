@@ -84,7 +84,7 @@
 							<th><center><h4>R20</h4></center> 200х270х1000 </th>
 							<th><center><h4>R10</h4></center>250х100х1000 </th>
 							<th><center><h4>R8</h4></center>80х200х1000</th>
-							<th>Kassa</th>
+							<th>pyydän tarjous</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -103,7 +103,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -134,7 +134,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -166,7 +166,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -197,7 +197,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"

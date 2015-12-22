@@ -83,7 +83,7 @@
 							<th>1500x370x130(mm)</th>
 							<th>600x380x150(mm)</th>
 							<th>1500x380x150(mm)</th>
-							<th>Kassa</th>
+							<th>pyydän tarjous</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -94,16 +94,16 @@
 								<p>
 								<img src="${pageContext.request.contextPath}/resources/reunakivet/3.jpg" weight="150" height="150">
 							</td>
-							<td>70€</td>
-							<td>100€</td>
-							<td>120€</td>
+							<td>70€/jm</td>
+							<td>100€/jm</td>
+							<td>120€/jm</td>
 							<td></td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -122,16 +122,16 @@
 								<img src="${pageContext.request.contextPath}/resources/reunakivet/8.jpg" weight="150" height="150">
 								
 							</td>
-							<td>80€</td>
-							<td>105€</td>
-							<td>125€</td>
-							<td>75€</td>
-							<td>150€</td>
+							<td>80€/jm</td>
+							<td>105€/jm</td>
+							<td>125€/jm</td>
+							<td>75€/jm</td>
+							<td>150€/jm</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -153,16 +153,16 @@
 								<p>
 								<img src="${pageContext.request.contextPath}/resources/reunakivet/5.jpg" weight="150" height="150">
 							</td>
-							<td>100€</td>
-							<td>150€</td>
-							<td>190€</td>
+							<td>100€/jm</td>
+							<td>150€/jm</td>
+							<td>190€/jm</td>
 							<td></td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -183,13 +183,13 @@
 							<td></td>
 							<td></td>
 							<td></td>
-							<td>100€</td>
-							<td>200€</td>
+							<td>100€/jm</td>
+							<td>200€/jm</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -205,16 +205,16 @@
 								<p>
 								<img src="${pageContext.request.contextPath}/resources/reunakivet/1.jpg" weight="150" height="150">
 							</td>
-							<td>80€</td>
-							<td>105€</td>
-							<td>125€</td>
+							<td>80€/jm</td>
+							<td>105€/jm</td>
+							<td>125€/jm</td>
 							<td></td>
 							<td></td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"

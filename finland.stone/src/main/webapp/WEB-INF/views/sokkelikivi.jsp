@@ -79,7 +79,7 @@
 							<th>Paksuus (mm)</th>
 							<th>300х150(mm) hinta/m²</th>
 							<th>400х200(mm) hinta/m²</th>
-							<th>Kassa</th>
+							<th>pyydän tarjous</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -100,7 +100,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -119,7 +119,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -141,7 +141,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -160,7 +160,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -183,7 +183,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -202,7 +202,7 @@
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"

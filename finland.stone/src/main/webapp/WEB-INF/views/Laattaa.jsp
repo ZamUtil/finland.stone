@@ -83,7 +83,7 @@
 							<th>Lasku</th>
 							<th> 30 (mm)  </th>
 							<th> 40 (mm) </th>
-							<th>Kassa</th>
+							<th>pyydän tarjous</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -94,13 +94,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/1.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Poltettu</td>
-							<td>70€ </td>
-							<td>85€</td>
+							<td>70€/m² </td>
+							<td>85€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -118,13 +118,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/9.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Poltettu</td>
-							<td>70€ </td>
-							<td>80€</td>
+							<td>70€/m² </td>
+							<td>80€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -142,13 +142,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/10.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Poltettu</td>
-							<td>60€ </td>
-							<td>70€</td>
+							<td>60€/m² </td>
+							<td>70€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -166,13 +166,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/11.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Poltettu</td>
-							<td>55€ </td>
-							<td>65€</td>
+							<td>55€/m² </td>
+							<td>65€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -190,13 +190,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/20.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Poltettu</td>
-							<td>60€ </td>
-							<td>70€</td>
+							<td>60€/m² </td>
+							<td>70€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -221,7 +221,7 @@
 							<th>Lasku</th>
 							<th> 20 (mm) </th>
 							<th> 30 (mm)</th>
-							<th>Kassa</th>
+							<th>pyydän tarjous</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -232,13 +232,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/7.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Killotettu</td>
-							<td>65€ </td>
-							<td>75€</td>
+							<td>65€/m² </td>
+							<td>75€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -256,13 +256,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/8.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Killotettu</td>
-							<td>50€ </td>
-							<td>60€</td>
+							<td>50€/m² </td>
+							<td>60€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -280,13 +280,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/13.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Killotettu</td>
-							<td>45€ </td>
-							<td>55€</td>
+							<td>45€/m² </td>
+							<td>55€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -304,13 +304,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/14.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Killotettu</td>
-							<td>55€ </td>
-							<td>70€</td>
+							<td>55€/m² </td>
+							<td>70€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -328,13 +328,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/17.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Killotettu</td>
-							<td>55€ </td>
-							<td>65€</td>
+							<td>55€/m² </td>
+							<td>65€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"
@@ -352,13 +352,13 @@
 							<center><img src="${pageContext.request.contextPath}/resources/lattaa/23.jpg" weight="150" height="150"></img></center>	
 							</td>
 							<td>Killotettu</td>
-							<td>70€ </td>
-							<td>80€</td>
+							<td>70€/m² </td>
+							<td>80€/m²</td>
 							<td>
 								<div class="btn-group">
 									<button type="button" data-toggle="dropdown"
 										class="btn btn-primary dropdown-toggle">
-										Kassa <span class="caret"></span>
+										pyydän tarjous <span class="caret"></span>
 									</button>
 									<ul class="dropdown-menu">
 										<li><a href="#"

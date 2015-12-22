@@ -111,7 +111,7 @@ a.button19 {
 							style="width:75%"></img>
 					</div>
 					<span><h4>{{item.names}}</h4></span>
-					<p style="text-align: center"><a href="" class="button19"ng-click="selectDiv(item)">Kassa</a>
+					<p style="text-align: center"><a href="" class="button19"ng-click="selectDiv(item)">pyydän tarjous</a>
 				</div>
 			</div>
 		</div>

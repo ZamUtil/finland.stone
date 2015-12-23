@@ -86,7 +86,7 @@
 				</div>
 			</div>
 			<!-- 1  -->
-			<div ng-show="currentState == 1">
+			<%-- <div ng-show="currentState == 1">
 				<div class="state1">
 					<center>
 					<h3>Kiven väri 1/1</h3>
@@ -105,9 +105,9 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- 2  -->
-			<div ng-show="currentState == 2">
+			</div> --%>
+			<!-- 1  -->
+			<div ng-show="currentState == 1">
 				<div class="state1">
 					<center>
 					<h3>Valitse kivimalli 1/1</h3>
@@ -115,20 +115,20 @@
 				</div>
 				<div ng-repeat="i in getNumber(14) track by $index">
 					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState2[$index] == selectedState2 }"
+						ng-class="{ 'selected-div': namesState1[$index] == selectedState1 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState2($index)">
+						ng-click="selectItemState1($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kivimalli/{{$index+1}}.png"
-								style="width: 18%"></img> <a ng-click="selectItemState2($index)" href=""
-								class="button30">+</a> <span>{{namesState2[$index]}}</span>
+								style="width: 18%"></img> <a ng-click="selectItemState1($index)" href=""
+								class="button30">+</a> <span>{{namesState1[$index]}}</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- 3 -->
-			<div ng-show="currentState == 3">
+			<!-- 2 -->
+			<div ng-show="currentState == 2">
 				<div class="state1">
 					<center>
 					<h3>Kiven koko 1/2</h3>
@@ -136,36 +136,36 @@
 				</div>
 				<div ng-repeat="i in getNumber(5) track by $index">
 					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState3[$index] == selectedState3 }"
+						ng-class="{ 'selected-div': namesState2[$index] == selectedState2 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState3($index)">
+						ng-click="selectItemState2($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/vaikutukset-hintaan/{{$index+1}}.png"
-								style="width: 20%"></img> <a ng-click="selectItemState3($index)"
-								href="#" class="button30">+</a> <span>{{namesState3[$index]}}</span>
+								style="width: 20%"></img> <a ng-click="selectItemState2($index)"
+								href="#" class="button30">+</a> <span>{{namesState2[$index]}}</span>
 						</div>
 					</div>
 				</div>
 				<div>
 					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState3[5] == selectedState3 }"
+						ng-class="{ 'selected-div': namesState2[5] == selectedState2 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState3(5)">
+						ng-click="selectItemState2(5)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/vaikutukset-hintaan/{{5}}.png"
-								style="width: 20%"></img> <a ng-click="selectItemState3(5)" href="#"
-								class="button30">+</a> <span>{{namesState3[5]}}</span>
+								style="width: 20%"></img> <a ng-click="selectItemState2(5)" href="#"
+								class="button30">+</a> <span>{{namesState2[5]}}</span>
 						</div>
-						<input type="text" ng-model="state3width"></input> <input type="text"
-							ng-model="state3height"></input> <br /> <span class="errorMessage"
-							ng-show="errorState3 == true">Täytä kaikki kentät!</span>
+						<input type="text" ng-model="state2width"></input> <input type="text"
+							ng-model="state2height"></input> <br /> <span class="errorMessage"
+							ng-show="errorState2 == true">Täytä kaikki kentät!</span>
 					</div>
 				</div>
 			</div>
-			<!-- 4 -->
-			<div ng-show="currentState == 4">
+			<!-- 3 -->
+			<div ng-show="currentState == 3">
 				<div class="state1">
 					<center>
 					<h3>Jalustat 1/3</h3>
@@ -173,13 +173,34 @@
 				</div>
 				<div ng-repeat="i in getNumber(8) track by $index">
 					<div class="col-md-6"
+						ng-class="{ 'selected-div': namesState3[$index] == selectedState3 }"
+						style="border: 2px solid black; border-color: grey"
+						ng-click="selectItemState3($index)">
+						<div>
+							<img
+								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kukka-aihiot/{{$index+1}}.png"
+								style="width: 18%"></img> <a ng-click="selectItemState3($index)"
+								href="#" class="button30">+</a> <span>{{namesState3[$index]}}</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 4 -->
+			<div ng-show="currentState == 4">
+				<div class="state1">
+					<center>
+					<h3>Sivujen käsittely 1/4</h3>
+					<center />
+				</div>
+				<div ng-repeat="i in getNumber(3) track by $index">
+					<div class="col-md-8"
 						ng-class="{ 'selected-div': namesState4[$index] == selectedState4 }"
 						style="border: 2px solid black; border-color: grey"
 						ng-click="selectItemState4($index)">
 						<div>
 							<img
-								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kukka-aihiot/{{$index+1}}.png"
-								style="width: 18%"></img> <a ng-click="selectItemState4($index)"
+								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/hintaan/{{$index+1}}.jpg"
+								style="width: 20%"></img> <a ng-click="selectItemState4($index)"
 								href="#" class="button30">+</a> <span>{{namesState4[$index]}}</span>
 						</div>
 					</div>
@@ -189,7 +210,7 @@
 			<div ng-show="currentState == 5">
 				<div class="state1">
 					<center>
-					<h3>Sivujen käsittely 1/4</h3>
+					<h3>Koristeiden valinta 1/5</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(3) track by $index">
@@ -198,10 +219,7 @@
 						style="border: 2px solid black; border-color: grey"
 						ng-click="selectItemState5($index)">
 						<div>
-							<img
-								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/hintaan/{{$index+1}}.jpg"
-								style="width: 20%"></img> <a ng-click="selectItemState5($index)"
-								href="#" class="button30">+</a> <span>{{namesState5[$index]}}</span>
+							<a ng-click="selectItemState5($index)" href="#" class="button30">+</a> <span>{{namesState5[$index]}}</span>
 						</div>
 					</div>
 				</div>
@@ -210,16 +228,19 @@
 			<div ng-show="currentState == 6">
 				<div class="state1">
 					<center>
-					<h3>Koristeiden valinta 1/5</h3>
+					<h3>Kynttiläluukku 1/5.1</h3>
 					<center />
 				</div>
-				<div ng-repeat="i in getNumber(3) track by $index">
-					<div class="col-md-8"
+				<div ng-repeat="i in getNumber(2) track by $index">
+					<div class="col-md-6"
 						ng-class="{ 'selected-div': namesState6[$index] == selectedState6 }"
 						style="border: 2px solid black; border-color: grey"
 						ng-click="selectItemState6($index)">
 						<div>
-							<a ng-click="selectItemState6($index)" href="#" class="button30">+</a> <span>{{namesState6[$index]}}</span>
+							<img
+								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kynttiläluukku/{{$index+1}}.png"
+								style="width: 20%"></img> <a ng-click="selectItemState6($index)"
+								href="#" class="button30">+</a> <span>{{namesState6[$index]}}</span>
 						</div>
 					</div>
 				</div>
@@ -228,46 +249,25 @@
 			<div ng-show="currentState == 7">
 				<div class="state1">
 					<center>
-					<h3>Kynttiläluukku 1/5.1</h3>
-					<center />
-				</div>
-				<div ng-repeat="i in getNumber(2) track by $index">
-					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState7[$index] == selectedState7 }"
-						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState7($index)">
-						<div>
-							<img
-								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kynttiläluukku/{{$index+1}}.png"
-								style="width: 20%"></img> <a ng-click="selectItemState7($index)"
-								href="#" class="button30">+</a> <span>{{namesState7[$index]}}</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- 8 -->
-			<div ng-show="currentState == 8">
-				<div class="state1">
-					<center>
 					<h3>Risti 1/5.2</h3>
 					<center />
 				</div>
 				<div ng-repeat="i in getNumber(9) track by $index">
 					<div class="col-md-4"
-						ng-class="{ 'selected-div': namesState8[$index] == selectedState8 }"
+						ng-class="{ 'selected-div': namesState7[$index] == selectedState7 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState8($index)">
+						ng-click="selectItemState7($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/risti/{{$index+1}}.jpg"
-								style="width: 30%"></img> <a ng-click="selectItemState8($index)"
-								href="#" class="button30">+</a> <span>{{namesState8[$index]}}</span>
+								style="width: 30%"></img> <a ng-click="selectItemState7($index)"
+								href="#" class="button30">+</a> <span>{{namesState7[$index]}}</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- 9	 -->
-			<div ng-show="currentState == 9">
+			<!-- 8	 -->
+			<div ng-show="currentState == 8">
 				<div class="state1">
 					<center>
 					<h3>Kirjasinten tyyli 1/6</h3>
@@ -275,20 +275,20 @@
 				</div>
 				<div ng-repeat="i in getNumber(5) track by $index">
 					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState9[$index] == selectedState9 }"
+						ng-class="{ 'selected-div': namesState8[$index] == selectedState8 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState9($index)">
+						ng-click="selectItemState8($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/kirjasinten/{{$index+1}}.jpg"
-								style="width: 50%"></img> <a ng-click="selectItemState9($index)"
-								href="#" class="button30">+</a> <span>{{namesState9[$index]}}</span>
+								style="width: 50%"></img> <a ng-click="selectItemState8($index)"
+								href="#" class="button30">+</a> <span>{{namesState8[$index]}}</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- 10 -->
-			<div ng-show="currentState == 10">
+			<!-- 9 -->
+			<div ng-show="currentState == 9">
 				<div class="state1">
 					<center>
 					<h3>Sukunimi - Kirjasinten valinta 1/7</h3>
@@ -296,20 +296,20 @@
 				</div>
 				<div ng-repeat="i in getNumber(3) track by $index">
 					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState10[$index] == selectedState10 }"
+						ng-class="{ 'selected-div': namesState9[$index] == selectedState9 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState10($index)">
+						ng-click="selectItemState9($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/sukunimi/{{$index+1}}.jpg"
-								style="width: 30%"></img> <a ng-click="selectItemState10($index)"
-								href="#" class="button30">+</a> <span>{{namesState10[$index]}}</span>
+								style="width: 30%"></img> <a ng-click="selectItemState9($index)"
+								href="#" class="button30">+</a> <span>{{namesState9[$index]}}</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- 11	 -->
-			<div ng-show="currentState == 11">
+			<!-- 10	 -->
+			<div ng-show="currentState == 10">
 				<div class="state1">
 					<center>
 					<h3>Etunimi - Kirjasinten valinta 1/8</h3>
@@ -317,20 +317,20 @@
 				</div>
 				<div ng-repeat="i in getNumber(8) track by $index">
 					<div class="col-md-6"
-						ng-class="{ 'selected-div': namesState11[$index] == selectedState11 }"
+						ng-class="{ 'selected-div': namesState10[$index] == selectedState10 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState11($index)">
+						ng-click="selectItemState10($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/etunimi/{{$index+1}}.jpg"
-								style="width: 60%"></img> <a ng-click="selectItemState11($index)"
-								href="#" class="button30">+</a> <span>{{namesState11[$index]}}</span>
+								style="width: 60%"></img> <a ng-click="selectItemState10($index)"
+								href="#" class="button30">+</a> <span>{{namesState10[$index]}}</span>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- state 12 -->
-			<div ng-show="currentState == 12">
+			<!-- state 11 -->
+			<div ng-show="currentState == 11">
 				<div class="state1">
 					<center>
 					<h3>Koristeet 1/9</h3>
@@ -343,14 +343,14 @@
 				</div>
 				<div ng-repeat="i in getNumber(35) track by $index">
 					<div class="col-md-4"
-						ng-class="{ 'selected-div': namesState12[$index] == selectedState12 }"
+						ng-class="{ 'selected-div': namesState11[$index] == selectedState11 }"
 						style="border: 2px solid black; border-color: grey"
-						ng-click="selectItemState12($index)">
+						ng-click="selectItemState11($index)">
 						<div>
 							<img
 								src="${pageContext.request.contextPath}/resources/suunnittele-kivi/koristeet/{{$index+1}}.png"
-								style=""50%"></img> <a ng-click="selectItemStat12($index)" href=""
-								class="button30">+</a> <span>{{namesState12[$index]}}</span>
+								style=""50%"></img> <a ng-click="selectItemStat11($index)" href=""
+								class="button30">+</a> <span>{{namesState11[$index]}}</span>
 						</div>
 					</div>
 				</div>

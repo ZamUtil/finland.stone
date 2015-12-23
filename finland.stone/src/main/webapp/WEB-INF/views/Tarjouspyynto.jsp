@@ -88,28 +88,23 @@
 			<div>
 				<div class="layer1">
          			<form class="form-horizontal" role="form" ng-controller="MyCtrl1">         
-    				<span ng-show="nameRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
+    				
     				</br>
       				<input class="form-control" id="inputName" placeholder="<spring:message code="pages.tarjous.1" />" ng-model="formInfo.name">
-       				<span ng-show="addressRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
+     				<span ng-show="nameRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
+     				
      				</br>
-      				<%-- <input class="form-control" id="inputAddress" placeholder="<spring:message code="pages.tarjous.2" />" ng-model="formInfo.address">
-      				<span ng-show="postcodeRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
-     				</br>
-      				<input class="form-control" id="inputPostcode" placeholder="<spring:message code="pages.tarjous.3" />" ng-model="formInfo.postcode">
+     				<input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.phone">
        				<span ng-show="phoneRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
-     				</br> --%>
-      				<input class="form-control" id="inputPhone" placeholder="<spring:message code="pages.tarjous.4" />" ng-model="formInfo.phone">
-       				<span ng-show="deliveryRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
+     				
      				</br>
-      				<%-- <input class="form-control" id="inputDelivery" placeholder="<spring:message code="pages.tarjous.5" />" ng-model="formInfo.delivery">
+     				<input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.email">
     				<span ng-show="emailRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>   
-     				</br> --%>
-      				<input class="form-control" id="inputEmail" placeholder="<spring:message code="pages.tarjous.6" />" ng-model="formInfo.email">
+     				</br>
+     				
+     				<input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message" >
  					<span ng-show="messageRequired" class="errorMessage">{{"<spring:message code="pages.required"/>"}}</span>
  					</br>
-      				<input class="form-control" id="inputMessage" placeholder="<spring:message code="pages.tarjous.7" />" ng-model="formInfo.message" >
-  					<br>
       				<button type="submit" class="btn btn-success" ng-click="saveData()"><spring:message code="pages.tarjous.button" /> </button>
  					</br>
 					</form>

@@ -28,14 +28,8 @@ public class SendEmailBaseService {
 		StringBuilder builder = new StringBuilder();
 		builder.append("Заказан товар от:")
 		.append(model.getName())
-		.append(" \n" + "Адрес: ")
-		.append(model.getAddress())
-		.append(" \n" + "Почтовый индекс:")
-		.append(model.getPostcode())
 		.append(" \n" + "Телефон:")
 		.append(model.getPhone())
-		.append(" \n" + "Доставить в:")
-		.append(model.getDelivery())
 		.append(" \n" + "Емейл:")
 		.append(model.getEmail())
 		.append(" \n" + "Сообщение:")
@@ -65,10 +59,7 @@ public class SendEmailBaseService {
 
 		StringBuilder builder = new StringBuilder();
 		builder.append("Заказан товар от: " + " ").append(model.getName())
-		.append(" \n" + "Адрес:").append(model.getAddress())
-		.append(" \n" + "Индекс почтовый:").append(model.getPostcode())
 		.append(" \n" + "Телефон:").append(model.getPhone())
-		.append(" \n" + "Доставить в:").append(model.getDelivery())
 		.append(" \n" + "Емейл:").append(model.getEmail())
 		.append(" \n" + "Сообщение:").append(model.getMessage())
 		.append(" \n" + "Форма:").append(model.getSt1())

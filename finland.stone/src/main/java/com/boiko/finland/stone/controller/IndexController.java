@@ -80,4 +80,9 @@ public class IndexController {
 	public String reunakivet() {
 		return "reunakivet";
 	}
+	
+	@RequestMapping("/huolto")
+	public String huolto() {
+		return "huolto";
+	}
 }

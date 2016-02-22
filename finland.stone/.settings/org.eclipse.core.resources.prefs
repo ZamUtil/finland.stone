@@ -4,4 +4,5 @@ encoding//src/main/java/com/boiko/finland/stone/view/service/SendEmailBaseServic
 encoding//src/main/resources=UTF-8
 encoding//src/main/resources/messages_en.properties=UTF-8
 encoding//src/main/resources/messages_fi.properties=UTF-8
+encoding//src/main/webapp/WEB-INF/views/huolto.jsp=UTF-8
 encoding/<project>=UTF-8

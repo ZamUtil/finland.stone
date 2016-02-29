@@ -84,7 +84,7 @@
 			
 			<div class="example2">
     			<img src="${pageContext.request.contextPath}/resources/images/1.jpg">
-  				    <span><center><h2><spring:message code="pages.index.title" /></h2><h3><spring:message code="pages.color" /></h3></center></span>
+  				    <span><center><h2><spring:message code="pages.index.title" /></h2><h3><spring:message code="pages.color"/></h3></center></span>
 					<span1> <img src="${pageContext.request.contextPath}/resources/images/3.jpg"></span1>
 					<span2> <img src="${pageContext.request.contextPath}/resources/images/4.jpg"></span2>
 						<p>
@@ -163,15 +163,24 @@
 				</div>
 			</div>		
 
+</br>
+</br>
+<p><h4>Kaikille työsuorituksille annamme 2 vuoden takuun. Ensimmäinen käynti ja arviointi on ilmainen. </h4>
+<a href="huolto.html"><button type="button" class="btn btn-danger">kiiskenkivi.fi/huolto</button></a></p>
 
+</br>
+ <p>
+  Kivimiehemme osaavat rakentaa laattaa,reunakivet, noppa ja nupukivet, sekä portaat, kaikki tuotteet graniittista.
 
-
+Luomme asiakkaan haluaman kokonaisuuden luonnonkivestä. Haluamme tehdä pihakiveystöitä tarkkuudella ja vankalla ammattitaidolla. Pyrimme toteuttamaan mahdollisimman tarkasti asiakkaan toiveet ja visiot ammattitaitoa, laadukkaita materiaaleja sekä hyviä työkaluja käyttäen.
+  </p>
 <!-- ////////////////////////////////////////// -->
 <h4><img src="${pageContext.request.contextPath}/resources/images/services-icon8.png"
 							height="58px" weight="58px" alt="" class="img-circle" />
 							Hautakiven hankinta</h4>
   
   <div class="maincontent">
+ 
 	<p>
 	<h5>Hautakiven tilaus</h5>
  	<p>

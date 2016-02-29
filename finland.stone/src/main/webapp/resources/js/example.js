@@ -10,7 +10,7 @@ angular.module('ui.bootstrap.demo').factory('emailService', function($resource, 
     });
     return emailService;
 }).controller('ModalDemoCtrl', function ($scope, $modal, $log, emailService) {
-
+	
   $scope.animationsEnabled = true;
 
   $scope.open = function (size) {

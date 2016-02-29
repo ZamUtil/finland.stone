@@ -45,6 +45,12 @@ angular.module('stone', ['ngRoute','ngResource']).
                 params: {
                     action: 'postSunnitelle'
                 }, isArray :true
+            },
+            'postContactInfo': {
+                method:  'POST',
+                params: {
+                    action: 'postContactInfo'
+                }, isArray :true
             }
         });
         return emailService;
@@ -114,7 +120,7 @@ angular.module('stone', ['ngRoute','ngResource']).
 ///reunakivet
 .controller('reunakivetController', function($scope,$rootScope,$timeout,$window) {
 	$scope.selectDiv = function(item) {
-		$window.location.href = '/Tarjouspyynto#?sokkelikivi='+item;
+		$window.location.href = '/Tarjouspyynto#?reunakivet='+item;
 	}
 })
 
@@ -133,9 +139,12 @@ angular.module('stone', ['ngRoute','ngResource']).
 })
 .controller('MyCtrl1', function($scope, emailService, $location,$timeout) {
     $scope.formInfo = {};
-    
+  
     //  var params = console.log($location.search())
-;
+
+    $scope.sendData = function(){
+    	emailService.postContactInfo($scope.formInfo);
+    }
     
     $scope.saveData = function() {
       $scope.nameRequired = '';

@@ -164,15 +164,13 @@
 			</div>		
 
 </br>
-</br>
-<p><h4>Kaikille työsuorituksille annamme 2 vuoden takuun. Ensimmäinen käynti ja arviointi on ilmainen. </h4>
-<a href="huolto.html"><button type="button" class="btn btn-danger">kiiskenkivi.fi/huolto</button></a></p>
+<center><h5>Samoin teidän palvelunne on Kiiskenkivi yrityksen sivutoiminimi Maki ja Miki huolto.
+Palvelukseen kuuluu liinnanvaateiden ja pyyhkien pesu, sekä siivoustyöt.
+Lisätiedot palveluksemme löytyy tästä.</h5>
+<a href="huolto.html"><button type="button" class="btn btn-danger">kiiskenkivi.fi/huolto</button></a></p></center>
 
 </br>
- <p>
-  Kivimiehemme osaavat rakentaa laattaa,reunakivet, noppa ja nupukivet, sekä portaat, kaikki tuotteet graniittista.
-
-Luomme asiakkaan haluaman kokonaisuuden luonnonkivestä. Haluamme tehdä pihakiveystöitä tarkkuudella ja vankalla ammattitaidolla. Pyrimme toteuttamaan mahdollisimman tarkasti asiakkaan toiveet ja visiot ammattitaitoa, laadukkaita materiaaleja sekä hyviä työkaluja käyttäen.
+ 
   </p>
 <!-- ////////////////////////////////////////// -->
 <h4><img src="${pageContext.request.contextPath}/resources/images/services-icon8.png"
@@ -206,6 +204,12 @@ Hinnat sisältävät pohjakiven, arvonlisävero, yhden vainajan nimi-aikatiedot 
 	<h5><spring:message code="pages.home.toimitus" /></h5>
  	<p>
 <spring:message code="pages.home.toimitus.text" />
+<h5>Asennustyöt</h5>
+<p>Kaikille työsuorituksille annamme 2 vuoden takuun. Ensimmäinen käynti ja arviointi on ilmainen.
+  Kivimiehemme osaavat rakentaa laattaa,reunakivet, noppa ja nupukivet, sekä portaat, kaikki tuotteet graniittista.
+
+Luomme asiakkaan haluaman kokonaisuuden luonnonkivestä. Haluamme tehdä pihakiveystöitä tarkkuudella ja vankalla ammattitaidolla.
+ Pyrimme toteuttamaan mahdollisimman tarkasti asiakkaan toiveet ja visiot ammattitaitoa, laadukkaita materiaaleja sekä hyviä työkaluja käyttäen.
 <!-- <p>
   Tämä kuljetushinnasto on  KIISKENKIVI.
 Veloitusperusteet alla olevan taulukon mukaisesti (€/kokonaismatka, alv. 0 %)
